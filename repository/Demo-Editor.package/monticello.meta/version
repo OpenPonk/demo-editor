@@ -1,1 +1,2 @@
-(name 'Demo-Editor-PeterUhnak.1' message 'Dummy class for DEMO.' id 'e3c01c93-17ab-4bfd-9224-7d4f44beabee' date '26 March 2015' time '3:50:46.782865 pm' author 'PeterUhnak' ancestors () stepChildren ())
+(name 'Demo-Editor-RobertPergl.2' message 'SoI and a stub of transaction implemented' id 'e41a52d3-eb10-49fa-954c-8afc3b987c96' date '26 March 2015' time '5:49:53.457071 pm' author 'RobertPergl' ancestors ((name 'Demo-Editor-PeterUhnak.1' message 'Dummy class for DEMO.
+' id '36a4a301-19a5-5cd6-a324-2f44ddafd760' date '26 March 2015' time '3:50:47 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())

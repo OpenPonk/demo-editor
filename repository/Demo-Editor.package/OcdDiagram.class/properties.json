@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OcdDiagram",
+	"pools" : [
+		 ],
+	"super" : "DCDiagram",
+	"type" : "normal" }

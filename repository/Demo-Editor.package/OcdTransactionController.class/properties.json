@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Editor-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OcdTransactionController",
+	"pools" : [
+		 ],
+	"super" : "DCElementController",
+	"type" : "normal" }
