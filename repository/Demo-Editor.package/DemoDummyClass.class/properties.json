@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoDummyClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
