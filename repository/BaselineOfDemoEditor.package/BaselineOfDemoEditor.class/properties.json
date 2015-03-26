@@ -10,5 +10,5 @@
 	"name" : "BaselineOfDemoEditor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
