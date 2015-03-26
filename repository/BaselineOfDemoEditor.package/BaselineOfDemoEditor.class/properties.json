@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfDemoEditor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfDemoEditor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
