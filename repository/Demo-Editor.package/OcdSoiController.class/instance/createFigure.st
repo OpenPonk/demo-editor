@@ -1,13 +1,20 @@
 hooks
 createFigure
-	| container |
-	container := self createContainerFigure.
-	container @ RTDraggable @ DCRTResizable.
-
-	elements := RTGroup new.
-	elements @ RTDraggable.
-
-	container trachelShape
-		addCallback: (TRTranslationCallback block: [ :shape :step | elements do: [ :e | e translateBy: step ] ]).
-
-	^ container
+	^ DCRTCallbackBuilder
+		block: [ :view | 
+			| container element |
+			container := self createShape.
+			element := container elementOn: ''.
+			element @ RTDraggable @ DCRTResizable.
+			element
+				@
+					(RTLabelled new
+						view: view;
+						center;
+						color: Color black;
+						yourself).
+			elements := RTGroup new.
+			elements @ RTDraggable.
+			element trachelShape
+				addCallback: (TRTranslationCallback block: [ :shape :step | elements do: [ :e | e translateBy: step ] ]).
+			element ]

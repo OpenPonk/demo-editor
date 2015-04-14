@@ -1,5 +1,5 @@
 hooks
-createContainerFigure
+createContainerShape
 	^ (RTBox new
 		width: 200;
 		height: 300;
