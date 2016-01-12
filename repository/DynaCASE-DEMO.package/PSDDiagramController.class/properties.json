@@ -1,0 +1,17 @@
+{
+	"category" : "DynaCASE-DEMO-PSD-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"showAllProcSteps",
+		"transControllers",
+		"swimLines",
+		"swimLineLabels" ],
+	"name" : "PSDDiagramController",
+	"pools" : [
+		 ],
+	"super" : "DCDiagramController",
+	"type" : "normal" }

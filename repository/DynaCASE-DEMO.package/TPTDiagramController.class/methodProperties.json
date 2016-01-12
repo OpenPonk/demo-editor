@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addAsTargetFor:" : "JanTuron 11/19/2015 21:47:54",
+		"canBeTargetFor:" : "JanTuron 11/19/2015 21:47:54",
+		"figureAdded:" : "JanTuron 12/3/2015 19:35",
+		"initialize" : "JanTuron 11/19/2015 21:47:54",
+		"initializePalette:" : "JanTuron 11/19/2015 21:47:54",
+		"modelClass" : "JanTuron 1/10/2016 23:22",
+		"modelToControllerMapping" : "JanTuron 11/19/2015 21:47:54",
+		"newTransactionKind" : "JanTuron 11/19/2015 21:47:54",
+		"rebuild" : "JanTuron 11/24/2015 23:40",
+		"refreshFigure" : "JanTuron 11/24/2015 23:40",
+		"refreshLabel" : "JanTuron 11/19/2015 21:47:54",
+		"registerModelEvents:" : "JanTuron 11/19/2015 21:47:54" } }

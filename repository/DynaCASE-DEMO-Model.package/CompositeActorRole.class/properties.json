@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CompositeActorRole",
+	"pools" : [
+		 ],
+	"super" : "ActorRole",
+	"type" : "normal" }

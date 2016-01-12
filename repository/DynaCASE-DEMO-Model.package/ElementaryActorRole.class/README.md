@@ -1,0 +1,1 @@
+DEMO: the authority to fulfil the executor role of a transaction kind. A subject fulfilling an elementary actor role is assumed to be selected on the basis of his/her competence, and to exhibit responsibility in practising the assigned authority

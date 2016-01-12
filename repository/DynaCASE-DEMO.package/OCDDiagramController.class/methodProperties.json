@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addAsTargetFor:" : "JanTuron 12/20/2015 15:37",
+		"addModelElement:" : "JanTuron 12/18/2015 15:19",
+		"addTranslationCallback:" : "JanTuron 12/20/2015 15:01",
+		"canBeTargetFor:" : "JanTuron 12/5/2015 21:28",
+		"createControllers" : "JanTuron 12/20/2015 12:57",
+		"createLinksForTransKind:" : "JanTuron 12/18/2015 18:51",
+		"drawSoI" : "JanTuron 12/20/2015 15:34",
+		"figureAdded:" : "JanTuron 12/18/2015 14:10",
+		"initializePalette:" : "JanTuron 12/5/2015 21:25",
+		"layoutFigures:" : "JanTuron 12/20/2015 15:44",
+		"modelClass" : "JanTuron 12/27/2015 17:45",
+		"modelToControllerMapping" : "JanTuron 11/20/2015 00:35",
+		"rebuild" : "JanTuron 12/20/2015 15:43",
+		"scopeOfInterest" : "JanTuron 12/18/2015 20:26" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"soiSize",
+		"soiPosition",
+		"soiName" ],
+	"name" : "DemoPSDModel",
+	"pools" : [
+		 ],
+	"super" : "DEMOModel",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+This is controler for product kind entry in TPT.

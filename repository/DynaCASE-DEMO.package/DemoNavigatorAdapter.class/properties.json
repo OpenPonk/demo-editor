@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Adapters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 1/11/2016 00:12",
+	"instvars" : [
+		 ],
+	"name" : "DemoNavigatorAdapter",
+	"pools" : [
+		 ],
+	"super" : "DCNavigatorAdapter",
+	"type" : "normal" }

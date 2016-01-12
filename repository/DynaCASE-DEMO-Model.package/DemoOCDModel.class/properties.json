@@ -1,0 +1,16 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"soiSize",
+		"soiPosition",
+		"soiName" ],
+	"name" : "DemoOCDModel",
+	"pools" : [
+		 ],
+	"super" : "DEMOModel",
+	"type" : "normal" }

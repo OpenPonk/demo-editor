@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-PSD-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSDInitiationLinkController",
+	"pools" : [
+		 ],
+	"super" : "PSDLinkController",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 12/19/2015 15:09",
+	"instvars" : [
+		"cellSize",
+		"minSize" ],
+	"name" : "DCRTResizableSnapToGrid",
+	"pools" : [
+		 ],
+	"super" : "RTResizable",
+	"type" : "normal" }

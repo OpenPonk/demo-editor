@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"productKind" ],
+	"name" : "ProductKindTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

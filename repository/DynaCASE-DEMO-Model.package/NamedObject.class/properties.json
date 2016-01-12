@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 10/24/2015 21:15",
+	"instvars" : [
+		 ],
+	"name" : "NamedObject",
+	"pools" : [
+		 ],
+	"super" : "DCModelObject",
+	"type" : "normal" }

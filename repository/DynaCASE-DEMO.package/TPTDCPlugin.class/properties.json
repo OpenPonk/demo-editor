@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Adapters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 10/25/2015 17:27",
+	"instvars" : [
+		 ],
+	"name" : "TPTDCPlugin",
+	"pools" : [
+		 ],
+	"super" : "DCPlugin",
+	"type" : "normal" }

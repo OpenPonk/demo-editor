@@ -1,0 +1,1 @@
+Same as predecessor, only snaps to a grid.

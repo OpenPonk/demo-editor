@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoTPTModel",
+	"pools" : [
+		 ],
+	"super" : "DEMOModel",
+	"type" : "normal" }

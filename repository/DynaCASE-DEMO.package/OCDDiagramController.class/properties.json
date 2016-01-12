@@ -1,0 +1,17 @@
+{
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trans",
+		"initiators",
+		"soi",
+		"gridSize" ],
+	"name" : "OCDDiagramController",
+	"pools" : [
+		 ],
+	"super" : "DCDiagramController",
+	"type" : "normal" }

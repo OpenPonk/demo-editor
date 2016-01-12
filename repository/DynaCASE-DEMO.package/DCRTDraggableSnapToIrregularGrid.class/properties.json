@@ -1,0 +1,17 @@
+{
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cellWidth",
+		"cellHeight",
+		"shift",
+		"translationCallbackBlock" ],
+	"name" : "DCRTDraggableSnapToIrregularGrid",
+	"pools" : [
+		 ],
+	"super" : "RTDraggableSnapToGrid",
+	"type" : "normal" }

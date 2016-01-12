@@ -1,0 +1,20 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 10/24/2015 21:34",
+	"instvars" : [
+		"correspondingProductKind",
+		"initiator",
+		"executor",
+		"ocdPosition",
+		"initiationLinks",
+		"waitingLinks",
+		"psdPosition" ],
+	"name" : "TransactionKind",
+	"pools" : [
+		 ],
+	"super" : "NamedObject",
+	"type" : "normal" }

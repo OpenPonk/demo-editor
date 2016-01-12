@@ -1,0 +1,1 @@
+This class is used for representation initiation and waiting links.

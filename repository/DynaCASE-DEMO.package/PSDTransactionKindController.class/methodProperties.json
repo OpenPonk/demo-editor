@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addInitiationLink:" : "JanTuron 1/3/2016 16:22",
+		"addWaitingLink:" : "JanTuron 1/3/2016 16:21",
+		"createFigureInView:" : "JanTuron 1/10/2016 17:32",
+		"createProcStepsFigures:" : "JanTuron 1/6/2016 13:39",
+		"figureMovedBy:" : "JanTuron 1/10/2016 17:53",
+		"initialize" : "JanTuron 1/10/2016 17:18",
+		"orderIndex" : "JanTuron 1/10/2016 17:42",
+		"orderIndex:" : "JanTuron 1/10/2016 17:43",
+		"processSteps" : "JanTuron 12/28/2015 16:22",
+		"refreshFigure" : "JanTuron 1/6/2016 13:41",
+		"showAllProcessSteps" : "JanTuron 1/5/2016 15:20",
+		"showOnlyConnectedProcessSteps" : "JanTuron 1/6/2016 12:10" } }

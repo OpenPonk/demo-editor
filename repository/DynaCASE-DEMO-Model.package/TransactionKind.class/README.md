@@ -1,0 +1,1 @@
+DEMO: [property of transaction] transactions of the same transaction kind regard products of the same product kind. Examples of transaction kinds: membership_start, rental_contracting

@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Adapters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 11/8/2015 18:24",
+	"instvars" : [
+		 ],
+	"name" : "TPTNavigatorAdapter",
+	"pools" : [
+		 ],
+	"super" : "DCNavigatorAdapter",
+	"type" : "normal" }

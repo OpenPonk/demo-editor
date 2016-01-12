@@ -1,0 +1,1 @@
+This is basic object with properties id and name.

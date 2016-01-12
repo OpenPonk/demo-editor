@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shift" ],
+	"name" : "DCRTDraggableVertically",
+	"pools" : [
+		 ],
+	"super" : "RTDraggableSnapToGrid",
+	"type" : "normal" }

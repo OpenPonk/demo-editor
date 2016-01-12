@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoOCDLayout",
+	"pools" : [
+		 ],
+	"super" : "RTLayout",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 10/24/2015 22:21",
+	"instvars" : [
+		"id",
+		"formulation" ],
+	"name" : "ProductKind",
+	"pools" : [
+		 ],
+	"super" : "NamedObject",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 1/3/2016 16:13",
+	"instvars" : [
+		"sourceStep",
+		"targetStep" ],
+	"name" : "ProcessLink",
+	"pools" : [
+		 ],
+	"super" : "DCEdge",
+	"type" : "normal" }

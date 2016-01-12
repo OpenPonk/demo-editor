@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OCDLinkController",
+	"pools" : [
+		 ],
+	"super" : "DCRelationshipController",
+	"type" : "normal" }

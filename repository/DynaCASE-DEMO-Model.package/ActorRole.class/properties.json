@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ocdPosition" ],
+	"name" : "ActorRole",
+	"pools" : [
+		 ],
+	"super" : "NamedObject",
+	"type" : "normal" }

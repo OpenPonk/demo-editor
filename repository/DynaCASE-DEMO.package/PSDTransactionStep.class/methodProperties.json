@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"createSpacer" : "JanTuron 1/4/2016 15:46" },
+	"instance" : {
+		"addLabelTo:" : "JanTuron 12/31/2015 15:10",
+		"decreaseNumberOfConnections" : "JanTuron 1/4/2016 16:07",
+		"figure" : "JanTuron 12/31/2015 18:19",
+		"hide" : "JanTuron 1/5/2016 23:13",
+		"increaseNumberOfConnections" : "JanTuron 1/4/2016 16:06",
+		"initialize" : "JanTuron 1/4/2016 16:01",
+		"isAct" : "JanTuron 1/4/2016 10:59",
+		"isProductionAct" : "JanTuron 12/29/2015 19:42",
+		"isProductionAct:" : "JanTuron 12/29/2015 19:42",
+		"isUpper" : "JanTuron 12/25/2015 22:04",
+		"isUpper:" : "JanTuron 12/25/2015 22:04",
+		"name" : "JanTuron 12/31/2015 15:08",
+		"name:" : "JanTuron 12/31/2015 15:08",
+		"numberOfConnections" : "JanTuron 1/4/2016 16:02",
+		"show" : "JanTuron 1/5/2016 21:31",
+		"transactionController" : "JanTuron 12/30/2015 21:43",
+		"transactionController:" : "JanTuron 12/30/2015 21:43" } }

@@ -1,0 +1,19 @@
+{
+	"category" : "DynaCASE-DEMO-PSD-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"processSteps",
+		"upperProcSteps",
+		"lowerProcSteps",
+		"productActIndex",
+		"upperProcStepsConstraint",
+		"lowerProcStepsConstraint" ],
+	"name" : "PSDTransactionKindController",
+	"pools" : [
+		 ],
+	"super" : "DCElementController",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+This is description class for DEMO plugin.

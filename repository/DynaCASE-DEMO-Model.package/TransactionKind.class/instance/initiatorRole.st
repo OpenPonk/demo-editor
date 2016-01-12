@@ -1,0 +1,3 @@
+accessing
+initiatorRole
+	^ initiator

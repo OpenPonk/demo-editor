@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 11/3/2015 22:09",
+	"instvars" : [
+		"transactionKinds" ],
+	"name" : "DEMOModel",
+	"pools" : [
+		 ],
+	"super" : "DCDiagram",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+This is basic model element for whole DEMO model.

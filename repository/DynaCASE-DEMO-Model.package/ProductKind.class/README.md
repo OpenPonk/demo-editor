@@ -1,0 +1,1 @@
+DEMO: [property of product] products of the same product kind are brought about in transactions of the same transaction kind. Examples of product kinds: “Membership is started”, “Rental is contracted”, “the fee for Membership in Year is paid”. The variables in a product kind are placeholders for entities.

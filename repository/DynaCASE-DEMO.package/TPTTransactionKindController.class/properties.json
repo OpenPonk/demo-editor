@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-TPT-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 10/25/2015 18:38",
+	"instvars" : [
+		 ],
+	"name" : "TPTTransactionKindController",
+	"pools" : [
+		 ],
+	"super" : "DCElementController",
+	"type" : "normal" }

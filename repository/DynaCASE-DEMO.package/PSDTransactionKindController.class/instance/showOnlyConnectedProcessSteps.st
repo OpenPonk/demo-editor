@@ -1,0 +1,3 @@
+processSteps
+showOnlyConnectedProcessSteps
+	self createProcStepsFigures: false.
