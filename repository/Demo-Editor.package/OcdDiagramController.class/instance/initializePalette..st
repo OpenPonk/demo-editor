@@ -1,3 +1,0 @@
-initialization
-initializePalette: aPalette
-	
