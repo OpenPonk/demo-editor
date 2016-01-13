@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JanTuron 1/12/2016 16:59",
 	"instvars" : [
-		"soiSize",
-		"soiPosition",
-		"soiName" ],
-	"name" : "DemoPSDModel",
+		"model" ],
+	"name" : "DEMOProject",
 	"pools" : [
 		 ],
-	"super" : "DEMOModel",
+	"super" : "DCProject",
 	"type" : "normal" }

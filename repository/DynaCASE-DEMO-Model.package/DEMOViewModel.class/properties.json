@@ -1,0 +1,15 @@
+{
+	"category" : "DynaCASE-DEMO-Model-View models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 1/12/2016 16:53",
+	"instvars" : [
+		"projectModel",
+		"name" ],
+	"name" : "DEMOViewModel",
+	"pools" : [
+		 ],
+	"super" : "DCDiagram",
+	"type" : "normal" }

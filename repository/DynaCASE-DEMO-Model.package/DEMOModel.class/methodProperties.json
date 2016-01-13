@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:" : "JanTuron 12/3/2015 23:28",
-		"addTransactionKind:" : "JanTuron 11/10/2015 01:44:21",
-		"initialize" : "JanTuron 11/10/2015 01:44:21",
-		"transactionKinds" : "JanTuron 11/10/2015 01:44:21" } }
+		"add:" : "JanTuron 1/12/2016 15:54:58",
+		"addTransactionKind:" : "JanTuron 1/12/2016 15:54:58",
+		"compositeActorRoles" : "JanTuron 1/13/2016 13:29",
+		"elementaryActorRoles" : "JanTuron 1/13/2016 13:29",
+		"initialize" : "JanTuron 1/12/2016 15:54:58",
+		"transactionKinds" : "JanTuron 1/12/2016 15:54:58" } }

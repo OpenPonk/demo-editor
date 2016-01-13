@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-Model-JanTuron.17' message 'Removed unnecessary dependency' id '59942836-5a8e-4c92-9563-f378722a5a27' date '11 January 2016' time '10:42:34.05865 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.1' message 'Added some classes representing DEMO Model
-' id 'a47bc8e9-d5ec-5565-aa8e-c75210f54070' date '24 October 2015' time '10:40:48 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-Model-JanTuron.2' message 'Issue #9 - Diagrams operate with one common data model.' id '0e700fe6-7f6c-4d2c-a1e5-24bd18880337' date '13 January 2016' time '2:47:00.881652 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.1' message 'Added DEMO implementation
+' id '3592d06d-64f4-52d2-9a8d-e4be8ad533e3' date '12 January 2016' time '3:54:58 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

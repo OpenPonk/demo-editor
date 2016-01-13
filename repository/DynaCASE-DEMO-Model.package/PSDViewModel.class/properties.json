@@ -1,16 +1,16 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
+	"category" : "DynaCASE-DEMO-Model-View models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JanTuron 1/12/2016 23:47",
 	"instvars" : [
 		"soiSize",
 		"soiPosition",
 		"soiName" ],
-	"name" : "DemoOCDModel",
+	"name" : "PSDViewModel",
 	"pools" : [
 		 ],
-	"super" : "DEMOModel",
+	"super" : "DEMOViewModel",
 	"type" : "normal" }
