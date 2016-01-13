@@ -2,9 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:" : "JanTuron 1/12/2016 15:54:58",
-		"addTransactionKind:" : "JanTuron 1/12/2016 15:54:58",
-		"compositeActorRoles" : "JanTuron 1/13/2016 13:29",
-		"elementaryActorRoles" : "JanTuron 1/13/2016 13:29",
-		"initialize" : "JanTuron 1/12/2016 15:54:58",
-		"transactionKinds" : "JanTuron 1/12/2016 15:54:58" } }
+		"add:" : "JanTuron 1/13/2016 16:19",
+		"addCompositeActorRole:" : "JanTuron 1/13/2016 16:16",
+		"addElementaryActorRole:" : "JanTuron 1/13/2016 16:17",
+		"addProductKind:" : "JanTuron 1/13/2016 16:18",
+		"addTransactionKind:" : "JanTuron 1/13/2016 16:15",
+		"compositeActorRoles" : "JanTuron 1/13/2016 16:11",
+		"elementAdded:" : "JanTuron 1/13/2016 16:18",
+		"elementaryActorRoles" : "JanTuron 1/13/2016 16:12",
+		"elements" : "JanTuron 1/13/2016 16:22",
+		"initialize" : "JanTuron 1/13/2016 16:08",
+		"productKinds" : "JanTuron 1/13/2016 16:13",
+		"transactionKinds" : "JanTuron 1/13/2016 16:13" } }

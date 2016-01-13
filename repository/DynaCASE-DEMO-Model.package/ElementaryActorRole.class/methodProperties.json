@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "JanTuron 1/12/2016 15:54:58",
-		"isInSoI" : "JanTuron 1/12/2016 15:54:58",
-		"isInSoI:" : "JanTuron 1/12/2016 15:54:58" } }
+		"addSelfToModel:" : "JanTuron 1/13/2016 16:25",
+		"initialize" : "JanTuron 1/13/2016 14:47:01",
+		"isInSoI" : "JanTuron 1/13/2016 14:47:01",
+		"isInSoI:" : "JanTuron 1/13/2016 14:47:01" } }

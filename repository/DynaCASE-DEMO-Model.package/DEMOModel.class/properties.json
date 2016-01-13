@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "JanTuron 11/3/2015 22:09",
 	"instvars" : [
-		"transactionKinds" ],
+		"transactionKinds",
+		"elementaryActorRoles",
+		"compositeActorRoles",
+		"productKinds" ],
 	"name" : "DEMOModel",
 	"pools" : [
 		 ],
