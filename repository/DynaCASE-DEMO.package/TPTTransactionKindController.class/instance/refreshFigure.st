@@ -1,4 +1,4 @@
 figures
 refreshFigure
-	self figure trachelShape text: (self model dcID, ' - ', self model name).
-	diagramController refreshFigure.
+	self figure trachelShape text: (self model dcID asString, ' - ', self model name).
+	diagramController repaint.

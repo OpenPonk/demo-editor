@@ -13,5 +13,5 @@ newTransactionKind
 	prods add: prodKindCtrl figure.
 	self view add: prods last.
 
-	self refreshFigure.
+	self repaint.
 	self view signalUpdate

@@ -3,9 +3,5 @@ registerModelEvents: aModel
 	super registerModelEvents: aModel.
 	aModel
 		when: DCElementChanged
-		do: [ :event | 
-			tableBox isNotNil
-				ifTrue: [ 
-					self refreshLabel
-					 ] ]
+		do: [ :event | 	self refreshLabel ]
 	

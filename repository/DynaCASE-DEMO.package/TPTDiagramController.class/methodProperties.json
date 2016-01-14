@@ -2,15 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAsTargetFor:" : "JanTuron 1/12/2016 15:54:58",
-		"canBeTargetFor:" : "JanTuron 1/12/2016 15:54:58",
-		"figureAdded:" : "JanTuron 1/12/2016 15:54:58",
-		"initialize" : "JanTuron 1/12/2016 15:54:58",
-		"initializePalette:" : "JanTuron 1/12/2016 15:54:58",
-		"modelClass" : "JanTuron 1/12/2016 16:40",
-		"modelToControllerMapping" : "JanTuron 1/12/2016 15:54:58",
-		"newTransactionKind" : "JanTuron 1/12/2016 15:54:58",
-		"rebuild" : "JanTuron 1/12/2016 15:54:58",
-		"refreshFigure" : "JanTuron 1/12/2016 15:54:58",
-		"refreshLabel" : "JanTuron 1/12/2016 15:54:58",
-		"registerModelEvents:" : "JanTuron 1/12/2016 15:54:58" } }
+		"addAsTargetFor:" : "JanTuron 1/13/2016 19:12",
+		"addModelElement:" : "JanTuron 1/13/2016 19:09",
+		"canBeTargetFor:" : "JanTuron 1/13/2016 14:47:15",
+		"figureAdded:" : "JanTuron 1/13/2016 14:47:15",
+		"initialize" : "JanTuron 1/13/2016 19:12",
+		"initializePalette:" : "JanTuron 1/13/2016 14:47:15",
+		"modelClass" : "JanTuron 1/13/2016 14:47:15",
+		"modelToControllerMapping" : "JanTuron 1/13/2016 14:47:15",
+		"newTransactionKind" : "JanTuron 1/13/2016 19:17",
+		"rebuild" : "JanTuron 1/13/2016 19:17",
+		"refreshLabel" : "JanTuron 1/13/2016 14:47:15",
+		"registerModelEvents:" : "JanTuron 1/13/2016 19:15",
+		"repaint" : "JanTuron 1/13/2016 19:16" } }
