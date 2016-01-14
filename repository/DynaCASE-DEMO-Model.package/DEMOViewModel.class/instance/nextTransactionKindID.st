@@ -1,0 +1,3 @@
+as yet unclassified
+nextTransactionKindID
+	^ projectModel nextTransactionKindID

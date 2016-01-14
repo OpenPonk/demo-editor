@@ -1,7 +1,8 @@
 accessing
 elements
-	^ OrderedCollection new
-		addAll: transactionKinds;
-		addAll: elementaryActorRoles;
-		addAll: compositeActorRoles;
-		addAll: productKinds
+	elements := OrderedCollection new.
+	elements addAll: transactionKinds.
+	elements addAll: elementaryActorRoles.
+	elements addAll: compositeActorRoles.
+	elements addAll: productKinds.
+	^ elements 

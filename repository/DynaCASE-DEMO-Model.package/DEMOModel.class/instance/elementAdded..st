@@ -1,4 +1,4 @@
-events
+private
 elementAdded: anElement
 	anElement addedTo: self.
 	anElement when: DCElementChanged do: [ self changed ].

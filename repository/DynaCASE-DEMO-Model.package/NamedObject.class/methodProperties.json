@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"=" : "JanTuron 1/13/2016 14:47:01",
-		"addSelfToModel:" : "JanTuron 1/13/2016 16:23",
-		"hash" : "JanTuron 1/13/2016 14:47:01" } }
+		"addSelfToModel:" : "JanTuron 1/13/2016 16:47:41",
+		"getNewID:" : "JanTuron 1/13/2016 21:49",
+		"hash" : "JanTuron 1/13/2016 14:47:01",
+		"initialize" : "JanTuron 1/13/2016 21:56" } }

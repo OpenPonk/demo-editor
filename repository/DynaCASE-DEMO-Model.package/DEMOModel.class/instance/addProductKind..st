@@ -1,4 +1,3 @@
 adding
 addProductKind: aProductKind
-	transactionKinds add: aProductKind.
-	self elementAdded: aProductKind 
+	self addElement: aProductKind to: productKinds

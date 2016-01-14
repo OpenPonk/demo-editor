@@ -1,3 +1,3 @@
 accessing
 productKinds
-	^ productKinds
+	^ productKinds 
