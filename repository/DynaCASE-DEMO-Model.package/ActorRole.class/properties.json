@@ -10,5 +10,5 @@
 	"name" : "ActorRole",
 	"pools" : [
 		 ],
-	"super" : "NamedObject",
+	"super" : "DEMOBasicElement",
 	"type" : "normal" }

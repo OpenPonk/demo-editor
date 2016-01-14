@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	super initialize.
-	dcID := 0
+	demoID := 0

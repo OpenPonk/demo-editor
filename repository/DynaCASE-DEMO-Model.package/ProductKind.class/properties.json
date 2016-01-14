@@ -11,5 +11,5 @@
 	"name" : "ProductKind",
 	"pools" : [
 		 ],
-	"super" : "NamedObject",
+	"super" : "DEMOBasicElement",
 	"type" : "normal" }

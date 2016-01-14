@@ -16,5 +16,5 @@
 	"name" : "TransactionKind",
 	"pools" : [
 		 ],
-	"super" : "NamedObject",
+	"super" : "DEMOBasicElement",
 	"type" : "normal" }

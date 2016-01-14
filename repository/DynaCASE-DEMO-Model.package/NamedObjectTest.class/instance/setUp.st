@@ -1,3 +1,3 @@
 running
 setUp
-	namedObject := NamedObject new.
+	namedObject := DEMOBasicElement new.
