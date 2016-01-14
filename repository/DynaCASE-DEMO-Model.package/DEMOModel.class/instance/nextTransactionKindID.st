@@ -1,3 +1,3 @@
 ids
 nextTransactionKindID
-	self getNextKeyFor: transactionKinds  
+	^ self getNextKeyFor: transactionKinds  

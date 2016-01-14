@@ -1,4 +1,4 @@
 ids
 nextCompositeActorRoleID
-	self getNextKeyFor: compositeActorRoles 
+	^ self getNextKeyFor: compositeActorRoles 
 	

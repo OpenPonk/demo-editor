@@ -1,4 +1,5 @@
-(name 'DynaCASE-DEMO-Model-JanTuron.4' message 'Issue #11 - Model Modifications' id 'd464e1ba-cb3a-448d-90c5-1ebfd980d356' date '14 January 2016' time '10:47:20.051597 am' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.3' message 'Model modifications.
+(name 'DynaCASE-DEMO-Model-JanTuron.5' message '#11 - Model moddifications' id 'c9ab581a-42c4-45c0-8619-08011d5a558c' date '14 January 2016' time '1:35:46.233788 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.4' message 'Issue #11 - Model Modifications
+' id 'f6283653-1ce7-55fc-a31b-09b3dfb8966b' date '14 January 2016' time '10:48:09 am' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.3' message 'Model modifications.
 ' id '2ed4c55f-3541-509b-bc8d-c0b3378b418a' date '13 January 2016' time '4:47:41 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.2' message 'Issue #9 - Diagrams operate with one common data model.
 ' id '716d2153-e32b-5c3a-81d4-8bc1d7a532db' date '13 January 2016' time '2:47:01 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.1' message 'Added DEMO implementation
-' id '3592d06d-64f4-52d2-9a8d-e4be8ad533e3' date '12 January 2016' time '3:54:58 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
+' id '3592d06d-64f4-52d2-9a8d-e4be8ad533e3' date '12 January 2016' time '3:54:58 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())

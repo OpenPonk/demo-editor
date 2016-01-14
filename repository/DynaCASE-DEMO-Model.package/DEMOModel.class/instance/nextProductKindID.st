@@ -1,3 +1,3 @@
 ids
 nextProductKindID
-	self getNextKeyFor: productKinds 
+	^ self getNextKeyFor: productKinds 

@@ -1,3 +1,3 @@
 ids
 nextElementaryActorRoleID
-	self getNextKeyFor: elementaryActorRoles 
+	^ self getNextKeyFor: elementaryActorRoles 

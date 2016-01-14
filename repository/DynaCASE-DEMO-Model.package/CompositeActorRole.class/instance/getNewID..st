@@ -1,3 +1,3 @@
 as yet unclassified
 getNewID: aModel
-	dcID := aModel nextCompositeActorRoleID
+	^ aModel nextCompositeActorRoleID
