@@ -11,7 +11,7 @@ createFigureInView: aView
 		borderWidth: 2.
 	
 	label := RTLabel new
-		text: 'Ax';
+		text: self printableID;
 		color: Color black.
 	
 	composite := RTCompositeShape new.

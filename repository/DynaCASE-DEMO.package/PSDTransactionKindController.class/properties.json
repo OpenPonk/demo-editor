@@ -15,5 +15,5 @@
 	"name" : "PSDTransactionKindController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "TransactionKindController",
 	"type" : "normal" }

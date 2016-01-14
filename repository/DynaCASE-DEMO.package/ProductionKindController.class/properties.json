@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JanTuron 1/13/2016 21:04",
+	"commentStamp" : "JanTuron 1/14/2016 14:59",
 	"instvars" : [
 		 ],
-	"name" : "DemoElementController",
+	"name" : "ProductionKindController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "DEMOElementController",
 	"type" : "normal" }

@@ -1,7 +1,6 @@
 userinterface
 rebuild
 	super rebuild.
-	self error.
 	self view add: transCol; add: prodsCol; add: tableBox.
 	tableBox @ (RTLabelled above text: (self model name); color: Color black).
 	

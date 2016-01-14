@@ -17,7 +17,7 @@ createFigureInView: aView
 		borderWidth: 1.
 	
 	label := RTLabel new
-		text: (model codeName);
+		text: self printableID;
 		color: Color black.
 	
 	composite := RTCompositeShape new.

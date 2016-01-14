@@ -10,5 +10,5 @@
 	"name" : "OCDActorRoleController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "DEMOElementController",
 	"type" : "normal" }

@@ -10,5 +10,5 @@
 	"name" : "OCDTransactionKindController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "TransactionKindController",
 	"type" : "normal" }

@@ -11,8 +11,8 @@ refreshSwimLineLabels
 		positionIndex := transController orderIndex.
 		initiator := transController model initiatorRole.
 		executor := transController model executorRole.
-		labelText := 'A' , initiator dcID asString , ': initiator T'
-			, transController model dcID.
+		labelText := 'A' , initiator id asString , ': initiator '
+			, transController printableID.
 		labelElement := (RTLabel new text: labelText) element.
 		transIndex > 1
 			ifTrue:
@@ -23,9 +23,9 @@ refreshSwimLineLabels
 						swimLineLabels removeLast.
 						prevController model executorRole = initiator
 							ifTrue:
-								[ labelText := 'A' , initiator dcID asString , ': initiator T'
-									, prevController model dcID , Character cr asString , 'and initiator T'
-									, transController model dcID.
+								[ labelText := 'A' , initiator id asString , ': initiator '
+									, prevController printableID , Character cr asString , 'and initiator '
+									, transController printableID.
 								labelElement := (RTLabel new text: labelText) element ]
 							ifFalse:
 								[ labelText := 'ERROR - initiator and executor' , Character cr asString
@@ -39,7 +39,7 @@ refreshSwimLineLabels
 			+ (labelElement width / 2).
 		labelElement trachelShape
 			translateTo: xPosition @ ((slHeight * positionIndex * 2 - slHeight) / 2).
-		labelText := 'A' , executor dcID asString , ': executor T' , transController model dcID.
+		labelText := 'A' , executor id asString , ': executor ' , transController printableID.
 		labelElement := (RTLabel new text: labelText) element.
 		swimLineLabels add: labelElement.
 		view add: labelElement.

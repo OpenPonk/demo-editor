@@ -1,0 +1,3 @@
+model access
+getRelevantModelElements
+	self subclassResponsibility 

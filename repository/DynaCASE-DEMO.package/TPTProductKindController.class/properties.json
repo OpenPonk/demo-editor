@@ -10,5 +10,5 @@
 	"name" : "TPTProductKindController",
 	"pools" : [
 		 ],
-	"super" : "DemoElementController",
+	"super" : "ProductionKindController",
 	"type" : "normal" }

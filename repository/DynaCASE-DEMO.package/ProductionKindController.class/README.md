@@ -1,0 +1,1 @@
+Super class for all production kind cotntrollers.

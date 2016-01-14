@@ -4,5 +4,5 @@ createModel
 		| newModel newID |
 		newModel := self modelClass new.
 		newID := newModel getNewID: diagramController model.
-		newModel dcID: newID.
+		newModel id: newID.
 		^ newModel ]

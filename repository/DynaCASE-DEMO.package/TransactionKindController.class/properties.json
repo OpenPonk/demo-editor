@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JanTuron 1/14/2016 14:56",
+	"instvars" : [
+		 ],
+	"name" : "TransactionKindController",
+	"pools" : [
+		 ],
+	"super" : "DEMOElementController",
+	"type" : "normal" }

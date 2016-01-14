@@ -10,5 +10,5 @@
 	"name" : "TPTTransactionKindController",
 	"pools" : [
 		 ],
-	"super" : "DemoElementController",
+	"super" : "TransactionKindController",
 	"type" : "normal" }

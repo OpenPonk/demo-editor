@@ -14,5 +14,5 @@
 	"name" : "TPTDiagramController",
 	"pools" : [
 		 ],
-	"super" : "DCDiagramController",
+	"super" : "DEMODiagramController",
 	"type" : "normal" }
