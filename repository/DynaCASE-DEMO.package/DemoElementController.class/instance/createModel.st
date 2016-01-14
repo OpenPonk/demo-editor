@@ -1,6 +1,5 @@
 hooks
 createModel
-	self error.
 	^ self model ifNil: [ 
 		| newModel newID |
 		newModel := self modelClass new.

@@ -1,16 +1,7 @@
 userinterface
 rebuild
-	"super rebuild."
-	"transCol := (RTBox new borderColor: Color black; color: (Color white alpha: 0)) element updateEdgesOFF.
-	prodsCol := (RTBox new borderColor: Color black; color: (Color white alpha: 0)) element updateEdgesOFF.
-	tableBox := (RTBox new color: (Color white alpha: 0)) element updateEdgesOFF.
-
-	self view add: transCol; add: prodsCol; add: tableBox.
-	
-	tableBox @ (RTLabelled above text: (self model name); color: Color black)."
-
 	super rebuild.
-
+	self error.
 	self view add: transCol; add: prodsCol; add: tableBox.
 	tableBox @ (RTLabelled above text: (self model name); color: Color black).
 	
