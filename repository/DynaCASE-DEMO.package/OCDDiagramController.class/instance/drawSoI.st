@@ -7,6 +7,16 @@ drawSoI
 		borderColor: Color gray;
 		borderWidth: 6) element.
 		
+	soiLabel := (RTLabel new text: model soiName) element.
+	view add: soiLabel.
+	soiLabel pushBack.
+	(RTConstraint on: soiLabel background: soi)
+		top;
+		left;
+		horizontalPadding: 0;
+		verticalPadding: -25;
+		stick.
+	
 	soi addCallback: (TRTranslationCallback block:
 		[ :shape :step | self model soiPosition: soi trachelShape position ]).
 	soi addCallback: (TRExtentCallback block:
@@ -16,7 +26,7 @@ drawSoI
 		@
 			(DCRTDraggableSnapToGrid new
 				gridSize: gridSize;
-				shift: (gridSize - 20) @ (gridSize - 20))
+				shift: (gridSize/4) @ (gridSize/4))
 		@
 			(DCRTResizableSnapToGrid new
 				cellSize: gridSize @ gridSize;

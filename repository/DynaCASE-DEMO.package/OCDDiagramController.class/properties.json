@@ -9,6 +9,7 @@
 		"trans",
 		"initiators",
 		"soi",
+		"soiLabel",
 		"gridSize" ],
 	"name" : "OCDDiagramController",
 	"pools" : [
