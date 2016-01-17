@@ -1,7 +1,7 @@
 initialization
 initialize
 	super initialize.
-	dcName := 'New transaction kind'.
+	dcName := 'New trans kind'.
 	ocdPosition := 0 @ 0.
 	psdPosition := 0 @ 0.
 	

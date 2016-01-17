@@ -1,0 +1,1 @@
+This class represents information link from OCD diagram.

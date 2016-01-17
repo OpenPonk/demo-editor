@@ -1,0 +1,3 @@
+as yet unclassified
+nextAggregateTransactionKindID
+	^ projectModel nextAggregateTransactionKindID

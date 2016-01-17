@@ -1,0 +1,3 @@
+adding
+addAggregateTransactionKind: anAggregateTransactionKind
+	self addElement: anAggregateTransactionKind to: aggregateTransactionKinds 

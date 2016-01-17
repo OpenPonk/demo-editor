@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JanTuron 10/24/2015 22:21",
+	"commentStamp" : "",
 	"instvars" : [
-		"formulation" ],
-	"name" : "ProductKind",
+		 ],
+	"name" : "AggregateTransactionKind",
 	"pools" : [
 		 ],
 	"super" : "DEMOBasicElement",
