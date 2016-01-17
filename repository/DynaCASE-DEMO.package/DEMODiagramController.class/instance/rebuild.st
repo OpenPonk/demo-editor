@@ -7,4 +7,5 @@ rebuild
 			(each isKindOf: TRCanvasGridShape )
 				ifFalse: [ each remove ] ].
 	self view canvas fixedShapes copy do: #remove.
-	self getRelevantModelElements do: [ :each | self addModelElement: each ]
+	self createControllersFromModel.
+	self layoutElements

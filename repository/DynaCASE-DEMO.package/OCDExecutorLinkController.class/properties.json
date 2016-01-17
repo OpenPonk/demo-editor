@@ -10,5 +10,5 @@
 	"name" : "OCDExecutorLinkController",
 	"pools" : [
 		 ],
-	"super" : "OCDLinkController",
+	"super" : "OCDActorLinkController",
 	"type" : "normal" }

@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"canBeSourceFor:" : "JanTuron 1/15/2016 12:43",
-		"canBeTargetFor:" : "JanTuron 1/14/2016 17:19",
+		"canBeSourceFor:" : "JanTuron 1/17/2016 20:21",
+		"canBeTargetFor:" : "JanTuron 1/17/2016 20:23",
 		"createFigureInView:" : "JanTuron 1/14/2016 14:54",
 		"modelClass" : "JanTuron 1/14/2016 13:35:28",
+		"printableID" : "JanTuron 1/15/2016 14:56",
 		"refreshFigure" : "JanTuron 1/14/2016 13:35:28" } }

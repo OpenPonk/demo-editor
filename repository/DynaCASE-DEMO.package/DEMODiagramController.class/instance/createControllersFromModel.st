@@ -1,0 +1,3 @@
+userinterface
+createControllersFromModel
+	self subclassResponsibility 

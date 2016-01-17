@@ -10,5 +10,5 @@
 	"name" : "OCDInitiatorLinkController",
 	"pools" : [
 		 ],
-	"super" : "OCDLinkController",
+	"super" : "OCDActorLinkController",
 	"type" : "normal" }

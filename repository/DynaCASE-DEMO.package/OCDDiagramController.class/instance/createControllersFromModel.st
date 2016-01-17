@@ -1,8 +1,10 @@
 as yet unclassified
-createControllers
-	| firstLevelControllers |
+createControllersFromModel
 	firstLevelControllers := OrderedCollection new.
-	
+	self model aggregateTransactionKinds
+		do: [ :each | firstLevelControllers add: (self addModelElement: each).
+			firstLevelControllers last figure @ (RTDraggableSnapToGrid new gridSize: gridSize) ].
+		
 	self model elementaryActorRoles
 		do:
 			[ :each | 
@@ -27,4 +29,9 @@ createControllers
 			firstLevelControllers last figure @ (RTDraggableSnapToGrid new gridSize: gridSize).
 			self createLinksForTransKind: firstLevelControllers last ].
 		
-	^ firstLevelControllers 
+	self model informationLinks
+		do:
+			[ :each |
+			self createInformationLink: each ].
+		
+	^ firstLevelControllers

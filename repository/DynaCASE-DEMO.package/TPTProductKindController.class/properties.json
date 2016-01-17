@@ -10,5 +10,5 @@
 	"name" : "TPTProductKindController",
 	"pools" : [
 		 ],
-	"super" : "ProductionKindController",
+	"super" : "ProductKindController",
 	"type" : "normal" }

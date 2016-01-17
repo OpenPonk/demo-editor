@@ -1,4 +1,5 @@
 as yet unclassified
 canBeTargetFor: aController
 	^ (aController isKindOf: OCDActorRoleController) or:
-	(aController isMemberOf: OCDTransactionKindController)
+	((aController isMemberOf: OCDTransactionKindController) or:
+	(aController isMemberOf: OCDAggregateTransactionKindController))

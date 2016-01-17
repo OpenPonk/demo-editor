@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"addAsTargetFor:" : "JanTuron 1/14/2016 13:35:28",
-		"canBeTargetFor:" : "JanTuron 1/14/2016 17:14",
+		"canBeSourceFor:" : "JanTuron 1/17/2016 20:27",
+		"canBeTargetFor:" : "JanTuron 1/17/2016 20:24",
 		"computeBoxSize" : "JanTuron 1/14/2016 13:35:28",
-		"createFigureInView:" : "JanTuron 1/14/2016 13:35:28",
+		"createFigureInView:" : "JanTuron 1/15/2016 14:57",
 		"modelClass" : "JanTuron 1/14/2016 13:35:28",
+		"printableID" : "JanTuron 1/15/2016 14:56",
 		"refreshFigure" : "JanTuron 1/14/2016 13:35:28" } }

@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"soi",
-		"soiLabel",
-		"gridSize",
-		"firstLevelControllers" ],
-	"name" : "OCDDiagramController",
+		 ],
+	"name" : "OCDActorLinkController",
 	"pools" : [
 		 ],
-	"super" : "DEMODiagramController",
+	"super" : "DCRelationshipController",
 	"type" : "normal" }

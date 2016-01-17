@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"soi",
-		"soiLabel",
-		"gridSize",
-		"firstLevelControllers" ],
-	"name" : "OCDDiagramController",
+		 ],
+	"name" : "OCDAggregateTransactionKindController",
 	"pools" : [
 		 ],
-	"super" : "DEMODiagramController",
+	"super" : "DEMOElementController",
 	"type" : "normal" }

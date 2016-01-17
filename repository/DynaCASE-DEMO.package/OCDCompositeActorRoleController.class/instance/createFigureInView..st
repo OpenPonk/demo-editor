@@ -13,7 +13,7 @@ createFigureInView: aView
 		height: boxRectangle y;
 		color: Color veryVeryLightGray;
 		borderColor: Color gray;
-		borderWidth: 4) elementOn: 'CAx'.
+		borderWidth: 4) elementOn: self printableID.
 	
 	(labelled := RTLabelled new)
 		view: aView;

@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getRelevantModelElements" : "JanTuron 1/14/2016 16:25",
-		"rebuild" : "JanTuron 1/14/2016 16:21" } }
+		"createControllersFromModel" : "JanTuron 1/15/2016 15:13",
+		"layoutElements" : "JanTuron 1/15/2016 15:14",
+		"rebuild" : "JanTuron 1/15/2016 15:14" } }

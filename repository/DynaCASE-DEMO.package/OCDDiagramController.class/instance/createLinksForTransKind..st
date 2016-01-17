@@ -9,7 +9,7 @@ createLinksForTransKind: aTranKind
 			aTranKind model executorRole: nil. "workaround"
 			aTranKind addAsSourceFor: execLinkContr.
 			execRole addAsTargetFor: execLinkContr.
-			self controllers add: execLinkContr.
+			controllers add: execLinkContr.
 			execLinkContr attachFigure ].
 		
 	aTranKind model initiatorRole
@@ -19,5 +19,5 @@ createLinksForTransKind: aTranKind
 			aTranKind model initiatorRole: nil. "workaround"
 			aTranKind addAsSourceFor: initLinkContr.
 			initRole addAsTargetFor: initLinkContr.
-			self controllers add: initLinkContr.
+			controllers add: initLinkContr.
 			initLinkContr attachFigure ]
