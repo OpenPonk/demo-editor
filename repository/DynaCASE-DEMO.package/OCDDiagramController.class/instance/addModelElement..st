@@ -17,5 +17,5 @@ addModelElement: aModelElement
 	controller registerModelEvents: controller model.
 	figure := controller figure.
 	figure view ifNil: [ figure renderIn: self view ].
-	self diagramController figureAdded: figure.
+	self figureAdded: figure.
 	^ controller

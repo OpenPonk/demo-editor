@@ -1,6 +1,6 @@
 hooks
 createFigureInView: aView
-	| borderBox centerBox label transaction centerBoxSize |
+	| borderBox centerBox idLabel transaction centerBoxSize |
 	borderBox := RTRoundedBox new
 		extent:
 			(PSDDiagramController transactionHeight + 10) @ PSDDiagramController transactionHeight;
@@ -14,13 +14,13 @@ createFigureInView: aView
 		color: Color white;
 		borderColor: Color red;
 		borderWidth: 1.5.
-	label := RTLabel new
+	idLabel := RTLabel new
 		text: self printableID;
 		color: Color black.
 	transaction := RTCompositeShape new
 		add: borderBox;
 		add: centerBox;
-		add: label.
+		add: idLabel.
 	transaction := transaction element.
 	(transaction trachelShape shapes at: 2) rotateByDegrees: 45.
 	transaction
@@ -30,4 +30,13 @@ createFigureInView: aView
 				cellHeight: PSDDiagramController swimlineHeight;
 				verticalShift: PSDDiagramController transactionHeight / 2;
 				translationCallback: [ :aShift | self figureMovedBy: aShift ] ).
+				
+	label := (RTLabel new text: model name) element.
+	(RTConstraint on: label background: transaction)
+		top;
+		outer;
+		padding: 13;
+		stick.
+	aView add: label.
+	
 	^ transaction

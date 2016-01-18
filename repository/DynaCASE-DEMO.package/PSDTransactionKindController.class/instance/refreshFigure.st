@@ -14,3 +14,5 @@ refreshFigure
 				translateTo: (lowerProcSteps at: productActIndex) position x @ figure position y.
 			(self figure trachelShape shapes at: 3)
 				translateTo: (lowerProcSteps at: productActIndex) position x @ figure position y ].
+	label trachelShape text: model name.
+	label signalUpdate.

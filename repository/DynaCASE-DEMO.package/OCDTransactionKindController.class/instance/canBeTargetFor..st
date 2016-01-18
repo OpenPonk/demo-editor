@@ -9,4 +9,5 @@ canBeTargetFor: aController
 				or:
 					((aController isMemberOf: OCDInitiatorLinkController) and: self model initiatorRole isNil) ].
 	(aController isKindOf: OCDInformationLinkController ) ifTrue: [ 
-		^ aController source isKindOf: OCDActorRoleController ]
+		^ aController source isKindOf: OCDActorRoleController ].
+	^ false
