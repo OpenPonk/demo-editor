@@ -9,7 +9,8 @@
 		"soi",
 		"soiLabel",
 		"gridSize",
-		"firstLevelControllers" ],
+		"firstLevelControllers",
+		"soiLabelConstraint" ],
 	"name" : "OCDDiagramController",
 	"pools" : [
 		 ],

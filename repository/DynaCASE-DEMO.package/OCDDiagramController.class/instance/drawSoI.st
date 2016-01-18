@@ -6,32 +6,32 @@ drawSoI
 		color: Color transparent;
 		borderColor: Color gray;
 		borderWidth: 6) element.
-		
 	soiLabel := (RTLabel new text: model soiName) element.
 	view add: soiLabel.
 	soiLabel pushBack.
-	(RTConstraint on: soiLabel background: soi)
+	soiLabelConstraint := RTConstraint on: soiLabel background: soi.
+	soiLabelConstraint
 		top;
 		left;
 		horizontalPadding: 0;
 		verticalPadding: -25;
 		stick.
-	
-	soi addCallback: (TRTranslationCallback block:
-		[ :shape :step | self model soiPosition: soi trachelShape position ]).
-	soi addCallback: (TRExtentCallback block:
-		[ :shape :ratio | self model soiSize: soi trachelShape extent ]).
-	
+	soi
+		addCallback:
+			(TRTranslationCallback
+				block: [ :shape :step | self model soiPosition: soi trachelShape position ]).
+	soi
+		addCallback:
+			(TRExtentCallback block: [ :shape :ratio | self model soiSize: soi trachelShape extent ]).
 	soi
 		@
 			(DCRTDraggableSnapToGrid new
 				gridSize: gridSize;
-				shift: (gridSize/4) @ (gridSize/4))
+				shift: (gridSize / 4) @ (gridSize / 4))
 		@
 			(DCRTResizableSnapToGrid new
 				cellSize: gridSize @ gridSize;
 				minSize: gridSize @ gridSize).
 	view add: soi.
-	
 	soi trachelShape translateTo: self model soiPosition.
-	soi trachelShape pushBack.
+	soi trachelShape pushBack
