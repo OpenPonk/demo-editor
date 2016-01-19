@@ -2,5 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addMultiplicityToEdge:" : "JanTuron 1/19/2016 15:23",
+		"attachFigure" : "JanTuron 1/19/2016 14:16",
+		"buildEditorForm:" : "JanTuron 1/19/2016 15:04",
 		"createModel" : "JanTuron 1/18/2016 00:00:21",
-		"modelClass" : "JanTuron 1/18/2016 00:00:21" } }
+		"modelClass" : "JanTuron 1/18/2016 00:00:21",
+		"refreshFigure" : "JanTuron 1/19/2016 15:22",
+		"registerModelEvents:" : "JanTuron 1/19/2016 15:19" } }
