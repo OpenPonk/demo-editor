@@ -2,4 +2,5 @@ initialization
 initialize
 	super initialize.
 	sourceStep := ''.
-	targetStep := ''
+	targetStep := ''.
+	multiplicity := '1..1'
