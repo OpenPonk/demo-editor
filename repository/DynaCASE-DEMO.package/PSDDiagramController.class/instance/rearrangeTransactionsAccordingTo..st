@@ -17,5 +17,5 @@ rearrangeTransactionsAccordingTo: aFixedTranController
 		ifNotNil:
 			[ collidingTransController orderIndex: aFixedTranController orderIndex.
 			aFixedTranController orderIndex: tempIndex.
-			self layoutTransControllers ].
+			self layoutElements ].
 	self refreshSwimLines 

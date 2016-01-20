@@ -1,3 +1,3 @@
 accessing
 orderIndex
-	^ model psdPosition y
+	^ (diagramController model getPositionFor: model dcID) y

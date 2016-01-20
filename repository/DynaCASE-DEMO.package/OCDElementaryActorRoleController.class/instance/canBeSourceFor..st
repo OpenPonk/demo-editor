@@ -1,7 +1,8 @@
 as yet unclassified
 canBeSourceFor: aController
-	(aController isKindOf: OCDActorLinkController)
+	(aController isKindOf: OCDExecutorLinkController)
 		ifTrue: [ (diagramController model isAlreadyExecutor: model)
 				ifTrue: [ ^ false ].
 			^ true ].
-	^ aController isKindOf: OCDInformationLinkController 
+	^ (aController isKindOf: OCDInitiatorLinkController)
+		or: (aController isKindOf: OCDInformationLinkController)

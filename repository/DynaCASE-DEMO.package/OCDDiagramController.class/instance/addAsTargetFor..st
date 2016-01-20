@@ -10,5 +10,5 @@ addAsTargetFor: aController
 	aController attach.
 	aController figure @ (RTDraggableSnapToGrid new gridSize: gridSize).
 	aController addMovedCallback.
-	aController moved.
+	aController figureMoved: 0 @ 0.
 	self view signalUpdate

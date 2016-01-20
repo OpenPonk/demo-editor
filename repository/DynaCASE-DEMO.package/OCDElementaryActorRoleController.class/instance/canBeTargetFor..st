@@ -4,9 +4,10 @@ canBeTargetFor: aController
 		ifTrue:
 			[ (aController source isKindOf: OCDTransactionKindController)
 				ifFalse: [ ^ false ].
-			(diagramController model isAlreadyExecutor: model)
+			((aController isKindOf: OCDExecutorLinkController)
+				and: (diagramController model isAlreadyExecutor: model))
 				ifTrue: [ ^ false ].
 			^ true ].
-	(aController isKindOf: OCDInformationLinkController) ifTrue: [ 
-		^ (aController source isKindOf: OCDActorRoleController) not ].
+	(aController isKindOf: OCDInformationLinkController)
+		ifTrue: [ ^ (aController source isKindOf: OCDActorRoleController) not ].
 	^ false
