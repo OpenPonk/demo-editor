@@ -1,4 +1,4 @@
 private
-addElement: anElement to: aDictionary
-	aDictionary add: anElement.
+addElement: anElement to: aCollection
+	aCollection add: anElement.
 	self elementAdded: anElement
