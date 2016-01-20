@@ -1,3 +1,0 @@
-accessing
-psdPosition
-	^ psdPosition

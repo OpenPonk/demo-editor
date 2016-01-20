@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addDiagram: aDiagram
 	aDiagram projectModel: model.
 	super addDiagram: aDiagram

@@ -1,3 +1,3 @@
-as yet unclassified
+adding
 getNewID: aModel
 	^ aModel nextElementaryActorRoleID

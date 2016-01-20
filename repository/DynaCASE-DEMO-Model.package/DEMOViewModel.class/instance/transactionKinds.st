@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 transactionKinds
 	^ projectModel transactionKinds

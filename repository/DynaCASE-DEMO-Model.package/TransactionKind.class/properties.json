@@ -9,10 +9,8 @@
 		"correspondingProductKind",
 		"initiator",
 		"executor",
-		"ocdPosition",
 		"initiationLinks",
-		"waitingLinks",
-		"psdPosition" ],
+		"waitingLinks" ],
 	"name" : "TransactionKind",
 	"pools" : [
 		 ],

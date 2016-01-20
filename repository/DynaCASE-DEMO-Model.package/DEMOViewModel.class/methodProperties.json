@@ -7,7 +7,9 @@
 		"compositeActorRoles" : "JanTuron 1/18/2016 00:00:09",
 		"elementaryActorRoles" : "JanTuron 1/18/2016 00:00:09",
 		"elements" : "JanTuron 1/18/2016 00:00:09",
+		"getPositionFor:" : "JanTuron 1/20/2016 10:01",
 		"informationLinks" : "JanTuron 1/18/2016 00:00:09",
+		"initialize" : "JanTuron 1/20/2016 10:20",
 		"nextAggregateTransactionKindID" : "JanTuron 1/18/2016 00:00:09",
 		"nextCompositeActorRoleID" : "JanTuron 1/18/2016 00:00:09",
 		"nextElementaryActorRoleID" : "JanTuron 1/18/2016 00:00:09",
@@ -15,4 +17,5 @@
 		"nextTransactionKindID" : "JanTuron 1/18/2016 00:00:09",
 		"productKinds" : "JanTuron 1/18/2016 00:00:09",
 		"projectModel:" : "JanTuron 1/18/2016 00:00:09",
+		"savePosition:for:" : "JanTuron 1/20/2016 10:04",
 		"transactionKinds" : "JanTuron 1/18/2016 00:00:09" } }

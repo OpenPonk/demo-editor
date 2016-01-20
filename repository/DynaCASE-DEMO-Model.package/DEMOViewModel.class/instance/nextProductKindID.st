@@ -1,3 +1,3 @@
-as yet unclassified
+ids
 nextProductKindID
 	^ projectModel nextProductKindID

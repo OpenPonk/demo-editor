@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 informationLinks
 	^ projectModel informationLinks
