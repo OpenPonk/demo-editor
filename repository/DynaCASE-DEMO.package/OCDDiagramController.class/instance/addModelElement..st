@@ -14,8 +14,8 @@ addModelElement: aModelElement
 			controller
 				source: fromCtrl;
 				target: toCtrl ].
-	controller registerModelEvents: controller model.
-	figure := controller figure.
-	figure view ifNil: [ figure renderIn: self view ].
-	self figureAdded: figure.
+	
+	controller attach.
+	self figureAdded: controller figure.
+	
 	^ controller

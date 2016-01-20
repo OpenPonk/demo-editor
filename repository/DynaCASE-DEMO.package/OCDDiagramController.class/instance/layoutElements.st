@@ -3,5 +3,5 @@ layoutElements
 	firstLevelControllers
 		reverseDo:
 			[ :each | 
-			each figure trachelShape translateTo: (diagramController model getPositionFor: self dcID).
+			each figure trachelShape translateTo: (model getPositionFor: each model dcID).
 			each figure updateConnectedEdges ]
