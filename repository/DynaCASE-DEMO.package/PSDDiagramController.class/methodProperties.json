@@ -8,7 +8,7 @@
 	"instance" : {
 		"addModelElement:" : "JanTuron 1/20/2016 15:17:52",
 		"addProcessStepsTo:" : "JanTuron 1/20/2016 15:17:52",
-		"createControllersFromModel" : "JanTuron 1/20/2016 15:17:52",
+		"createControllersFromModel" : "JanTuron 1/20/2016 22:22",
 		"createLinksForTrans:" : "JanTuron 1/20/2016 15:17:52",
 		"createSwimLines" : "JanTuron 1/20/2016 15:17:52",
 		"findProcessStep:forTransaction:isUpper:isAct:" : "JanTuron 1/20/2016 15:17:52",
