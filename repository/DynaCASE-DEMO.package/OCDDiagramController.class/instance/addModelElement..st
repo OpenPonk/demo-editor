@@ -1,6 +1,6 @@
 as yet unclassified
 addModelElement: aModelElement
-	| controller figure |
+	| controller |
 	controller := self createController: aModelElement.
 	controller diagramController: self.
 	self controllers add: controller.
@@ -14,8 +14,6 @@ addModelElement: aModelElement
 			controller
 				source: fromCtrl;
 				target: toCtrl ].
-	
 	controller attach.
-	self figureAdded: controller figure.
 	
 	^ controller
