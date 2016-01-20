@@ -12,7 +12,8 @@
 		"productActIndex",
 		"upperProcStepsConstraint",
 		"lowerProcStepsConstraint",
-		"label" ],
+		"label",
+		"labelConstraint" ],
 	"name" : "PSDTransactionKindController",
 	"pools" : [
 		 ],

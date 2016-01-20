@@ -1,7 +1,7 @@
 accessing
 refreshFigure
 	| encRect transHeight transWidth |
-	super refreshFigure.
+	
 	lowerProcSteps size > 0
 		ifTrue:
 			[ transHeight := PSDDiagramController transactionHeight.
@@ -15,4 +15,6 @@ refreshFigure
 			(self figure trachelShape shapes at: 3)
 				translateTo: (lowerProcSteps at: productActIndex) position x @ figure position y ].
 	label trachelShape text: model name.
+	labelConstraint ifNotNil: [ labelConstraint move ].
 	label signalUpdate.
+	super refreshFigure

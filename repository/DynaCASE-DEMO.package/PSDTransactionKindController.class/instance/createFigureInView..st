@@ -32,7 +32,8 @@ createFigureInView: aView
 				translationCallback: [ :aShift | self figureMoved: aShift ] ).
 				
 	label := (RTLabel new text: model name) element.
-	(RTConstraint on: label background: transaction)
+	labelConstraint := RTConstraint on: label background: transaction.
+	labelConstraint 
 		top;
 		outer;
 		padding: 13;

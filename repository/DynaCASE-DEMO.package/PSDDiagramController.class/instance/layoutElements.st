@@ -5,4 +5,5 @@ layoutElements
 			[ :aController | 
 			| position |
 			position := model getPositionFor: aController model dcID.
-			aController figure translateTo: position x @ (position y * self class swimlineHeight) ]
+			aController figure translateTo: position x @ (position y * self class swimlineHeight).
+			aController refreshFigure  ]
