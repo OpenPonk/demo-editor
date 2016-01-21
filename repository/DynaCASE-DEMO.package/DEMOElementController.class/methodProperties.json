@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMovedCallback" : "JanTuron 1/20/2016 15:17:52",
-		"buildEditorForm:" : "JanTuron 1/21/2016 00:11",
-		"createModel" : "JanTuron 1/20/2016 15:17:52",
-		"figureMoved:" : "JanTuron 1/20/2016 15:17:52",
-		"isIDUsed:" : "JanTuron 1/21/2016 00:01",
-		"printableID" : "JanTuron 1/20/2016 15:17:52" } }
+		"addMovedCallback" : "JanTuron 1/21/2016 00:28:11",
+		"buildEditorForm:" : "JanTuron 1/21/2016 16:46",
+		"createModel" : "JanTuron 1/21/2016 00:28:11",
+		"figureMoved:" : "JanTuron 1/21/2016 00:28:11",
+		"idChanged:" : "JanTuron 1/21/2016 17:11",
+		"isIDUsed:" : "JanTuron 1/21/2016 00:28:11",
+		"printableID" : "JanTuron 1/21/2016 00:28:11" } }

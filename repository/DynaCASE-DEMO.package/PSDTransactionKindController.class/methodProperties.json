@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addInitiationLink:" : "JanTuron 1/20/2016 15:17:52",
-		"addWaitingLink:" : "JanTuron 1/20/2016 15:17:52",
-		"createFigureInView:" : "JanTuron 1/20/2016 16:27",
-		"createProcStepsFigures:" : "JanTuron 1/20/2016 15:17:52",
-		"figureMoved:" : "JanTuron 1/20/2016 16:21",
-		"initialize" : "JanTuron 1/20/2016 15:17:52",
-		"orderIndex" : "JanTuron 1/20/2016 15:17:52",
-		"orderIndex:" : "JanTuron 1/20/2016 15:17:52",
-		"processSteps" : "JanTuron 1/20/2016 15:17:52",
-		"refreshFigure" : "JanTuron 1/20/2016 16:49",
-		"showAllProcessSteps" : "JanTuron 1/20/2016 15:17:52",
-		"showOnlyConnectedProcessSteps" : "JanTuron 1/20/2016 15:17:52" } }
+		"addInitiationLink:" : "JanTuron 1/21/2016 00:28:11",
+		"addWaitingLink:" : "JanTuron 1/21/2016 00:28:11",
+		"createFigureInView:" : "JanTuron 1/21/2016 00:28:11",
+		"createProcStepsFigures:" : "JanTuron 1/21/2016 00:28:11",
+		"figureMoved:" : "JanTuron 1/21/2016 00:28:11",
+		"initialize" : "JanTuron 1/21/2016 00:28:11",
+		"orderIndex" : "JanTuron 1/21/2016 00:28:11",
+		"orderIndex:" : "JanTuron 1/21/2016 00:28:11",
+		"processSteps" : "JanTuron 1/21/2016 00:28:11",
+		"refreshFigure" : "JanTuron 1/21/2016 00:28:11",
+		"showAllProcessSteps" : "JanTuron 1/21/2016 00:28:11",
+		"showOnlyConnectedProcessSteps" : "JanTuron 1/21/2016 00:28:11" } }
