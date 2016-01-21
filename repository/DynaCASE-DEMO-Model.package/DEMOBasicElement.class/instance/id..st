@@ -1,3 +1,4 @@
 accessing
 id: anObject
-	demoID := anObject
+	demoID := anObject.
+	self changed
