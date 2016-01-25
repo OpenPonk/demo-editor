@@ -1,3 +1,4 @@
 adding
 add: anObject
-	anObject addSelfToModel: self
+	anObject addSelfToModel: self.
+	project addElement: anObject

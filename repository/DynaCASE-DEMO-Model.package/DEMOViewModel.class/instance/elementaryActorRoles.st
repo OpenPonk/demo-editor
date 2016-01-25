@@ -1,3 +1,0 @@
-accessing
-elementaryActorRoles
-	^ projectModel elementaryActorRoles

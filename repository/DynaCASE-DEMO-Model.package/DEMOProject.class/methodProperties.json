@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addDiagram:" : "JanTuron 1/21/2016 00:27:47",
-		"initialize" : "JanTuron 1/21/2016 00:27:47",
-		"model" : "JanTuron 1/21/2016 00:27:47",
-		"model:" : "JanTuron 1/21/2016 00:27:47" } }
+		"addDiagram:" : "JanTuron 1/26/2016 00:25",
+		"addElement:" : "JanTuron 1/26/2016 00:25",
+		"initialize" : "JanTuron 1/21/2016 22:08:39",
+		"model" : "JanTuron 1/21/2016 22:08:39",
+		"model:" : "JanTuron 1/25/2016 22:58",
+		"sortDiagrams" : "JanTuron 1/26/2016 00:25" } }

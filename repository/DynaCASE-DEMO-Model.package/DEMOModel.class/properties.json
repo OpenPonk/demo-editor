@@ -11,7 +11,8 @@
 		"elementaryActorRoles",
 		"compositeActorRoles",
 		"productKinds",
-		"informationLinks" ],
+		"informationLinks",
+		"project" ],
 	"name" : "DEMOModel",
 	"pools" : [
 		 ],

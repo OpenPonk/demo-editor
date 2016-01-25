@@ -1,5 +1,4 @@
-adding
+as yet unclassified
 add: anObject
-	anObject addSelfToModel: self.
 	projectModel add: anObject
 	

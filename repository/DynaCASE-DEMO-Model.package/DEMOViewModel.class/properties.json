@@ -11,5 +11,5 @@
 	"name" : "DEMOViewModel",
 	"pools" : [
 		 ],
-	"super" : "DCDiagram",
+	"super" : "DEMOModel",
 	"type" : "normal" }

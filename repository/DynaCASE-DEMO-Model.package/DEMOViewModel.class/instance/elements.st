@@ -1,3 +1,0 @@
-accessing
-elements
-	^ projectModel elements
