@@ -1,6 +1,6 @@
-accessing
+as yet unclassified
 displayMapping
 	^ {
-	(TPTViewModel -> 'TPT Diagram').
+	(PSDViewModel -> 'PSD Diagram').
 	(TransactionKind -> 'Transaction kind')
 	}

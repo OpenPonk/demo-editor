@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 childrenMapping
 	^ {
-	DEMOModel -> #transactionKinds.
+	DEMOModel -> #elements.
 	}

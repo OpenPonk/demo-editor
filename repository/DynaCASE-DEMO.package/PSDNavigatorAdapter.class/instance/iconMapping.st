@@ -1,6 +1,6 @@
-accessing
+as yet unclassified
 iconMapping
 	^ {
-	(TPTViewModel -> DCIcons current dcFsmDiagramIcon).
+	(PSDViewModel -> DCIcons current dcFsmDiagramIcon).
 	(TransactionKind -> DCIcons current dcFsmInitialStateIcon)
 	}

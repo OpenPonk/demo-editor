@@ -1,0 +1,1 @@
+This is navigator adapter for PSD diagram.

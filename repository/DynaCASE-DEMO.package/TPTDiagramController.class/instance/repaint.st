@@ -1,6 +1,8 @@
 figures
 repaint
 	
+	self sortElements.
+	
 	transCol unbindNestedElements.
 	prodsCol unbindNestedElements.
 	tableBox unbindNestedElements.

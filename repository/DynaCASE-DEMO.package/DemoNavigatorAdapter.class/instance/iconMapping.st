@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 iconMapping
 	^ {
 		DEMOModel -> DCIcons current dcFsmDiagramIcon.
