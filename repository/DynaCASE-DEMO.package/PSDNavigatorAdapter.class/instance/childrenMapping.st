@@ -1,6 +1,7 @@
 as yet unclassified
 childrenMapping
 	^ {
-	(PSDViewModel -> #transactionKinds).
-	(TransactionKind -> #())
+	(PSDViewModel -> #elements).
+	(TransactionKind -> #()).
+	(ProcessLink -> #())
 	}

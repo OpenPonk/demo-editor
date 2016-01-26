@@ -1,6 +1,5 @@
 ui hooks
 initializePalette: aPalette
-
 	aPalette addItem
 		label: 'Toggle process steps';
 		icon: nil;
