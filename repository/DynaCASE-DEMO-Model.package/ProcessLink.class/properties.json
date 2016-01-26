@@ -8,7 +8,8 @@
 	"instvars" : [
 		"sourceStep",
 		"targetStep",
-		"multiplicity" ],
+		"multiplicity",
+		"isInitiation" ],
 	"name" : "ProcessLink",
 	"pools" : [
 		 ],

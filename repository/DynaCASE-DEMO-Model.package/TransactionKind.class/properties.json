@@ -8,9 +8,7 @@
 	"instvars" : [
 		"correspondingProductKind",
 		"initiator",
-		"executor",
-		"initiationLinks",
-		"waitingLinks" ],
+		"executor" ],
 	"name" : "TransactionKind",
 	"pools" : [
 		 ],

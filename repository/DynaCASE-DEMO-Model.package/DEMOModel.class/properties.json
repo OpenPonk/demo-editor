@@ -12,6 +12,7 @@
 		"compositeActorRoles",
 		"productKinds",
 		"informationLinks",
+		"processLinks",
 		"project" ],
 	"name" : "DEMOModel",
 	"pools" : [
