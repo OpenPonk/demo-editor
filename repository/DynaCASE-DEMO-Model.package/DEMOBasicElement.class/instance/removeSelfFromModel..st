@@ -1,3 +1,4 @@
 removing
 removeSelfFromModel: aModel
-	self subclassResponsibility 
+	owner := aModel.
+	self relatedElements do: [ :each | each removeSelfFromModel: aModel ]

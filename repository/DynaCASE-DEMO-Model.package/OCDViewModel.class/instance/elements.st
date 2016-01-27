@@ -5,4 +5,5 @@ elements
 	elements addAll: aggregateTransactionKinds.
 	elements addAll: elementaryActorRoles.
 	elements addAll: compositeActorRoles.
+	elements addAll: informationLinks.
 	^ elements 

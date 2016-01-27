@@ -13,5 +13,5 @@
 	"name" : "ProcessLink",
 	"pools" : [
 		 ],
-	"super" : "DCEdge",
+	"super" : "DEMOLink",
 	"type" : "normal" }

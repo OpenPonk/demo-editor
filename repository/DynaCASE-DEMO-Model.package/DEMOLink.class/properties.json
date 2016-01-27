@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JanTuron 1/17/2016 16:24",
+	"commentStamp" : "JanTuron 1/27/2016 15:10",
 	"instvars" : [
 		 ],
-	"name" : "InformationLink",
+	"name" : "DEMOLink",
 	"pools" : [
 		 ],
-	"super" : "DEMOLink",
+	"super" : "DCEdge",
 	"type" : "normal" }
