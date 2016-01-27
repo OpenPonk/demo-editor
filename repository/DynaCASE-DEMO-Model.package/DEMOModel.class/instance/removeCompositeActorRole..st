@@ -1,0 +1,3 @@
+adding
+removeCompositeActorRole: aCompositeActorRole
+	self removeElement: aCompositeActorRole from: compositeActorRoles 

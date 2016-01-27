@@ -1,0 +1,3 @@
+adding
+removeElementaryActorRole: aElementaryActorRole
+	self removeElement: aElementaryActorRole from: elementaryActorRoles
