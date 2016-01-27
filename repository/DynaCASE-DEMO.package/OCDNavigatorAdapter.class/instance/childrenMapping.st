@@ -5,5 +5,6 @@ childrenMapping
 		TransactionKind -> #().
 		ElementaryActorRole -> #(). 
 		CompositeActorRole -> #().
-		AggregateTransactionKind -> #()
+		AggregateTransactionKind -> #().
+		InformationLink -> #()
 	}

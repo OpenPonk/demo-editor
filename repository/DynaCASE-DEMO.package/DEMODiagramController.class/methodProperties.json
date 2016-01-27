@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createControllersFromModel" : "JanTuron 1/21/2016 22:09:38",
-		"figureAdded:" : "JanTuron 1/26/2016 23:51",
-		"layoutElements" : "JanTuron 1/21/2016 22:09:38",
-		"rebuild" : "JanTuron 1/21/2016 22:09:38",
-		"removeFromModel:" : "JanTuron 1/27/2016 00:03" } }
+		"createControllersFromModel" : "JanTuron 1/27/2016 01:11:58",
+		"figureAdded:" : "JanTuron 1/27/2016 01:11:58",
+		"layoutElements" : "JanTuron 1/27/2016 01:11:58",
+		"rebuild" : "JanTuron 1/27/2016 01:11:58",
+		"removeControllerOf:" : "JanTuron 1/27/2016 15:02",
+		"removeFromModel:" : "JanTuron 1/27/2016 01:11:58" } }

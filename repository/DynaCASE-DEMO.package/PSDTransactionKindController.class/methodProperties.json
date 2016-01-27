@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFigureInView:" : "JanTuron 1/21/2016 22:09:38",
-		"createProcStepsFigures:" : "JanTuron 1/21/2016 22:09:38",
-		"figureMoved:" : "JanTuron 1/21/2016 22:09:38",
-		"initialize" : "JanTuron 1/21/2016 22:09:38",
-		"orderIndex" : "JanTuron 1/21/2016 22:09:38",
-		"orderIndex:" : "JanTuron 1/21/2016 22:09:38",
-		"processSteps" : "JanTuron 1/21/2016 22:09:38",
-		"refreshFigure" : "JanTuron 1/21/2016 22:09:38",
-		"showAllProcessSteps" : "JanTuron 1/21/2016 22:09:38",
-		"showOnlyConnectedProcessSteps" : "JanTuron 1/21/2016 22:09:38" } }
+		"createFigureInView:" : "JanTuron 1/27/2016 01:11:58",
+		"createProcStepsFigures:" : "JanTuron 1/27/2016 01:11:58",
+		"figureMoved:" : "JanTuron 1/27/2016 01:11:58",
+		"initialize" : "JanTuron 1/27/2016 01:11:58",
+		"orderIndex" : "JanTuron 1/27/2016 01:11:58",
+		"orderIndex:" : "JanTuron 1/27/2016 01:11:58",
+		"processSteps" : "JanTuron 1/27/2016 01:11:58",
+		"refreshFigure" : "JanTuron 1/27/2016 01:11:58",
+		"removeFigure" : "JanTuron 1/27/2016 22:33",
+		"showAllProcessSteps" : "JanTuron 1/27/2016 01:11:58",
+		"showOnlyConnectedProcessSteps" : "JanTuron 1/27/2016 01:11:58" } }

@@ -5,5 +5,6 @@ displayMapping
 		TransactionKind -> 'Transaction kind'.
 		ElementaryActorRole -> 'Elem actor role'. 
 		CompositeActorRole -> 'Comp actor role'.
-		AggregateTransactionKind -> 'Aggreg tran kind'
+		AggregateTransactionKind -> 'Aggreg tran kind'.
+		InformationLink -> 'Information link'
 	 }
