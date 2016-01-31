@@ -1,16 +1,17 @@
 figures
 refreshFigure
-	
 	| boxRectangle |
-	
-	RTVerticalLineLayout new verticalGap: 30; on: subElements.
+	RTVerticalLineLayout new
+		verticalGap: 30;
+		on: subElements.
 	boxRectangle := self computeBoxSize.
-	figure trachelShape width: boxRectangle x; height: boxRectangle y.
+	figure trachelShape
+		width: boxRectangle x;
+		height: boxRectangle y.
 	subElConstraint move.
-	nameLabel trachelShape text: (model name).
+	nameLabel trachelShape text: model name.
 	nameLabelConstraint move.
-	
+	(self figure attributeAt: #RTLabelledLabel) text: self printableID.
 	figure trachelShape pushBack.
 	diagramController scopeOfInterest pushBack.
-	
 	super refreshFigure

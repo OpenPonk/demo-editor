@@ -1,4 +1,5 @@
 as yet unclassified
 refreshFigure
-	(figure attributeAt: #RTLabelledLabel) text: (model name).
+	(self figure trachelShape shapes at: 3) text: self printableID.
+	(figure attributeAt: #RTLabelledLabel) text: model name.
 	super refreshFigure
