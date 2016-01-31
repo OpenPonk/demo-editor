@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedDiagramController" ],
+	"name" : "DEMOWorkbench",
+	"pools" : [
+		 ],
+	"super" : "DCWorkbench",
+	"type" : "normal" }

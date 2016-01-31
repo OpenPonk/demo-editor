@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DEMONavigator",
+	"pools" : [
+		 ],
+	"super" : "DCNavigator",
+	"type" : "normal" }
