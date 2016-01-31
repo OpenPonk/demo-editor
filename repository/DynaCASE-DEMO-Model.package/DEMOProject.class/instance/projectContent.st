@@ -1,0 +1,3 @@
+accessing
+projectContent
+	^ diagrams value

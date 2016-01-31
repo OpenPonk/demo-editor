@@ -1,5 +1,6 @@
 adding
 addDiagram: aDiagram
 	aDiagram projectModel: model.
-	super addDiagram: aDiagram.
-	self sortProjectTree
+	(diagrams anySatisfy: [ :each | each dcID = aDiagram dcID ])
+		ifFalse: [ super addDiagram: aDiagram.
+			self sortProjectTree ]
