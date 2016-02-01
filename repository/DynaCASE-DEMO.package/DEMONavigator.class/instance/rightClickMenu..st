@@ -1,9 +1,10 @@
 as yet unclassified
 rightClickMenu: menu
-	| el menuBuilder |
+	| el menuBuilder diagramModel |
 	tree hasSelectedItem
 		ifFalse: [ ^ self ].
 	menuBuilder := DCMenuBuilder new menu: menu.
+	diagramModel := tree selectedItem parentNode content.
 	el := tree selectedItem content.
 	(el isKindOf: DCDiagram)
 		ifTrue:
@@ -14,4 +15,4 @@ rightClickMenu: menu
 		ifTrue: [ menuBuilder addItem: 'Insert' action: [ self addElementCommand: el ].
 			menuBuilder addItem: 'Rename' action: [ self renameCommand: el ].
 			menuBuilder addItem: 'Inspect' action: [ self inspectCommand: el ].
-			menuBuilder addItem: 'Delete' action: [ self deleteElementCommand: el ] ]
+			menuBuilder addItem: 'Delete' action: [ self deleteElementCommand: el diagram: diagramModel ] ]
