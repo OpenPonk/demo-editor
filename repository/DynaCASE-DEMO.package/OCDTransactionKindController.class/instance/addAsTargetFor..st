@@ -3,7 +3,6 @@ addAsTargetFor: aController
 	self assert: (self canBeTargetFor: aController).
 	aController target: self.
 	aController diagramController: diagramController.
-	
 	(aController isMemberOf: OCDExecutorLinkController)
 		ifTrue: [ self model executorRole: aController source model ].
 	(aController isMemberOf: OCDInitiatorLinkController)
@@ -13,6 +12,6 @@ addAsTargetFor: aController
 			[ | newModel |
 			newModel := aController createModel.
 			aController model: newModel.
-			diagramController model add: newModel.
-			diagramController controllers add: aController.
-			aController attach ]
+			diagramController model add: newModel ].
+	diagramController controllers add: aController.
+	aController attach
