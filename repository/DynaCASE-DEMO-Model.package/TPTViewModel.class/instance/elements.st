@@ -2,5 +2,5 @@ as yet unclassified
 elements
 	elements := OrderedCollection new.
 	elements addAll: transactionKinds.
-	elements addAll: processLinks.
-	^ elements
+	elements addAll: productKinds.
+	^ elements 
