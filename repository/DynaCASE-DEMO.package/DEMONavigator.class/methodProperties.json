@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"addElementCommand:" : "JanTuron 1/31/2016 22:57",
-		"deleteElementCommand:diagram:" : "JanTuron 2/1/2016 23:47",
+		"deleteDiagramCommand:" : "JanTuron 2/2/2016 14:10",
+		"deleteElementCommand:fromDiagram:" : "JanTuron 2/2/2016 12:58",
+		"deleteElementFromModelCommand:" : "JanTuron 2/2/2016 16:03",
 		"doubleClick" : "JanTuron 1/31/2016 22:51",
 		"initializeTree" : "JanTuron 1/28/2016 13:24",
-		"rightClickMenu:" : "JanTuron 2/1/2016 23:48" } }
+		"rightClickMenu:" : "JanTuron 2/2/2016 13:11" } }
