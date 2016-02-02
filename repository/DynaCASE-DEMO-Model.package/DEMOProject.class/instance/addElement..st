@@ -1,6 +1,6 @@
 adding
-addElement: anElement
-	((anElement isMemberOf: ProductKind)
-		or: (diagrams anySatisfy: [ :each | each dcID = anElement dcID ]))
-		ifFalse: [ diagrams add: anElement.
+addElement: anElementModel
+	((anElementModel isMemberOf: ProductKind)
+		or: (diagrams anySatisfy: [ :each | each dcID = anElementModel dcID ]))
+		ifFalse: [ diagrams add: anElementModel.
 			self sortProjectTree ]
