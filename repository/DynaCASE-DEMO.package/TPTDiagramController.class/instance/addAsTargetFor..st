@@ -9,9 +9,11 @@ addAsTargetFor: aController
 	self controllers add: aController.
 	aController attach.
 	(aController isKindOf: TPTTransactionKindController)
-		ifTrue: [ trans add: aController figure ].
-	(aController isKindOf: TPTProductKindController)
 		ifTrue:
-			[ prods add: aController figure ].
-	self repaint.
-	self view signalUpdate
+			[ | prodKindCtrl |
+			prodKindCtrl := TPTProductKindController new.
+			prodKindCtrl model: aController model correspondingProductKind.
+			self addAsTargetFor: prodKindCtrl.
+			trans add: aController.
+			prods add: prodKindCtrl ]
+		ifFalse: [ self layoutElements ]

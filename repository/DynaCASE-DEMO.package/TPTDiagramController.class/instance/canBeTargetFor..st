@@ -1,4 +1,3 @@
 testing
 canBeTargetFor: aController
-	^ (aController isKindOf: TPTTransactionKindController)
-		or: (aController isKindOf: TPTProductKindController)
+	^ (aController isKindOf: TPTTransactionKindController) or: (aController isKindOf: TPTProductKindController)
