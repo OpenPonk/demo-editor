@@ -1,4 +1,4 @@
-as yet unclassified
+hooks
 createModel
 	| newModel productModel |
 	newModel := 	super createModel.

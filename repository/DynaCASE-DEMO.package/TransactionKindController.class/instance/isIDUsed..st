@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isIDUsed: anID
 	^ self diagramController model isTransactionKindIDUsed: anID

@@ -10,7 +10,7 @@ rebuild
 	prods := self controllers
 		select: [ :each | each isKindOf: TPTProductKindController ]
 		thenCollect: #figure.
-
-	self updateView.
+	
 	self repaint.
+	self updateView.
 	self view canvas camera focusOnCenter	

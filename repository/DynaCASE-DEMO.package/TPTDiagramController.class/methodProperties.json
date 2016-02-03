@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAsTargetFor:" : "JanTuron 1/27/2016 01:11:58",
+		"addAsTargetFor:" : "JanTuron 2/2/2016 21:20",
 		"addModelElement:" : "JanTuron 1/27/2016 01:11:58",
-		"canBeTargetFor:" : "JanTuron 1/27/2016 01:11:58",
+		"canBeTargetFor:" : "JanTuron 2/2/2016 21:05",
 		"createControllersFromModel" : "JanTuron 1/27/2016 01:11:58",
 		"figureAdded:" : "JanTuron 1/27/2016 01:11:58",
 		"initialize" : "JanTuron 1/27/2016 01:11:58",
@@ -12,8 +12,8 @@
 		"layoutElements" : "JanTuron 1/27/2016 01:11:58",
 		"modelClass" : "JanTuron 1/27/2016 01:11:58",
 		"modelToControllerMapping" : "JanTuron 1/27/2016 01:11:58",
-		"newTransactionKind" : "JanTuron 1/27/2016 01:11:58",
-		"rebuild" : "JanTuron 1/27/2016 01:11:58",
+		"newTransactionKind" : "JanTuron 2/2/2016 21:02",
+		"rebuild" : "JanTuron 2/2/2016 23:54",
 		"refreshLabel" : "JanTuron 1/27/2016 01:11:58",
 		"registerModelEvents:" : "JanTuron 1/31/2016 23:12",
 		"repaint" : "JanTuron 1/27/2016 01:11:58",

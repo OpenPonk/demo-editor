@@ -13,7 +13,7 @@ rightClickMenu: menu
 			menuBuilder addItem: 'Delete' action: [ self deleteDiagramCommand: el ] ].
 	(el isKindOf: DEMOBasicElement)
 		ifTrue:
-			[ menuBuilder addItem: 'Insert' action: [ self addElementCommand: el ].
+			[ menuBuilder addItem: 'Insert into diagram' action: [ self addElementCommand: el ].
 			menuBuilder addItem: 'Rename' action: [ self renameCommand: el ].
 			menuBuilder addItem: 'Inspect' action: [ self inspectCommand: el ].
 			parentNode
