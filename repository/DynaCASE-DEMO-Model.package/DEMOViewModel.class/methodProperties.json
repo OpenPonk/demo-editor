@@ -4,8 +4,9 @@
 	"instance" : {
 		"add:" : "JanTuron 1/27/2016 01:11:47",
 		"getPositionFor:" : "JanTuron 1/27/2016 01:11:47",
+		"getSizeFor:" : "JanTuron 2/3/2016 22:33",
 		"informationLinks" : "JanTuron 1/27/2016 01:11:47",
-		"initialize" : "JanTuron 1/27/2016 01:11:47",
+		"initialize" : "JanTuron 2/3/2016 22:31",
 		"isAggregateTransactionKindIDUsed:" : "JanTuron 1/27/2016 01:11:47",
 		"isCompositeActorRoleIDUsed:" : "JanTuron 1/27/2016 01:11:47",
 		"isElementaryActorRoleIDUsed:" : "JanTuron 1/27/2016 01:11:47",
@@ -18,4 +19,5 @@
 		"nextTransactionKindID" : "JanTuron 1/27/2016 01:11:47",
 		"projectModel:" : "JanTuron 1/27/2016 01:11:47",
 		"remove:" : "JanTuron 1/27/2016 01:11:47",
-		"savePosition:for:" : "JanTuron 1/27/2016 01:11:47" } }
+		"savePosition:for:" : "JanTuron 1/27/2016 01:11:47",
+		"saveSize:for:" : "JanTuron 2/3/2016 22:33" } }

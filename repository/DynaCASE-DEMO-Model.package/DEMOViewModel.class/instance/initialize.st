@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	elementPositions := Dictionary new
+	elementPositions := Dictionary new.
+	elementSizes := Dictionary new
