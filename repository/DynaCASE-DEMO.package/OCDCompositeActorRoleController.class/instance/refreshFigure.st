@@ -4,10 +4,10 @@ refreshFigure
 	RTVerticalLineLayout new
 		verticalGap: 30;
 		on: subElements.
-	boxRectangle := self computeBoxSize.
+	"boxRectangle := self computeBoxSize.
 	figure trachelShape
 		width: boxRectangle x;
-		height: boxRectangle y.
+		height: boxRectangle y."
 	subElConstraint move.
-	diagramController scopeOfInterest pushBack.
+	diagramController scopeOfInterest ifNotNil: [ diagramController scopeOfInterest pushBack ].
 	super refreshFigure

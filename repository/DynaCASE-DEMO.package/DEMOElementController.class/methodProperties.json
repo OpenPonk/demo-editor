@@ -3,9 +3,11 @@
 		 },
 	"instance" : {
 		"addMovedCallback" : "JanTuron 1/27/2016 01:11:58",
+		"addResizedCallback" : "JanTuron 2/3/2016 23:25",
 		"buildEditorForm:" : "JanTuron 1/27/2016 01:11:58",
 		"createModel" : "JanTuron 1/27/2016 01:11:58",
 		"figureMoved:" : "JanTuron 1/27/2016 01:11:58",
+		"figureResized:" : "JanTuron 2/3/2016 23:36",
 		"idChanged:" : "JanTuron 1/27/2016 01:11:58",
 		"isIDUsed:" : "JanTuron 1/27/2016 01:11:58",
 		"printableID" : "JanTuron 1/27/2016 01:11:58" } }

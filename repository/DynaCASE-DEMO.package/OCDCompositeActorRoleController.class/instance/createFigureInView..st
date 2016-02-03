@@ -1,12 +1,13 @@
 hooks
 createFigureInView: aView
 	| container boxRectangle |
-	
 	subElements := RTGroup new.
-	subElements addAll: (model elements collect: [ :each | 
-		(diagramController controllerForModel: each) figure ]).
-	RTVerticalLineLayout new verticalGap: 30; on: subElements.
-	
+	subElements
+		addAll:
+			(model elements collect: [ :each | (diagramController controllerForModel: each) figure ]).
+	RTVerticalLineLayout new
+		verticalGap: 30;
+		on: subElements.
 	boxRectangle := self computeBoxSize.
 	container := (RTBox new
 		width: boxRectangle x;
@@ -30,13 +31,13 @@ createFigureInView: aView
 		below;
 		padding: 3;
 		stick.
-		
 	subElements := RTGroup new.
-	subElements addAll: (model elements collect: [ :each | 
-		(diagramController controllerForModel: each) figure ]).
+	subElements
+		addAll:
+			(model elements collect: [ :each | (diagramController controllerForModel: each) figure ]).
 	RTVerticalLineLayout new on: subElements.
 	subElConstraint := RTConstraint on: subElements background: container.
-	subElConstraint 
+	subElConstraint
 		bottom;
 		stick;
 		padding: 25.
