@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"gridSize" : "JanTuron 2/3/2016 13:35",
+		"universalElementSize" : "JanTuron 2/3/2016 13:35" },
 	"instance" : {
 		"addAsTargetFor:" : "JanTuron 1/27/2016 01:11:58",
 		"addModelElement:" : "JanTuron 1/27/2016 01:11:58",

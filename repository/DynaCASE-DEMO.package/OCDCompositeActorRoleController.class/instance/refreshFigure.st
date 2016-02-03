@@ -9,9 +9,5 @@ refreshFigure
 		width: boxRectangle x;
 		height: boxRectangle y.
 	subElConstraint move.
-	nameLabel trachelShape text: model name.
-	nameLabelConstraint move.
-	(self figure attributeAt: #RTLabelledLabel) text: self printableID.
-	figure trachelShape pushBack.
 	diagramController scopeOfInterest pushBack.
 	super refreshFigure
