@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSelfToModel:" : "JanTuron 1/27/2016 01:11:47",
-		"getNewID:" : "JanTuron 1/27/2016 01:11:47",
-		"initialize" : "JanTuron 1/27/2016 01:11:47",
-		"isInSoI" : "JanTuron 1/27/2016 01:11:47",
-		"isInSoI:" : "JanTuron 1/27/2016 01:11:47",
-		"removeSelfFromModel:" : "JanTuron 2/15/2016 02:13" } }
+		"addSelfToModel:" : "JanTuron 2/21/2016 20:59:13",
+		"getNewID:" : "JanTuron 2/21/2016 20:59:13",
+		"initialize" : "JanTuron 2/21/2016 20:59:13",
+		"isInSoI" : "JanTuron 2/21/2016 20:59:13",
+		"isInSoI:" : "JanTuron 2/21/2016 20:59:13",
+		"removeSelfFromModel:" : "JanTuron 2/21/2016 20:59:13" } }
