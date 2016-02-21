@@ -2,12 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAsTargetFor:" : "JanTuron 1/27/2016 01:11:58",
+		"addAsTargetFor:" : "JanTuron 2/17/2016 00:35",
 		"canBeSourceFor:" : "JanTuron 1/27/2016 01:11:58",
 		"canBeTargetFor:" : "JanTuron 1/27/2016 01:11:58",
-		"computeBoxSize" : "JanTuron 1/27/2016 01:11:58",
-		"createFigureInView:" : "JanTuron 2/3/2016 23:35",
+		"computeBoxSize" : "JanTuron 2/16/2016 22:57",
+		"createFigureInView:" : "JanTuron 2/17/2016 00:26",
+		"initialize" : "JanTuron 2/16/2016 23:09",
 		"isIDUsed:" : "JanTuron 1/27/2016 01:11:58",
 		"modelClass" : "JanTuron 1/27/2016 01:11:58",
 		"printableID" : "JanTuron 1/27/2016 01:11:58",
-		"refreshFigure" : "JanTuron 2/3/2016 23:56" } }
+		"refreshFigure" : "JanTuron 2/17/2016 00:27",
+		"registerModelEvents:" : "JanTuron 2/17/2016 00:44",
+		"subElements" : "JanTuron 2/17/2016 00:19" } }

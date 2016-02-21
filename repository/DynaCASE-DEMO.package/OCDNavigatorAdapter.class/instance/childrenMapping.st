@@ -4,7 +4,7 @@ childrenMapping
 		OCDViewModel -> #elements.
 		TransactionKind -> #().
 		ElementaryActorRole -> #(). 
-		CompositeActorRole -> #().
+		CompositeActorRole -> #elements.
 		AggregateTransactionKind -> #().
 		InformationLink -> #()
 	}
