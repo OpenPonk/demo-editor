@@ -1,3 +1,3 @@
 ids
 isElementaryActorRoleIDUsed: anID
-	^ self isID: anID usedIn: elementaryActorRoles 
+	^ self isID: anID usedIn: self getAllElementaryActorRoles 
