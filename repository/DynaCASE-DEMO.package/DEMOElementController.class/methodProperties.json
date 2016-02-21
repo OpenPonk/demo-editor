@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMovedCallback" : "JanTuron 1/27/2016 01:11:58",
-		"addResizedCallback" : "JanTuron 2/3/2016 23:25",
-		"buildEditorForm:" : "JanTuron 1/27/2016 01:11:58",
-		"createModel" : "JanTuron 1/27/2016 01:11:58",
-		"figureMoved:" : "JanTuron 1/27/2016 01:11:58",
-		"figureResized:" : "JanTuron 2/3/2016 23:36",
-		"idChanged:" : "JanTuron 1/27/2016 01:11:58",
-		"isIDUsed:" : "JanTuron 1/27/2016 01:11:58",
-		"printableID" : "JanTuron 1/27/2016 01:11:58" } }
+		"addMovedCallback" : "JanTuron 2/21/2016 20:41:18",
+		"addResizedCallback" : "JanTuron 2/21/2016 20:41:18",
+		"buildEditorForm:" : "JanTuron 2/21/2016 20:41:18",
+		"createModel" : "JanTuron 2/21/2016 20:41:18",
+		"figureMoved:" : "JanTuron 2/21/2016 20:41:18",
+		"figureResized:" : "JanTuron 2/21/2016 20:41:18",
+		"idChanged:" : "JanTuron 2/21/2016 20:41:18",
+		"isIDUsed:" : "JanTuron 2/21/2016 20:41:18",
+		"printableID" : "JanTuron 2/21/2016 20:41:18" } }
