@@ -23,7 +23,7 @@ refreshSwimLineLabels
 						swimLineLabels removeLast.
 						prevController model executorRole = initiator
 							ifTrue:
-								[ labelText := 'A' , initiator id asString , ': initiator '
+								[ labelText := 'A' , initiator id asString , ': executor '
 									, prevController printableID , Character cr asString , 'and initiator '
 									, transController printableID.
 								labelElement := (RTLabel new text: labelText) element ]

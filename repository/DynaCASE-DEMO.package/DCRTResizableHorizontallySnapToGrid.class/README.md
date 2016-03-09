@@ -1,0 +1,1 @@
+Rezising is limited to horizontal axis.

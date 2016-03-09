@@ -1,4 +1,3 @@
 accessing
 figureAdded: aFigure
-	figureAdded value: aFigure.
-	
+	figureAdded value: aFigure

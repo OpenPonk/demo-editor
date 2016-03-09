@@ -7,8 +7,8 @@ createSwimLines: aView
 		color: Color white;
 		borderColor: Color lightGray.
 	swimLines := RTCompositeShape new.
-	swimLines add: swimLineShape.
-	swimLines add: swimLineShape translateBy: 0 @ PSDDiagramController swimlineHeight.
+	swimLines add: swimLineShape translateBy: 0 @ (0 - PSDDiagramController swimlineHeight / 2).
+	swimLines add: swimLineShape translateBy: 0 @ PSDDiagramController swimlineHeight / 2.
 	swimLines := swimLines element.
 	swimLinesFrontLayer := (RTBox new
 		height: PSDDiagramController swimlineHeight * 2;
@@ -22,11 +22,26 @@ createSwimLines: aView
 					swimLines
 						extent: swimLinesFrontLayer extent x @ PSDDiagramController swimlineHeight.
 					swimLines signalUpdate ]).
-	swimLinesFrontLayer @ DCRTResizableSnapToGrid @ RTDraggable.
+				
+	swimLinesFrontLayer @ (DCRTResizableHorizontallySnapToGrid new
+				cellSize: 20 @ (PSDDiagramController swimlineHeight)).
+	swimLinesFrontLayer @ (DCRTDraggableSnapToIrregularGrid new
+				cellWidth: 20;
+				cellHeight: PSDDiagramController swimlineHeight;
+				verticalShift: 0;
+				horizontalShift: 0;
+				translationCallback: [ :aShift | self swimLinesMoved ] ).
+	
 	(RTConstraint on: swimLines background: swimLinesFrontLayer)
 		inner;
 		topLeft;
 		stick.
 	aView add: swimLines.
 	aView add: swimLinesFrontLayer.
+	
+	swimLinesFrontLayer 
+		when: TRMouseLeftClick
+		do: [ :event | 
+			self diagramController selectFigure: self figure ].
+	
 	^ swimLines 

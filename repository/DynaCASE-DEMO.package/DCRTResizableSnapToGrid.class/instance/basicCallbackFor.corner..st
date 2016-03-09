@@ -8,7 +8,7 @@ basicCallbackFor: aHandle corner: aCorner
 	"Resizing with RTElement>>extent: changes the element in all directions, so we have to move it back in the opposite direction of the movement. (So when resizing by topRight corner, then bottomLeft should be fixed in place."
 	distance := self negate: distance forCorner: aCorner.
 
-	((distance x abs > cellSize x) or: (distance y abs > cellSize y)) ifFalse: [ ^ nil ].
+	((distance x abs >= cellSize x) or: (distance y abs >= cellSize y)) ifFalse: [ ^ nil ].
 	distance := (distance x roundTo: cellSize x) @ (distance y roundTo: cellSize y).
 	
 	newExtent := element extent + distance max: self minSize.

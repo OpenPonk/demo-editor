@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"basicCallbackFor:corner:" : "JanTuron 2/28/2016 15:51:14",
-		"cellSize" : "JanTuron 2/28/2016 15:51:14",
-		"cellSize:" : "JanTuron 2/28/2016 15:51:14",
-		"connectWithView:" : "JanTuron 2/28/2016 15:51:14",
-		"createHandle" : "JanTuron 2/28/2016 15:51:14",
-		"initialize" : "JanTuron 2/28/2016 15:51:14",
-		"minSize" : "JanTuron 2/28/2016 15:51:14",
-		"minSize:" : "JanTuron 2/28/2016 15:51:14" } }
+		"basicCallbackFor:corner:" : "JanTuron 3/9/2016 17:33",
+		"cellSize" : "JanTuron 3/9/2016 01:10:46",
+		"cellSize:" : "JanTuron 3/9/2016 01:10:46",
+		"connectWithView:" : "JanTuron 3/9/2016 01:10:46",
+		"createHandle" : "JanTuron 3/9/2016 01:10:46",
+		"initialize" : "JanTuron 3/9/2016 01:10:46",
+		"minSize" : "JanTuron 3/9/2016 01:10:46",
+		"minSize:" : "JanTuron 3/9/2016 01:10:46" } }
