@@ -13,7 +13,9 @@
 		"upperProcStepsConstraint",
 		"lowerProcStepsConstraint",
 		"label",
-		"labelConstraint" ],
+		"labelConstraint",
+		"swimLines",
+		"swimLinesFrontLayer" ],
 	"name" : "PSDTransactionKindController",
 	"pools" : [
 		 ],
