@@ -4,7 +4,7 @@ refreshFigure
 	
 	lowerProcSteps size > 0
 		ifTrue:
-			[ transHeight := PSDDiagramController transactionHeight.
+			[ transHeight := DEMOConfig PSDTransactionHeight.
 			encRect := lowerProcSteps encompassingRectangle.
 			transWidth := encRect width + transHeight.
 			(self figure trachelShape shapes at: 1)
@@ -20,4 +20,6 @@ refreshFigure
 	label signalUpdate.
 	initiatorLabel trachelShape text:  'A' , model initiatorRole id asString , ': initiator ' , self printableID.
 	executorLabel trachelShape text: 'A' , model executorRole id asString , ': executor ' , self printableID.
+	swimLinesFrontLayer signalUpdate.
+	swimLines signalUpdate.
 	super refreshFigure

@@ -1,10 +1,6 @@
 {
 	"class" : {
-		"procStepSize" : "JanTuron 3/9/2016 22:46:12",
-		"swimlineHeight" : "JanTuron 3/9/2016 22:46:12",
-		"swimlineLabelPadding" : "JanTuron 3/9/2016 22:46:12",
-		"swimlineWidth" : "JanTuron 3/9/2016 22:46:12",
-		"transactionHeight" : "JanTuron 3/9/2016 22:46:12" },
+		 },
 	"instance" : {
 		"addAsTargetFor:" : "JanTuron 3/10/2016 13:05",
 		"addModelElement:" : "JanTuron 3/9/2016 22:46:12",
@@ -16,7 +12,7 @@
 		"findProcessStep:forTransaction:isUpper:isAct:" : "JanTuron 3/9/2016 22:46:12",
 		"initialize" : "JanTuron 3/9/2016 22:46:12",
 		"initializePalette:" : "JanTuron 3/9/2016 22:46:12",
-		"layoutElements" : "JanTuron 3/9/2016 22:46:12",
+		"layoutElements" : "JanTuron 3/10/2016 16:51",
 		"modelClass" : "JanTuron 3/9/2016 22:46:12",
 		"modelToControllerMapping" : "JanTuron 3/9/2016 22:46:12",
 		"rearrangeTransactionsAccordingTo:" : "JanTuron 3/9/2016 22:46:12",

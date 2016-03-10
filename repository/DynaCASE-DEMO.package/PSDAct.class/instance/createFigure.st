@@ -4,7 +4,7 @@ createFigure
 	
 	box := RTBox new
 		borderColor: Color black;
-		size: PSDDiagramController procStepSize.
+		size: DEMOConfig PSDProcStepSize.
 	isProductionAct
 		ifTrue: [ box color: Color veryLightGray ]
 		ifFalse: [ 

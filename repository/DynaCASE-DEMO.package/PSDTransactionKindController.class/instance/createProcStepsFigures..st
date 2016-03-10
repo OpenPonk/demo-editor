@@ -48,7 +48,7 @@ createProcStepsFigures: aShowAll
 				stick;
 				top;
 				center;
-				verticalPadding: -0.5 - (PSDDiagramController procStepSize / 2) ].
+				verticalPadding: -0.5 - (DEMOConfig PSDProcStepSize / 2) ].
 	lowerProcStepsConstraint
 		ifNil:
 			[ lowerProcStepsConstraint := RTConstraint on: lowerProcSteps background: (self figure trachelShape shapes at: 1).
@@ -56,5 +56,5 @@ createProcStepsFigures: aShowAll
 				stick;
 				bottom;
 				center;
-				verticalPadding: 0.5 - (PSDDiagramController procStepSize / 2) ].
+				verticalPadding: 0.5 - (DEMOConfig PSDProcStepSize / 2) ].
 	self refreshFigure

@@ -6,7 +6,7 @@ createFigure
 		borderColor: Color black;
 		borderWidth: 0.5;
 		color: Color white;
-		size: PSDDiagramController procStepSize) element.
+		size: DEMOConfig PSDProcStepSize) element.
 	self addLabelTo: ellipse.
 	
 	^ ellipse

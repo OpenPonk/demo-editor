@@ -3,11 +3,11 @@ createTransactionFigure: aView
 	| borderBox centerBox idLabel transaction centerBoxSize |
 	borderBox := RTRoundedBox new
 		extent:
-			(PSDDiagramController transactionHeight + 10) @ PSDDiagramController transactionHeight;
-		borderRadius: PSDDiagramController transactionHeight / 2;
+			(DEMOConfig PSDTransactionHeight + 10) @ DEMOConfig PSDTransactionHeight;
+		borderRadius: DEMOConfig PSDTransactionHeight / 2;
 		borderColor: Color black;
 		color: Color white.
-	centerBoxSize := PSDDiagramController transactionHeight / 40 * 28.2.
+	centerBoxSize := DEMOConfig PSDTransactionHeight / 40 * 28.2.
 	centerBox := RTBox new
 		height: centerBoxSize;
 		width: centerBoxSize;
@@ -26,9 +26,9 @@ createTransactionFigure: aView
 	transaction
 		@
 			(DCRTDraggableSnapToIrregularGrid new
-				cellWidth: PSDDiagramController transactionHeight / 9;
-				cellHeight: PSDDiagramController swimlineHeight;
-				verticalShift: PSDDiagramController transactionHeight / 2;
+				cellWidth: DEMOConfig PSDTransactionHeight / 9;
+				cellHeight: DEMOConfig PSDSwimlineHeight;
+				verticalShift: DEMOConfig PSDTransactionHeight / 2;
 				translationCallback: [ :aShift | self figureMoved: aShift ] ).
 				
 	label := (RTLabel new text: model name) element.

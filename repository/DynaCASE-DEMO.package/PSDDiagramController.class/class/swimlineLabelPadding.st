@@ -1,3 +1,0 @@
-accessing
-swimlineLabelPadding
-	^ 12

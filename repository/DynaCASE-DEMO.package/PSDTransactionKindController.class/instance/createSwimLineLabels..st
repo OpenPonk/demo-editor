@@ -1,8 +1,8 @@
 as yet unclassified
 createSwimLineLabels: aView
 	| labelText slHeight hPadding vPadding initiatorId executorId |
-	slHeight := PSDDiagramController swimlineHeight.
-	hPadding := PSDDiagramController swimlineLabelPadding.
+	slHeight := DEMOConfig PSDSwimlineHeight.
+	hPadding := DEMOConfig PSDSwimlineLabelPadding.
 	vPadding := (slHeight / 2) - 9.5.
 	initiatorId := self model initiatorRole id asString.
 	executorId := self model executorRole id asString.

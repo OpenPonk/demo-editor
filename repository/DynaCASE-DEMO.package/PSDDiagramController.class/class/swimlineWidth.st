@@ -1,3 +1,0 @@
-accessing
-swimlineWidth
-	^ 800
