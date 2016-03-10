@@ -1,7 +1,7 @@
 userinterface
 createLinksForTrans: aController
 	| tmpLink target source |
-	(model initiationLinksFor: aController model id)
+	(model initiationLinksFor: aController model dcID)
 		do:
 			[ :each | 
 			tmpLink := PSDInitiationLinkController new.
@@ -16,7 +16,7 @@ createLinksForTrans: aController
 			controllers add: tmpLink.
 			tmpLink attach ].
 		
-	(model waitingLinksFor: aController model id)
+	(model waitingLinksFor: aController model dcID)
 		do:
 			[ :each | 
 			tmpLink := PSDWaitingLinkController new.
