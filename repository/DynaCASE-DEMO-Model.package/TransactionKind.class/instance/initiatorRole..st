@@ -1,3 +1,4 @@
 accessing
 initiatorRole: anObject
-	initiator := anObject
+	initiator := anObject.
+	self changed

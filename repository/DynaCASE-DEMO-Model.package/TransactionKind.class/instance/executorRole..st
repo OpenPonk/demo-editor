@@ -1,3 +1,4 @@
 accessing
 executorRole: anExecutor
-	executor := anExecutor
+	executor := anExecutor.
+	self changed

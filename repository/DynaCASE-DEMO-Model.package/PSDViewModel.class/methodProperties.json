@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"elements" : "JanTuron 2/21/2016 20:59:13" } }
+		"elements" : "JanTuron 2/22/2016 22:40:18",
+		"getPositionFor:" : "JanTuron 3/10/2016 15:34",
+		"getSizeFor:" : "JanTuron 3/10/2016 16:28" } }
