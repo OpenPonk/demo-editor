@@ -1,4 +1,11 @@
 as yet unclassified
 removeSwimLines
-	self view remove: swimLines.
-	self view remove: swimLinesFrontLayer
+	swimLines view
+		ifNotNil: [ 
+			swimLines remove.
+			swimLines := nil ].
+	
+	swimLinesFrontLayer view
+		ifNotNil: [ 
+			swimLinesFrontLayer remove.
+			swimLinesFrontLayer := nil ].

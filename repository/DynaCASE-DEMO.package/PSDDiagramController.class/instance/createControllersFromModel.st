@@ -1,4 +1,4 @@
-as yet unclassified
+userinterface
 createControllersFromModel
 	transControllers := OrderedCollection new.
 	self model transactionKinds
