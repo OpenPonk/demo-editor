@@ -8,4 +8,5 @@ loadSizesAndPositions
 	self figure translateTo: (positions at: 1).
 	swimLinesFrontLayer translateTo: (positions at: 2).
 	diagramController model saveSize: sizes for: model dcID.
-	diagramController model savePosition: positions for: model dcID
+	diagramController model savePosition: positions for: model dcID.
+	labelConstraints do: [ :each | each move ]

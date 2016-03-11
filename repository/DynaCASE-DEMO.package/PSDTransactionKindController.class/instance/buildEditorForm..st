@@ -1,17 +1,17 @@
 as yet unclassified
 buildEditorForm: form
+	| dropList |
 	super buildEditorForm: form.
-	(form addDroplist: 'Initiator')
+	dropList := (form addDroplist: 'Initiator')
 		items: diagramController model projectModel elementaryActorRoles asArray;
-		displayBlock: [ :each | each id asString , ' - ' , each name asString ];
-		setSelectedItem: model initiatorRole;
-		whenSelectedItemChanged: [ :newValue | 
-			model initiatorRole: newValue.
-			"self refreshFigure" ].
-	(form addDroplist: 'Executor')
+		displayBlock: [ :each | each id asString , ' - ' , each name asString ].
+	model initiatorRole ifNotNil: [ dropList setSelectedItem: model initiatorRole ].
+	dropList whenSelectedItemChanged: [ :newValue | 
+		model initiatorRole: newValue ].
+	
+	dropList := (form addDroplist: 'Executor')
 		items: diagramController model projectModel elementaryActorRoles asArray;
-		displayBlock: [ :each | each id asString , ' - ' , each name asString ];
-		setSelectedItem: model executorRole;
-		whenSelectedItemChanged: [ :newValue | 
-			model executorRole: newValue.
-			"self refreshFigure" ].
+		displayBlock: [ :each | each id asString , ' - ' , each name asString ].
+	model executorRole ifNotNil: [ dropList setSelectedItem: model executorRole ].
+	dropList whenSelectedItemChanged: [ :newValue | 
+		model executorRole: newValue ].

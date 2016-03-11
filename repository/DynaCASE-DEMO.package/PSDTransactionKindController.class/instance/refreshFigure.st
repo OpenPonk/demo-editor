@@ -1,10 +1,8 @@
 accessing
 refreshFigure
-	| encRect transHeight transWidth |
-	
+	| encRect transHeight transWidth labelText |
 	lowerProcSteps size > 0
-		ifTrue:
-			[ transHeight := DEMOConfig PSDTransactionHeight.
+		ifTrue: [ transHeight := DEMOConfig PSDTransactionHeight.
 			encRect := lowerProcSteps encompassingRectangle.
 			transWidth := encRect width + transHeight.
 			(self figure trachelShape shapes at: 1)
@@ -18,8 +16,17 @@ refreshFigure
 	label trachelShape text: model name.
 	labelConstraint ifNotNil: [ labelConstraint move ].
 	label signalUpdate.
-	initiatorLabel trachelShape text:  'A' , model initiatorRole id asString , ': initiator ' , self printableID.
-	executorLabel trachelShape text: 'A' , model executorRole id asString , ': executor ' , self printableID.
+	model initiatorRole
+		ifNil: [ labelText := 'Initiator not defined' ]
+		ifNotNilDo:
+			[ :tmp | labelText := 'A' , model initiatorRole id asString , ': initiator ' , self printableID ].
+	initiatorLabel trachelShape text: labelText.
+	model executorRole
+		ifNil: [ labelText := 'Initiator not defined' ]
+		ifNotNilDo:
+			[ :tmp | labelText := 'A' , model executorRole id asString , ': executor ' , self printableID ].
+	executorLabel trachelShape text: labelText.
 	swimLinesFrontLayer signalUpdate.
 	swimLines signalUpdate.
+	labelConstraints do: [ :each | each move ].
 	super refreshFigure

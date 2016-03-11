@@ -17,7 +17,8 @@
 		"swimLines",
 		"swimLinesFrontLayer",
 		"initiatorLabel",
-		"executorLabel" ],
+		"executorLabel",
+		"labelConstraints" ],
 	"name" : "PSDTransactionKindController",
 	"pools" : [
 		 ],
