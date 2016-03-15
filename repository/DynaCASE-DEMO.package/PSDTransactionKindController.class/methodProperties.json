@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildEditorForm:" : "JanTuron 3/11/2016 17:52",
+		"buildEditorForm:" : "JanTuron 3/15/2016 22:20",
 		"createFigureInView:" : "JanTuron 3/9/2016 22:46:12",
 		"createProcStepsFigures:" : "JanTuron 3/10/2016 15:54",
 		"createSwimLineLabels:" : "JanTuron 3/11/2016 17:45",
@@ -11,6 +11,7 @@
 		"figureMoved:" : "JanTuron 3/10/2016 15:10",
 		"initialize" : "JanTuron 3/11/2016 16:46",
 		"loadSizesAndPositions" : "JanTuron 3/11/2016 16:48",
+		"lockWidth:" : "JanTuron 3/15/2016 22:26",
 		"orderIndex" : "JanTuron 3/9/2016 22:46:12",
 		"orderIndex:" : "JanTuron 3/9/2016 22:46:12",
 		"processSteps" : "JanTuron 3/9/2016 22:46:12",

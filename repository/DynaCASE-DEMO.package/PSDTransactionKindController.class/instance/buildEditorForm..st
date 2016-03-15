@@ -2,6 +2,12 @@ as yet unclassified
 buildEditorForm: form
 	| dropList |
 	super buildEditorForm: form.
+	
+	(form addCheckbox: 'Lock width')
+		state: (diagramController model isSizeLocked: model dcID);
+		whenActivatedDo: [ self lockWidth: true ];
+		whenDeactivatedDo: [ self lockWidth: false ].
+	
 	dropList := (form addDroplist: 'Initiator')
 		items: diagramController model projectModel elementaryActorRoles asArray;
 		displayBlock: [ :each | each id asString , ' - ' , each name asString ].

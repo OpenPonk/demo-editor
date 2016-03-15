@@ -1,9 +1,7 @@
 userinterface
 createControllersFromModel
 	transControllers := OrderedCollection new.
-	self model transactionKinds
-		select: [ :each | each initiatorRole isNotNil and: each executorRole isNotNil ]
-		thenDo:
+	self model transactionKinds do:
 			[ :each | 
 			| transController |
 			transController := self addModelElement: each.

@@ -6,7 +6,7 @@
 		"addModelElement:" : "JanTuron 3/9/2016 22:46:12",
 		"addProcessStepsTo:" : "JanTuron 3/9/2016 22:46:12",
 		"canBeTargetFor:" : "JanTuron 3/9/2016 22:56",
-		"createControllersFromModel" : "JanTuron 3/9/2016 22:46:12",
+		"createControllersFromModel" : "JanTuron 3/15/2016 22:29",
 		"createLinksForTrans:" : "JanTuron 3/10/2016 17:51",
 		"createSwimLines" : "JanTuron 3/9/2016 22:46:12",
 		"findProcessStep:forTransaction:isUpper:isAct:" : "JanTuron 3/10/2016 17:51",
