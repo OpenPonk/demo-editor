@@ -3,6 +3,7 @@ removeFigure
 	super removeFigure.
 	self removeSwimLines.
 	self removeLabels.
+	self removeTransactionFrontLayer.
 	processSteps do: [ :each | each removeFigure ].
 	label view
 		ifNotNil: [ 

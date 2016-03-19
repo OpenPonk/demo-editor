@@ -5,8 +5,12 @@ buildEditorForm: form
 	
 	(form addCheckbox: 'Lock width')
 		state: (diagramController model isSizeLocked: model dcID);
-		whenActivatedDo: [ self lockWidth: true ];
-		whenDeactivatedDo: [ self lockWidth: false ].
+		whenActivatedDo: [ self lockWidth: true.
+			self createTransactionFrontLayer: self figure inView: diagramController view ];
+		whenDeactivatedDo: [ self lockWidth: false.
+			self removeTransactionFrontLayer.
+			self layoutProcSteps.
+			self refreshFigure ].
 	
 	dropList := (form addDroplist: 'Initiator')
 		items: diagramController model projectModel elementaryActorRoles asArray;

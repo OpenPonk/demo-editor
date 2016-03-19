@@ -23,14 +23,13 @@ createTransactionFigure: aView
 		add: idLabel.
 	transaction := transaction element.
 	(transaction trachelShape shapes at: 2) rotateByDegrees: 45.
-	"transaction
+	transaction
 		@
 			(DCRTDraggableSnapToIrregularGrid new
 				cellWidth: DEMOConfig PSDTransactionHeight / 9;
 				cellHeight: DEMOConfig PSDSwimlineHeight;
 				verticalShift: DEMOConfig PSDTransactionHeight / 2;
-				translationCallback: [ :aShift | self figureMoved: aShift ] )."
-				
+				translationCallback: [ :aShift | self figureMoved: aShift ] ).
 	label := (RTLabel new text: model name) element.
 	labelConstraint := RTConstraint on: label background: transaction.
 	labelConstraint 

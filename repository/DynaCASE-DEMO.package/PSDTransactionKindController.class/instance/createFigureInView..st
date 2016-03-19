@@ -4,5 +4,6 @@ createFigureInView: aView
 	self createSwimLines: aView.
 	self createSwimLineLabels: aView.
 	transaction := self createTransactionFigure: aView.
-	self createTransactionFrontLayer: transaction inView: aView.
+	(diagramController model isSizeLocked: model dcID)
+		ifTrue: [ self createTransactionFrontLayer: transaction inView: aView ].
 	^ transaction

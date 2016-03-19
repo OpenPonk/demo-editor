@@ -39,4 +39,5 @@ refreshFigure
 	labelConstraints do: [ :each | each move ].
 
 	"Other"
-	transactionFrontLayer pushFront
+	transactionFrontLayer ifNotNil: [ transactionFrontLayer pushFront. 
+		transactionFrontLayer signalUpdate ]
