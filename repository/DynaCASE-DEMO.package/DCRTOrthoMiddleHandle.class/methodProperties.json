@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"example" : "JanTuron 3/20/2016 23:24" },
+	"instance" : {
+		"connectWithView:" : "JanTuron 3/21/2016 00:02",
+		"getBlockProducingPath" : "JanTuron 3/20/2016 23:22",
+		"initialize" : "JanTuron 3/20/2016 23:50",
+		"initializeElement:" : "JanTuron 3/21/2016 00:03",
+		"lazyInitializeElement:" : "JanTuron 3/21/2016 00:37",
+		"middle" : "JanTuron 3/21/2016 00:07",
+		"middle:" : "JanTuron 3/21/2016 00:36",
+		"removeHandle" : "JanTuron 3/21/2016 00:02",
+		"setupView:" : "JanTuron 3/20/2016 19:39",
+		"showHandle" : "JanTuron 3/21/2016 00:37" } }

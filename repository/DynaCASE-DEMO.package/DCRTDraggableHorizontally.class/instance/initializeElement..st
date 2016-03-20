@@ -17,6 +17,6 @@ initializeElement: element
 			d := gridSize * ((totalD x / gridSize) rounded @ (totalD y / gridSize) rounded).
 			totalD := totalD - d.
 			d := d - element encompassingRectangle topLeft.
-			d := (0 @ d y).
+			d := (d x @ 0).
 			t translateBy: d.
 			event signalUpdate ]
