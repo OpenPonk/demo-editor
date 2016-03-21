@@ -1,6 +1,6 @@
 example
 example
-	| v es e visible handle |
+	| v es e handle |
 	v := RTView new.
 	es := RTEllipse new
 		color: Color black;
@@ -13,13 +13,11 @@ example
 		head: RTFilledArrow;
 		block: handle getBlockProducingPath;
 		edgeFrom: es first to: es second.
-
 	v
 		addAll: es;
 		add: e.
 	es @ RTDraggable.
 	(es at: 1) translateTo: 0 @ 0.
 	(es at: 2) translateTo: 100 @ 200.
-	visible := false.
 	e @ handle.
 	v open
