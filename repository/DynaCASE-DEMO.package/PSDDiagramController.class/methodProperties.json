@@ -12,6 +12,8 @@
 		"findProcessStep:forTransaction:isUpper:isAct:" : "JanTuron 3/10/2016 17:51",
 		"initialize" : "JanTuron 3/9/2016 22:46:12",
 		"initializePalette:" : "JanTuron 3/9/2016 22:46:12",
+		"layout" : "JanTuron 3/22/2016 22:00",
+		"layout:" : "JanTuron 3/22/2016 22:28",
 		"layoutElements" : "JanTuron 3/10/2016 16:51",
 		"modelClass" : "JanTuron 3/9/2016 22:46:12",
 		"modelToControllerMapping" : "JanTuron 3/9/2016 22:46:12",
@@ -19,5 +21,6 @@
 		"rebuild" : "JanTuron 3/10/2016 17:36",
 		"refreshSwimLineLabels" : "JanTuron 3/9/2016 22:46:12",
 		"refreshSwimLines" : "JanTuron 3/9/2016 22:46:12",
+		"remove" : "JanTuron 3/23/2016 00:14",
 		"removeControllerOf:" : "JanTuron 3/10/2016 13:21",
 		"toggleProcessSteps" : "JanTuron 3/10/2016 13:28" } }

@@ -1,6 +1,6 @@
 as yet unclassified
 createEdgeFrom: fromElement to: toElement
-	| edge orthoHandler |
+	| edge |
 	orthoHandler := DCRTOrthoMiddleHandle new.
 	edge := (DCRTStyledMultiLine new
 		withVerticallAttachPoint;
