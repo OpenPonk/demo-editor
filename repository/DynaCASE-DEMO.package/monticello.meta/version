@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-JanTuron.53' message '#20 - OCD - Implemented saving of orthogonal edges for OCD' id '8b222f6c-37cb-8048-b464-7a070b8354ad' date '23 March 2016' time '2:25:11.155394 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.52' message '#20 PSD - Implemented saving for adjustable orthogonal edges
-' id '56a299f4-f8dd-57d4-8975-02cba904f234' date '23 March 2016' time '12:24:16 am' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-JanTuron.54' message '#23 OSD - Information link fixed' id '32f31253-0b45-6f47-ad5d-36fb57d8203c' date '23 March 2016' time '4:32:56.686394 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.53' message '#20 - OCD - Implemented saving of orthogonal edges for OCD
+' id '8fcd5ee2-02dc-5b8f-a056-1b7c62f47990' date '23 March 2016' time '2:25:14 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

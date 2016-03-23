@@ -1,4 +1,4 @@
-as yet unclassified
+hooks
 createEdgeFrom: fromElement to: toElement
 	^ (DCRTStyledConnection new
 		withContinuousRectangleAttachPoint;

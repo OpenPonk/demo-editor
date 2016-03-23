@@ -1,4 +1,4 @@
-as yet unclassified
+hooks
 createModel
 	model ifNotNil: [ ^ self model ].
 	model := self modelClass new.
