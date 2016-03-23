@@ -4,14 +4,13 @@ addAsTargetFor: aController
 	aController target: self.
 	aController diagramController: diagramController.
 	(aController isMemberOf: OCDExecutorLinkController)
-		ifTrue: [ aController source model executorRole: self model ].
+		ifTrue: [ aController source model executorRole: self model.
+			self createLink: aController ].
 	(aController isMemberOf: OCDInitiatorLinkController)
-		ifTrue: [ aController source model initiatorRole: self model ].
+		ifTrue: [ aController source model initiatorRole: self model.
+			self createLink: aController ].
 	(aController isMemberOf: OCDInformationLinkController)
 		ifTrue:
-			[ | newModel |
-			newModel := aController createModel.
-			aController model: newModel.
-			diagramController model add: newModel ].
+			[ self createLink: aController ].
 	diagramController controllers add: aController.
 	aController attach

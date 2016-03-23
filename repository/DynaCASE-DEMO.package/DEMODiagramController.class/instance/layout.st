@@ -1,3 +1,3 @@
 as yet unclassified
 layout
-	^ nil
+	self controllers select: [ :each | each model isNotNil ] thenDo: [ :each | model savePosition: each layout for: each model dcID ]

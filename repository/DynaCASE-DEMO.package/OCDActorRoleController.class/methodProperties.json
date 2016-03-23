@@ -2,9 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAsSourceFor:" : "JanTuron 3/9/2016 22:46:12",
-		"addAsTargetFor:" : "JanTuron 3/9/2016 22:46:12",
-		"refreshFigure" : "JanTuron 3/9/2016 22:46:12",
-		"removeExecutorLink" : "JanTuron 3/9/2016 22:46:12",
-		"removeFigure" : "JanTuron 3/9/2016 22:46:12",
-		"removeInitiatorLink" : "JanTuron 3/9/2016 22:46:12" } }
+		"addAsSourceFor:" : "JanTuron 3/23/2016 00:24:16",
+		"addAsTargetFor:" : "JanTuron 3/23/2016 12:35",
+		"createLink:" : "JanTuron 3/23/2016 12:34",
+		"refreshFigure" : "JanTuron 3/23/2016 00:24:16",
+		"removeFigure" : "JanTuron 3/23/2016 00:24:16" } }
