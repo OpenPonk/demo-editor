@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-Model-JanTuron.33' message '#20 - OCD - Implemented saving of orthogonal edges for OCD' id 'f262c8ba-71bf-a840-a529-9866ec8d30b2' date '23 March 2016' time '2:24:59.670394 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.32' message '#8 PSD - Implemented transaction-width locking (need some fixes)
-' id 'c8e1b336-cb30-511c-8b5f-c15c8b57649b' date '16 March 2016' time '11:49:50 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-Model-JanTuron.34' message '#23 OSD - Information link fixed' id '2fcddaeb-c59f-6546-9b8f-6d0c4b8897b1' date '23 March 2016' time '4:32:44.320394 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.33' message '#20 - OCD - Implemented saving of orthogonal edges for OCD
+' id '048fe272-0c22-5369-98f8-752cb04f0ee9' date '23 March 2016' time '2:25:01 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
