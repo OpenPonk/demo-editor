@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSelfToModel:" : "JanTuron 2/22/2016 22:40:18",
-		"initialize" : "JanTuron 2/22/2016 22:40:18",
-		"isInitiation" : "JanTuron 2/22/2016 22:40:18",
-		"isInitiation:" : "JanTuron 2/22/2016 22:40:18",
-		"multiplicity" : "JanTuron 2/22/2016 22:40:18",
-		"multiplicity:" : "JanTuron 2/22/2016 22:40:18",
-		"name" : "JanTuron 2/22/2016 22:40:18",
-		"removeSelfFromModel:" : "JanTuron 2/22/2016 22:40:18",
-		"sourceStep" : "JanTuron 2/22/2016 22:40:18",
-		"sourceStep:" : "JanTuron 2/22/2016 22:40:18",
-		"targetStep" : "JanTuron 2/22/2016 22:40:18",
-		"targetStep:" : "JanTuron 2/22/2016 22:40:18" } }
+		"addSelfToModel:" : "JanTuron 3/16/2016 23:49:50",
+		"initialize" : "JanTuron 3/16/2016 23:49:50",
+		"isInitiation" : "JanTuron 3/16/2016 23:49:50",
+		"isInitiation:" : "JanTuron 3/16/2016 23:49:50",
+		"multiplicity" : "JanTuron 3/16/2016 23:49:50",
+		"multiplicity:" : "JanTuron 3/16/2016 23:49:50",
+		"name" : "JanTuron 3/16/2016 23:49:50",
+		"removeSelfFromModel:" : "JanTuron 3/16/2016 23:49:50",
+		"sourceStep" : "JanTuron 3/16/2016 23:49:50",
+		"sourceStep:" : "JanTuron 3/16/2016 23:49:50",
+		"targetStep" : "JanTuron 3/16/2016 23:49:50",
+		"targetStep:" : "JanTuron 3/16/2016 23:49:50" } }
