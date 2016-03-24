@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-JanTuron.55' message '#23 OSD - Fixed transaction figure' id 'c641f7a0-4c06-3a42-a165-1520b54f993d' date '23 March 2016' time '4:58:10.849394 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.54' message '#23 OSD - Information link fixed
-' id '6184d8fe-6ba2-5589-aec6-a5bdcb8cdeb2' date '23 March 2016' time '4:33 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-JanTuron.56' message '#23 OSD - Fixed adding element into SoI' id '2489ce57-3d95-1a4f-ba5a-a0d0088ea250' date '24 March 2016' time '11:41:15.954047 am' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.55' message '#23 OSD - Fixed transaction figure
+' id '7bc448f7-9a39-5146-bfda-27e8958bd00f' date '23 March 2016' time '4:58:13 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

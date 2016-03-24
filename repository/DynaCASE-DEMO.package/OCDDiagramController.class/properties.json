@@ -6,11 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"soi",
-		"soiLabel",
-		"gridSize",
-		"firstLevelControllers",
-		"soiLabelConstraint" ],
+		"firstLevelControllers" ],
 	"name" : "OCDDiagramController",
 	"pools" : [
 		 ],

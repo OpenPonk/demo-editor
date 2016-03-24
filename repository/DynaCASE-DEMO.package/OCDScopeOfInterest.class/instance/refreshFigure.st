@@ -1,5 +1,5 @@
 as yet unclassified
-refreshSoILabel
+refreshFigure
 	soiLabel
 		ifNotNil: [ soiLabel trachelShape text: model soiName.
 			soiLabelConstraint move.

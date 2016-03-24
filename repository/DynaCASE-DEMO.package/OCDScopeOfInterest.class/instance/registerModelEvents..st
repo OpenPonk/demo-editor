@@ -3,4 +3,4 @@ registerModelEvents: aModel
 	super registerModelEvents: aModel.
 	aModel
 		when: DCElementChanged
-		do: [ :event | 	self refreshSoILabel ]
+		do: [ :event | 	self refreshFigure ]

@@ -6,13 +6,13 @@ createControllersFromModel
 			[ :each | 
 			firstLevelControllers add: (self addModelElement: each).
 			firstLevelControllers last figure
-				@ (RTDraggableSnapToGrid new gridSize: gridSize) ].
+				@ (RTDraggableSnapToGrid new gridSize: DEMOConfig OCDGridSize) ].
 	self model elementaryActorRoles
 		do:
 			[ :each | 
 			firstLevelControllers add: (self addModelElement: each).
 			firstLevelControllers last figure
-				@ (RTDraggableSnapToGrid new gridSize: gridSize) ].
+				@ (RTDraggableSnapToGrid new gridSize: DEMOConfig OCDGridSize) ].
 	self model compositeActorRoles
 		do:
 			[ :compActorRole | 
@@ -25,7 +25,7 @@ createControllersFromModel
 				@
 					(DCRTDraggableSnapToGrid new
 						gridSize: gridSize;
-						shift: (gridSize - 9) @ (gridSize - 18)) ].
+						shift: (DEMOConfig OCDGridSize - 9) @ (DEMOConfig OCDGridSize - 18)) ].
 	self model transactionKinds
 		do:
 			[ :each | 

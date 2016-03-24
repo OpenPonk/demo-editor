@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFigure" : "JanTuron 3/23/2016 00:24:16" } }
+		"addAsTargetFor:" : "JanTuron 3/24/2016 10:36",
+		"buildEditorForm:" : "JanTuron 3/24/2016 11:32",
+		"canBeTargetFor:" : "JanTuron 3/24/2016 10:36",
+		"createFigureInView:" : "JanTuron 3/24/2016 11:25",
+		"delete" : "JanTuron 3/24/2016 11:27",
+		"model" : "JanTuron 3/24/2016 11:25",
+		"refreshFigure" : "JanTuron 3/24/2016 10:46",
+		"registerModelEvents:" : "JanTuron 3/24/2016 11:39",
+		"removeFigure" : "JanTuron 3/24/2016 11:29" } }
