@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-Model-JanTuron.34' message '#23 OSD - Information link fixed' id '2fcddaeb-c59f-6546-9b8f-6d0c4b8897b1' date '23 March 2016' time '4:32:44.320394 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.33' message '#20 - OCD - Implemented saving of orthogonal edges for OCD
-' id '048fe272-0c22-5369-98f8-752cb04f0ee9' date '23 March 2016' time '2:25:01 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-Model-JanTuron.35' message '#23 OSD - Fixed adding element into SoI' id '7029fece-92d0-344f-a93e-eac3998c1d1f' date '24 March 2016' time '11:40:59.430047 am' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.34' message '#23 OSD - Information link fixed
+' id 'c3d4331d-f99d-55e6-97cd-241fb841c4b0' date '23 March 2016' time '4:32:46 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
