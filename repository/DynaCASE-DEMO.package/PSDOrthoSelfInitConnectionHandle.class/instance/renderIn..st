@@ -12,5 +12,5 @@ renderIn: aView
 			(TRTranslationCallback
 				block:
 					[ :shape :step | 
-					handler middle: element position x.
+					handler middle: edge to position x - element position x.
 					edge announcer announce: DCRTHandleMoved new ])
