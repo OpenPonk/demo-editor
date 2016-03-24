@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-JanTuron.57' message 'Labelled -> Labeled' id 'ae4cda6a-f8b7-b14b-8f0a-6b4ec1d5c01b' date '24 March 2016' time '2:00:11.725047 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.56' message '#23 OSD - Fixed adding element into SoI
-' id '23a1d8ee-d6d7-5532-85e5-9b3561cebf26' date '24 March 2016' time '11:41:18 am' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-JanTuron.58' message '#2 PSD - Early implementation of support for self initiating transactions' id 'b8da91e5-0abe-8241-86a7-a5f59bc561d8' date '24 March 2016' time '3:38:39.824047 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.57' message 'Labelled -> Labeled
+' id '114060e5-c8c5-5dec-a623-e03118b5b9cc' date '24 March 2016' time '2:00:15 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
