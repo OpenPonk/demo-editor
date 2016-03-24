@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSDOrthoSelfInitConnectionHandle",
+	"pools" : [
+		 ],
+	"super" : "PSDOrthoConnectionHandle",
+	"type" : "normal" }
