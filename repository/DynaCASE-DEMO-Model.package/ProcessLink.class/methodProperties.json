@@ -3,9 +3,11 @@
 		 },
 	"instance" : {
 		"addSelfToModel:" : "JanTuron 3/16/2016 23:49:50",
-		"initialize" : "JanTuron 3/16/2016 23:49:50",
+		"initialize" : "JanTuron 3/24/2016 15:11",
 		"isInitiation" : "JanTuron 3/16/2016 23:49:50",
 		"isInitiation:" : "JanTuron 3/16/2016 23:49:50",
+		"isSelfInitiating" : "JanTuron 3/24/2016 15:10",
+		"isSelfInitiating:" : "JanTuron 3/24/2016 15:10",
 		"multiplicity" : "JanTuron 3/16/2016 23:49:50",
 		"multiplicity:" : "JanTuron 3/16/2016 23:49:50",
 		"name" : "JanTuron 3/16/2016 23:49:50",

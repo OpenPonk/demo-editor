@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-Model-JanTuron.35' message '#23 OSD - Fixed adding element into SoI' id '7029fece-92d0-344f-a93e-eac3998c1d1f' date '24 March 2016' time '11:40:59.430047 am' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.34' message '#23 OSD - Information link fixed
-' id 'c3d4331d-f99d-55e6-97cd-241fb841c4b0' date '23 March 2016' time '4:32:46 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-Model-JanTuron.36' message '#2 PSD - Early implementation of support for self initiating transactions' id 'f05635d3-7edc-1c45-ace4-7d735f724bdf' date '24 March 2016' time '3:38:26.724047 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.35' message '#23 OSD - Fixed adding element into SoI
+' id '645e5bc4-6115-5918-a9b1-cb9a256e66b2' date '24 March 2016' time '11:41:02 am' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

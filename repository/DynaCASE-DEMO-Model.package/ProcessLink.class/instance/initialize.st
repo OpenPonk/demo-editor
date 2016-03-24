@@ -4,4 +4,5 @@ initialize
 	sourceStep := ''.
 	targetStep := ''.
 	multiplicity := '1..1'.
-	isInitiation := true
+	isInitiation := true.
+	isSelfInitiating := false
