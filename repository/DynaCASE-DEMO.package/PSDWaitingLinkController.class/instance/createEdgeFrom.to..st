@@ -9,5 +9,4 @@ createEdgeFrom: fromElement to: toElement
 		block: orthoHandler getBlockProducingPath;
 		color: Color black).
 	edge := edge edgeFrom: fromElement to: toElement.
-	diagramController view add: edge.
 	^ edge @ orthoHandler

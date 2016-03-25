@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-JanTuron.60' message '#2 PSD - Some improvements of adjustable self initianing connection' id '0a394e37-7ce5-c246-a637-3e344c17a6ef' date '24 March 2016' time '5:18:30.030207 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.59' message '#2 PSD - Implemented adjustable self initianing connection
-' id 'f90227a9-ced6-51b6-bf03-65ea6229a421' date '24 March 2016' time '4:21:42 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-JanTuron.61' message 'Fixed PSD edges' id '5ed197dc-a683-46ad-bc34-9c1bab1119ef' date '25 March 2016' time '8:05:04.073167 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.60' message '#2 PSD - Some improvements of adjustable self initianing connection
+' id 'c96425ed-70ae-524f-ad87-e2e8775db06c' date '24 March 2016' time '5:18:34 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

@@ -11,5 +11,6 @@ connectWithView: aView
 	aView canvas eventOverseer
 		when: TRMouseDragStart
 		do: [ :event |
+			handle ifNotNil: [ 
 			(event element = handle element) not & isActive
-				ifTrue: [ self removeHandle ] ]
+				ifTrue: [ self removeHandle ] ] ]
