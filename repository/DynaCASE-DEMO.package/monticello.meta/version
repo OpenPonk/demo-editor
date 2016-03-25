@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-JanTuron.62' message 'PSD - Small fix for self-initiation edge - wrong shape after creation' id '994facdf-dd14-4b21-aaf6-f3622912acd6' date '25 March 2016' time '8:13:08.318741 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.61' message 'Fixed PSD edges
-' id '8935de1c-1d34-5ce4-abf5-6a065d118a7d' date '25 March 2016' time '8:05:05 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-JanTuron.63' message 'TPT - Small fix - Wrong layouting when transaction was added from DEMONavigator' id '8f1cc061-67c7-4cbc-be2a-809cb436c1c4' date '25 March 2016' time '8:23:28.734302 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-JanTuron.62' message 'PSD - Small fix for self-initiation edge - wrong shape after creation
+' id 'fce69dc0-8261-5732-951f-b9abe35d0667' date '25 March 2016' time '8:13:09 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

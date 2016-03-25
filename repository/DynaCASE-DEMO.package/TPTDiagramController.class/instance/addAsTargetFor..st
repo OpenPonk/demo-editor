@@ -15,5 +15,6 @@ addAsTargetFor: aController
 			prodKindCtrl model: aController model correspondingProductKind.
 			self addAsTargetFor: prodKindCtrl.
 			trans add: aController.
-			prods add: prodKindCtrl ]
-		ifFalse: [ self layoutElements ]
+			prods add: prodKindCtrl.
+			self layoutElements  ].
+	self layoutElements
