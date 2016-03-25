@@ -2,7 +2,7 @@ as yet unclassified
 getBlockProducingPath
 	^ [ :fromPoint :toPoint | 
 	| midX |
-	middle ifNil: [ midX := toPoint x / 2 + (fromPoint x / 2) ] ifNotNil: [ midX := middle ].
+	middle ifNil: [ midX := 50 ] ifNotNil: [ midX := middle ].
 	Array
 		with: fromPoint
 		with: fromPoint + (0 @ 20)
