@@ -1,1 +1,5 @@
-(name 'BaselineOfDemoEditor-PeterUhnak.1' message 'Added Baseline.' id '5936181b-b101-4d9c-9e87-fa76e69b7831' date '19 February 2016' time '8:19:27.41786 pm' author 'PeterUhnak' ancestors () stepChildren ())
+(name 'BaselineOfDemoEditor-PeterUhnak.5' message 'Load frozen version of DynaCASE.' id '19926ca4-3b7d-44c4-a8f8-d07e86b10fca' date '14 March 2016' time '3:21:01.264003 pm' author 'PeterUhnak' ancestors ((name 'BaselineOfDemoEditor-PeterUhnak.4' message 'Added Baseline.
+' id '295eac54-d4e3-593d-9cee-41e91f4d046d' date '19 February 2016' time '8:19:27 pm' author 'PeterUhnak' ancestors ((name 'BaselineOfDemoEditor-JanTuron.3' message 'Project cleanup
+' id 'cd1f08ec-2bc5-535d-aa47-fd05c4fbd8c1' date '12 January 2016' time '11:18 am' author 'JanTuron' ancestors ((name 'BaselineOfDemoEditor-PeterUhnak.2' message 'Fixed BaselineOf.
+' id '766f4c4c-2b96-52ed-b5a2-20dc791d4be9' date '26 March 2015' time '3:54:39 pm' author 'PeterUhnak' ancestors ((name 'BaselineOfDemoEditor-PeterUhnÃk.1' message 'Added baseline for DEMO Editor.
+' id '9e60418d-8854-5e3b-9ca3-8d6cce5a113a' date '26 March 2015' time '3:49:33 pm' author 'PeterUhnÃk' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
