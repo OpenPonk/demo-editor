@@ -1,3 +1,3 @@
 comparing
 = anObject
-	^ self dcID = anObject dcID
+	^ self uuid = anObject uuid

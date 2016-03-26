@@ -1,6 +1,6 @@
 adding
 addElement: anElementModel
 	((anElementModel isMemberOf: ProductKind)
-		or: (diagrams anySatisfy: [ :each | each dcID = anElementModel dcID ]))
-		ifFalse: [ diagrams add: anElementModel.
+		or: (models anySatisfy: [ :each | each uuid = anElementModel uuid ]))
+		ifFalse: [ models add: anElementModel.
 			self sortProjectTree ]

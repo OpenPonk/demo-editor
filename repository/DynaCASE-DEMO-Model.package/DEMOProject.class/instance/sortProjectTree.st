@@ -1,6 +1,6 @@
 as yet unclassified
 sortProjectTree
-	diagrams
+	models
 		sort:
 			[ :a :b | 
 			((a isKindOf: DCDiagram) and: (b isKindOf: DEMOBasicElement))

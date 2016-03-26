@@ -4,7 +4,7 @@ testId
 	
 	anId := 'testId'.
 	
-	namedObject dcID: anId .
-	result := namedObject dcID.
+	namedObject id: anId .
+	result := namedObject id.
 	
 	self assert: anId equals: result 

@@ -1,3 +1,3 @@
 accessing
 projectContent
-	^ diagrams value
+	^ models value
