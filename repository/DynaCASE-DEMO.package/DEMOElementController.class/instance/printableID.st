@@ -1,3 +1,3 @@
 visualization
 printableID
-	self subclassResponsibility 
+	^ model printableID
