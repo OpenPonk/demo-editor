@@ -3,9 +3,9 @@ refreshFigure
 	| encRect transWidth labelText |
 	super refreshFigure.
 	"Size"
-	(diagramController model isSizeLocked: model dcID)
+	(diagramController model isSizeLocked: model uuid)
 		ifTrue: [ (self figure trachelShape shapes at: 1)
-				width: ((diagramController model getSizeFor: model dcID) at: 1) x;
+				width: ((diagramController model getSizeFor: model uuid) at: 1) x;
 				height: DEMOConfig PSDTransactionHeight.
 			lowerProcSteps size > 0
 				ifTrue: [ (self figure trachelShape shapes at: 2) translateTo: (lowerProcSteps at: productActIndex) position x @ figure position y.

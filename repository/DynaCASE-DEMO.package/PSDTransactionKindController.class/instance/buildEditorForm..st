@@ -5,7 +5,7 @@ buildEditorForm: form
 
 	"Width lock"
 	(form addCheckbox: 'Lock width')
-		state: (diagramController model isSizeLocked: model dcID);
+		state: (diagramController model isSizeLocked: model uuid);
 		whenActivatedDo: [ self lockWidth: true.
 			self createTransactionFrontLayer: self figure inView: diagramController view ];
 		whenDeactivatedDo: [ self lockWidth: false.

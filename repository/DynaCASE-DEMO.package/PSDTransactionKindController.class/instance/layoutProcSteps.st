@@ -2,7 +2,7 @@ as yet unclassified
 layoutProcSteps
 	| stepsGap |
 	(lowerProcSteps size = 0 and: upperProcSteps size = 0) ifTrue: [ ^ self ].
-	(diagramController model isSizeLocked: model dcID)
+	(diagramController model isSizeLocked: model uuid)
 		ifFalse: [ stepsGap := 10 ]
 		ifTrue: [ stepsGap := self calculateStepsGap: (upperProcSteps size max: lowerProcSteps size) ].
 	RTHorizontalLineLayout new

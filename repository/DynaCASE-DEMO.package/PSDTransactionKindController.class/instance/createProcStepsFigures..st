@@ -28,7 +28,7 @@ createProcStepsFigures: aShowAll
 	1 to: lowerProcSteps size do: [ :position | 
 		(lowerProcSteps at: position) color == Color veryLightGray
 			ifTrue: [ productActIndex := position ] ].
-	(diagramController model isSizeLocked: model dcID)
+	(diagramController model isSizeLocked: model uuid)
 		ifFalse: [ stepsGap := 10 ]
 		ifTrue: [ stepsGap := self calculateStepsGap: (upperProcSteps size max: lowerProcSteps size) ].
 	RTHorizontalLineLayout new

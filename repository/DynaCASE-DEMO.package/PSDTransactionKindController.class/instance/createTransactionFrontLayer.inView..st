@@ -1,10 +1,10 @@
 as yet unclassified
 createTransactionFrontLayer: aTransaction inView: aView
 	| size position |
-	(diagramController model isSizeLocked: model dcID)
-		ifTrue: [ size := (diagramController model getSizeFor: model dcID) at: 1 ]
+	(diagramController model isSizeLocked: model uuid)
+		ifTrue: [ size := (diagramController model getSizeFor: model uuid) at: 1 ]
 		ifFalse: [ size := 290 @ DEMOConfig PSDTransactionHeight ].
-	position := (diagramController model getPositionFor: model dcID) at: 1.
+	position := (diagramController model getPositionFor: model uuid) at: 1.
 	transactionFrontLayer := (RTBox new
 		height: size y;
 		width: size x;
