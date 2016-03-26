@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSelfToModel:" : "JanTuron 3/16/2016 23:49:50",
-		"getNewID:" : "JanTuron 3/16/2016 23:49:50",
-		"initialize" : "JanTuron 3/16/2016 23:49:50",
-		"removeSelfFromModel:" : "JanTuron 3/16/2016 23:49:50" } }
+		"addSelfToModel:" : "JanTuron 3/24/2016 15:38:28",
+		"getNewID:" : "JanTuron 3/24/2016 15:38:28",
+		"initialize" : "JanTuron 3/24/2016 15:38:28",
+		"printableID" : "JanTuron 3/25/2016 21:07",
+		"removeSelfFromModel:" : "JanTuron 3/24/2016 15:38:28" } }

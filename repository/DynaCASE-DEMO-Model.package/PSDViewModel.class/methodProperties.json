@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"elements" : "JanTuron 3/16/2016 23:49:50",
-		"getPositionFor:" : "JanTuron 3/16/2016 23:49:50",
-		"getSizeFor:" : "JanTuron 3/16/2016 23:49:50",
-		"initialize" : "JanTuron 3/16/2016 23:49:50",
-		"isSizeLocked:" : "JanTuron 3/16/2016 23:49:50",
-		"lockTransSize:" : "JanTuron 3/16/2016 23:49:50",
-		"unlockTransSize:" : "JanTuron 3/16/2016 23:49:50" } }
+		"elements" : "JanTuron 3/24/2016 15:38:28",
+		"getPositionFor:" : "JanTuron 3/24/2016 15:38:28",
+		"getSizeFor:" : "JanTuron 3/24/2016 15:38:28",
+		"initialize" : "JanTuron 3/24/2016 15:38:28",
+		"isSizeLocked:" : "JanTuron 3/24/2016 15:38:28",
+		"lockTransSize:" : "JanTuron 3/24/2016 15:38:28",
+		"unlockTransSize:" : "JanTuron 3/24/2016 15:38:28" } }

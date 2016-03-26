@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:" : "JanTuron 3/16/2016 23:49:50",
-		"addSelfToModel:" : "JanTuron 3/16/2016 23:49:50",
-		"getNewID:" : "JanTuron 3/16/2016 23:49:50",
-		"initialize" : "JanTuron 3/16/2016 23:49:50",
-		"isInSoI" : "JanTuron 3/16/2016 23:49:50",
-		"relatedElements" : "JanTuron 3/16/2016 23:49:50",
-		"removeSelfFromModel:" : "JanTuron 3/16/2016 23:49:50" } }
+		"add:" : "JanTuron 3/24/2016 15:38:28",
+		"addSelfToModel:" : "JanTuron 3/24/2016 15:38:28",
+		"getNewID:" : "JanTuron 3/24/2016 15:38:28",
+		"initialize" : "JanTuron 3/24/2016 15:38:28",
+		"isInSoI" : "JanTuron 3/24/2016 15:38:28",
+		"printableID" : "JanTuron 3/25/2016 21:08",
+		"relatedElements" : "JanTuron 3/24/2016 15:38:28",
+		"removeSelfFromModel:" : "JanTuron 3/24/2016 15:38:28" } }
