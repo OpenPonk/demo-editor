@@ -5,4 +5,4 @@ moveTransactionDown: aTransModel
 		ifFound: [ :lower | 
 			lower id: aTransModel id.
 			aTransModel id: aTransModel id + 1 ]
-		ifNone: [ ^ self ]
+		ifNone: [ aTransModel id: aTransModel id + 1 ]

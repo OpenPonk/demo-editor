@@ -1,0 +1,1 @@
+Represents links in OCD diagram view model.

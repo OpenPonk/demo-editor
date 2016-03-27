@@ -1,0 +1,1 @@
+Provides values for drawing elements.

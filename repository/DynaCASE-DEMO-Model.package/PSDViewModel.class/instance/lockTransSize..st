@@ -1,3 +1,3 @@
-as yet unclassified
+positioning
 lockTransSize: elementDemoID
 	sizeLocks add: elementDemoID 

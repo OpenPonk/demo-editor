@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Model-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"namedObject" ],
+	"name" : "DEMOBasicElementTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

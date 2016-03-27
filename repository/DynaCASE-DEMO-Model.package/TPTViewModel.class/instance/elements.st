@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 elements
 	elements := OrderedCollection new.
 	elements addAll: transactionKinds.

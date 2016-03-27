@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isSizeLocked: elementDemoID
 	^ sizeLocks includes: elementDemoID  

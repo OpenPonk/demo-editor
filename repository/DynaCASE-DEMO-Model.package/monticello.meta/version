@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-Model-JanTuron.38' message 'OCD - Some fixes' id '25e1da7a-71cb-4d81-bb16-08c25b517f4d' date '26 March 2016' time '11:00:32.460669 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.37' message 'Some link fixes
-' id 'e5cedaba-f823-5f5b-a8bf-07dafcf1e82f' date '26 March 2016' time '5:13:57 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-Model-JanTuron.39' message 'Cleanup, tests and small fixes' id '8496f1a1-a26a-48f1-a48e-53ef26bf48b4' date '27 March 2016' time '11:04:33.435553 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.38' message 'OCD - Some fixes
+' id 'da819eea-cf90-5956-94b0-252d45b01124' date '26 March 2016' time '11:00:33 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

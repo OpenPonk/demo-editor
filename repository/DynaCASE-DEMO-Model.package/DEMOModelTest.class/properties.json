@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"namedObject" ],
-	"name" : "NamedObjectTest",
+		"model" ],
+	"name" : "DEMOModelTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

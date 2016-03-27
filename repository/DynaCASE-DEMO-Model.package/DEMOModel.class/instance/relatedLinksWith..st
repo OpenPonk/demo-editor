@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 relatedLinksWith: anElementModel
 	| relatedLinks |
 	relatedLinks := OrderedCollection new.

@@ -1,0 +1,1 @@
+Represents Aggregate transaction kind.

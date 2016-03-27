@@ -1,4 +1,4 @@
-adding
+removing
 removeElementaryActorRole: aElementaryActorRole
 	self removeActorRoleConnections: aElementaryActorRole.
 	self removeElement: aElementaryActorRole from: elementaryActorRoles.
