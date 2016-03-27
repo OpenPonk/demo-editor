@@ -4,4 +4,4 @@ canBeTargetFor: aController
 		ifTrue: [ ^ aController source isKindOf: OCDTransactionKindController ].
 	(aController isKindOf: OCDInformationLinkController)
 		ifTrue: [ ^ (aController source isKindOf: OCDActorRoleController) not ].
-	^ false
+	^ aController isKindOf: OCDElementaryActorRoleController

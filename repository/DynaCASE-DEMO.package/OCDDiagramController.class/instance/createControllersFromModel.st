@@ -24,14 +24,14 @@ createControllersFromModel
 			firstLevelControllers last figure
 				@
 					(DCRTDraggableSnapToGrid new
-						gridSize: gridSize;
+						gridSize: DEMOConfig OCDGridSize;
 						shift: (DEMOConfig OCDGridSize - 9) @ (DEMOConfig OCDGridSize - 18)) ].
 	self model transactionKinds
 		do:
 			[ :each | 
 			firstLevelControllers add: (self addModelElement: each).
 			firstLevelControllers last figure
-				@ (RTDraggableSnapToGrid new gridSize: gridSize).
+				@ (RTDraggableSnapToGrid new gridSize: DEMOConfig OCDGridSize).
 			self createLinksForTransKind: firstLevelControllers last ].
 	self model informationLinks do: [ :each | self createInformationLink: each ].
 	^ firstLevelControllers

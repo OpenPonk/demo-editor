@@ -3,7 +3,7 @@ addAsTargetFor: aController
 	| newActorRole |
 	self assert: (self canBeTargetFor: aController).
 	(aController isMemberOf: OCDElementaryActorRoleController )
-		ifTrue: [ 
+		ifTrue: [
 			aController diagramController: self diagramController.
 			newActorRole := aController createModel.
 			subElements add: aController.
