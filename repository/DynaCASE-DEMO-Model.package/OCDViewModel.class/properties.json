@@ -8,7 +8,8 @@
 	"instvars" : [
 		"soiSize",
 		"soiPosition",
-		"soiName" ],
+		"soiName",
+		"ocdLinks" ],
 	"name" : "OCDViewModel",
 	"pools" : [
 		 ],

@@ -5,6 +5,11 @@ createHandle
 		size: 6;
 		color: Color black;
 		element.
-	handle @ RTDraggable.
-	
+	handle
+		@
+			(DCRTDraggableSnapToIrregularGrid new
+				cellWidth: self cellSize x;
+				cellHeight: self cellSize y;
+				verticalShift: 3;
+				horizontalShift: 3).
 	^ handle

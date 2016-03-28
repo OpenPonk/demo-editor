@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"soiLabel",
+		"soiLabelConstraint" ],
 	"name" : "OCDScopeOfInterest",
 	"pools" : [
 		 ],

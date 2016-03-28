@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isInitiatorLink" : "JanTuron 2/22/2016 22:40:18",
-		"isInitiatorLink:" : "JanTuron 2/22/2016 22:40:18" } }
+		"addSelfToModel:" : "JanTuron 3/24/2016 15:38:28",
+		"initialize" : "JanTuron 3/24/2016 15:38:28",
+		"isExecutorLink" : "JanTuron 3/24/2016 15:38:28",
+		"isExecutorLink:" : "JanTuron 3/24/2016 15:38:28",
+		"removeSelfFromModel:" : "JanTuron 3/24/2016 15:38:28" } }

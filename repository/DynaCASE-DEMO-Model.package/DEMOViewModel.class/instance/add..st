@@ -1,4 +1,5 @@
 adding
-add: anObject
-	anObject addSelfToModel: self.
-	projectModel add: anObject
+add: anElementModel
+	anElementModel addSelfToModel: self.
+	(anElementModel isKindOf: DCEdge)
+		ifFalse: [ projectModel add: anElementModel ]

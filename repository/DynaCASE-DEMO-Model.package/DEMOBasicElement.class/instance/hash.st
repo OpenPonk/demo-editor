@@ -1,3 +1,3 @@
 comparing
 hash
-	^ self dcID hash
+	^ self uuid hash

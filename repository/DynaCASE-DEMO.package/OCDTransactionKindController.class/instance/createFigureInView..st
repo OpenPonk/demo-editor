@@ -27,6 +27,6 @@ createFigureInView: aView
 
 	element := composite element.	
 	(element trachelShape shapes at: 2) rotateByDegrees: 45.
-	element @ (RTLabelled below view: aView; text: (model name); color: Color black).
+	element @ (RTLabeled below view: aView; text: (model name); color: Color black).
 	
 	^ element

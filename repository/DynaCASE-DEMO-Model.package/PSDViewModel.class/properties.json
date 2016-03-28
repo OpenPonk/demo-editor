@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "JanTuron 1/12/2016 23:47",
 	"instvars" : [
-		"soiSize",
-		"soiPosition",
-		"soiName" ],
+		"sizeLocks" ],
 	"name" : "PSDViewModel",
 	"pools" : [
 		 ],

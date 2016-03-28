@@ -1,3 +1,3 @@
 positioning
-savePosition: aPosition for: elementDcID
-	elementPositions at: elementDcID put: aPosition
+savePosition: aPosition for: elementUUID
+	elementPositions at: elementUUID put: aPosition

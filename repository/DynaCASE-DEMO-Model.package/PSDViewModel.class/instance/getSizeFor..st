@@ -1,7 +1,7 @@
-as yet unclassified
+positioning
 getSizeFor: elementDcID
 	^ elementSizes
 		at: elementDcID
 		ifAbsent: [ Array
-				braceWith: 0 @ DEMOConfig PSDTransactionHeight
+				braceWith: 20 @ DEMOConfig PSDTransactionHeight
 				with: DEMOConfig PSDSwimlineWidth @ (DEMOConfig PSDSwimlineHeight * 2) ]

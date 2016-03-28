@@ -8,7 +8,7 @@ addAsTargetFor: aController
 	aController model: newModel.
 	self controllers add: aController.
 	aController attach.
-	aController figure @ (RTDraggableSnapToGrid new gridSize: gridSize).
+	aController figure @ (RTDraggableSnapToGrid new gridSize: DEMOConfig OCDGridSize).
 	aController addMovedCallback.
 	aController addResizedCallback.
 	aController figureMoved: 0 @ 0.

@@ -9,7 +9,8 @@
 		"sourceStep",
 		"targetStep",
 		"multiplicity",
-		"isInitiation" ],
+		"isInitiation",
+		"isSelfInitiating" ],
 	"name" : "ProcessLink",
 	"pools" : [
 		 ],

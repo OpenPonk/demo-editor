@@ -1,3 +1,7 @@
 accessing
 relatedElements
-	^ super relatedElements add: correspondingProductKind; yourself 
+	correspondingProductKind
+		ifNil: [ ^ super relatedElements ]
+		ifNotNil: [ ^ super relatedElements
+				add: correspondingProductKind;
+				yourself ]

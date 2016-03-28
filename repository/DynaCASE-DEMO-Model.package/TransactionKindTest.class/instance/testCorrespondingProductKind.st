@@ -3,7 +3,7 @@ testCorrespondingProductKind
 	| result aProdKind |
 	
 	aProdKind := ProductKind new.
-	aProdKind dcID: 'prodKindTestId'.
+	aProdKind id: 'prodKindTestId'.
 	
 	transactionKind correspondingProductKind: aProdKind.
 	result := transactionKind correspondingProductKind.

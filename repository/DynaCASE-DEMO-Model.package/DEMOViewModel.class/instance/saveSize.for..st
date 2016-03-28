@@ -1,3 +1,3 @@
 positioning
-saveSize: aSize for: elementDcID
-	elementSizes at: elementDcID put: aSize 
+saveSize: aSize for: elementUUID
+	elementSizes at: elementUUID put: aSize 

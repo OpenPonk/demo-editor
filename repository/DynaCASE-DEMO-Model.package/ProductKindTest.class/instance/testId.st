@@ -4,7 +4,7 @@ testId
 	
 	anId := 'testId'.
 	
-	productKind dcID: anId .
-	result := productKind dcID.
+	productKind id: anId .
+	result := productKind id.
 	
 	self assert: anId equals: result 

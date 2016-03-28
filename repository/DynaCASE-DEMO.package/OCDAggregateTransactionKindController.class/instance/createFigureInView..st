@@ -29,7 +29,7 @@ createFigureInView: aView
 	(element trachelShape shapes at: 3) rotateByDegrees: 45.
 	element
 		@
-			(RTLabelled below
+			(RTLabeled below
 				view: aView;
 				text: model name;
 				color: Color black;

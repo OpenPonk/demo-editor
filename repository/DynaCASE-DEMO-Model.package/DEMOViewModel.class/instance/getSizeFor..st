@@ -1,3 +1,3 @@
 positioning
-getSizeFor: elementDcID
-	^ elementSizes at: elementDcID ifAbsent: [ 40 @ 40 ]
+getSizeFor: elementUUID
+	^ elementSizes at: elementUUID ifAbsent: [ 40 @ 40 ]

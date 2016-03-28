@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 relatedElements
 	^ OrderedCollection new
 		addAll: (owner relatedLinksWith: self);

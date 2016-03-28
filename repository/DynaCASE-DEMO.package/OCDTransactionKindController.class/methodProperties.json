@@ -2,11 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAsSourceFor:" : "JanTuron 3/9/2016 22:46:12",
-		"addAsTargetFor:" : "JanTuron 3/9/2016 22:46:12",
-		"canBeSourceFor:" : "JanTuron 3/9/2016 22:46:12",
-		"canBeTargetFor:" : "JanTuron 3/9/2016 22:46:12",
-		"createFigureInView:" : "JanTuron 3/9/2016 22:46:12",
-		"refreshFigure" : "JanTuron 3/9/2016 22:46:12",
-		"removeExecutorLink" : "JanTuron 3/9/2016 22:46:12",
-		"removeInitiatorLink" : "JanTuron 3/9/2016 22:46:12" } }
+		"addAsSourceFor:" : "JanTuron 3/24/2016 17:18:34",
+		"addAsTargetFor:" : "JanTuron 3/24/2016 17:18:34",
+		"canBeSourceFor:" : "JanTuron 3/24/2016 17:18:34",
+		"canBeTargetFor:" : "JanTuron 3/24/2016 17:18:34",
+		"createFigureInView:" : "JanTuron 3/24/2016 17:18:34",
+		"createLink:" : "JanTuron 3/24/2016 17:18:34",
+		"refreshFigure" : "JanTuron 3/24/2016 17:18:34" } }

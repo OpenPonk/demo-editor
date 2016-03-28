@@ -30,7 +30,6 @@ createTransactionFigure: aView
 				cellHeight: DEMOConfig PSDSwimlineHeight;
 				verticalShift: DEMOConfig PSDTransactionHeight / 2;
 				translationCallback: [ :aShift | self figureMoved: aShift ] ).
-				
 	label := (RTLabel new text: model name) element.
 	labelConstraint := RTConstraint on: label background: transaction.
 	labelConstraint 

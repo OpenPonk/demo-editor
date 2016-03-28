@@ -1,6 +1,5 @@
 as yet unclassified
 registerModelEvents: aModel
-	super registerModelEvents: aModel.
-	aModel
-		when: DCElementChanged
-		do: [ :event | 	self refreshSoILabel ]
+	aModel announcer
+		when: DCElementRemoved
+		do: [ :event | self diagramController removeControllerOf: event element ]

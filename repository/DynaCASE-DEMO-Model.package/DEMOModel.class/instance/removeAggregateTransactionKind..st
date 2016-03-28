@@ -1,3 +1,3 @@
-adding
+removing
 removeAggregateTransactionKind: anAggregateTransactionKind
 	self removeElement: anAggregateTransactionKind from: aggregateTransactionKinds 

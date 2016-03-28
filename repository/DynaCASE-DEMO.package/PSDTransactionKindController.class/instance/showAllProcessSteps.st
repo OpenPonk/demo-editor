@@ -1,3 +1,3 @@
 processSteps
 showAllProcessSteps
-	self createProcStepsFigures: true.
+	self createProcStepsFigures: true

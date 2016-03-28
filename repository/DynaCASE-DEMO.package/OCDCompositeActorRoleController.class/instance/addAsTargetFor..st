@@ -3,7 +3,7 @@ addAsTargetFor: aController
 	| newActorRole |
 	self assert: (self canBeTargetFor: aController).
 	(aController isMemberOf: OCDElementaryActorRoleController )
-		ifTrue: [ 
+		ifTrue: [
 			aController diagramController: self diagramController.
 			newActorRole := aController createModel.
 			subElements add: aController.
@@ -13,4 +13,4 @@ addAsTargetFor: aController
 			self diagramController controllers add: aController.
 			aController attach.
 			self refreshFigure ]
-		ifFalse: [ super addAsTargetFor: aController ]
+		ifFalse: [ super addAsTargetFor: aController ]		"If it is link"

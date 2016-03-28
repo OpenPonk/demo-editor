@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"=" : "JanTuron 2/22/2016 22:40:18",
-		"addSelfToModel:" : "JanTuron 2/22/2016 22:40:18",
-		"getNewID:" : "JanTuron 2/22/2016 22:40:18",
-		"hash" : "JanTuron 2/22/2016 22:40:18",
-		"id" : "JanTuron 2/22/2016 22:40:18",
-		"id:" : "JanTuron 2/22/2016 22:40:18",
-		"initialize" : "JanTuron 2/22/2016 22:40:18",
-		"relatedElements" : "JanTuron 2/22/2016 22:40:18",
-		"removeSelfFromModel:" : "JanTuron 2/22/2016 22:40:18",
-		"removedFrom:do:" : "JanTuron 2/22/2016 22:40:18" } }
+		"=" : "JanTuron 3/26/2016 17:55",
+		"addSelfToModel:" : "JanTuron 3/24/2016 15:38:28",
+		"getNewID:" : "JanTuron 3/24/2016 15:38:28",
+		"hash" : "JanTuron 3/26/2016 17:55",
+		"id" : "JanTuron 3/24/2016 15:38:28",
+		"id:" : "JanTuron 3/24/2016 15:38:28",
+		"initialize" : "JanTuron 3/24/2016 15:38:28",
+		"printableID" : "JanTuron 3/25/2016 21:10",
+		"relatedElements" : "JanTuron 3/24/2016 15:38:28",
+		"removeSelfFromModel:" : "JanTuron 3/24/2016 15:38:28",
+		"removedFrom:do:" : "JanTuron 3/24/2016 15:38:28" } }

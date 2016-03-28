@@ -4,12 +4,6 @@ createFigureInView: aView
 	self createSwimLines: aView.
 	self createSwimLineLabels: aView.
 	transaction := self createTransactionFigure: aView.
-	
-	"swimLinesFrontLayer
-		addCallback:
-			(TRTranslationCallback 
-				block: [ :shape :step | 
-					transaction translateTo:	swimLinesFrontLayer position.
-					transaction signalUpdate ])."
-	
+	(diagramController model isSizeLocked: model uuid)
+		ifTrue: [ self createTransactionFrontLayer: transaction inView: aView ].
 	^ transaction

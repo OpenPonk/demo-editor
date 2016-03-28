@@ -1,14 +1,14 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Visualization",
+	"category" : "DynaCASE-DEMO-Model-View models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JanTuron 3/26/2016 23:04",
 	"instvars" : [
-		"isInitiatorLink" ],
+		"isExecutorLink" ],
 	"name" : "OCDLink",
 	"pools" : [
 		 ],
-	"super" : "DCEdge",
+	"super" : "DEMOLink",
 	"type" : "normal" }

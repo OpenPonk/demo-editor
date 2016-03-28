@@ -1,7 +1,6 @@
 initialization
 initialize
 	super initialize.
-	
 	transactionKinds := Set new.
 	aggregateTransactionKinds := Set new.
 	elementaryActorRoles := Set new.

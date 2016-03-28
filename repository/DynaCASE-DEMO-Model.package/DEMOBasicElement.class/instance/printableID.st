@@ -1,0 +1,3 @@
+visualization
+printableID
+	self subclassResponsibility

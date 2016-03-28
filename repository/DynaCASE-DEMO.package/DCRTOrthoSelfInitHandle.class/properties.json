@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DCRTOrthoSelfInitHandle",
+	"pools" : [
+		 ],
+	"super" : "DCRTOrthoMiddleHandle",
+	"type" : "normal" }

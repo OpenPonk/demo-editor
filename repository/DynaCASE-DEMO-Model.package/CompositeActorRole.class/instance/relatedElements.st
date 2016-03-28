@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 relatedElements
 	^ super relatedElements
 		addAll: self elements;
