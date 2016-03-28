@@ -1,9 +1,8 @@
 removing
 removeElementaryActorRole: aElementaryActorRole
 	self removeActorRoleConnections: aElementaryActorRole.
-	self removeElement: aElementaryActorRole from: elementaryActorRoles.
 	compositeActorRoles
-		do:
-			[ :each | 
+		do: [ :each | 
 			(each elements anySatisfy: [ :x | x = aElementaryActorRole ])
-				ifTrue: [ each remove: aElementaryActorRole ] ]
+				ifTrue: [ each remove: aElementaryActorRole ] ].
+	self removeElement: aElementaryActorRole from: elementaryActorRoles
