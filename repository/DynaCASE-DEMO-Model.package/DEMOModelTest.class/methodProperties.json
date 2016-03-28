@@ -4,11 +4,14 @@
 	"instance" : {
 		"setUp" : "JanTuron 3/27/2016 17:29",
 		"testAdd" : "JanTuron 3/27/2016 17:34",
-		"testIsAlreadyExecutor" : "JanTuron 3/27/2016 17:25",
+		"testGetAllElementaryActorRoles" : "JanTuron 3/28/2016 15:19",
+		"testIsAlreadyExecutor" : "JanTuron 3/28/2016 15:14",
+		"testIsTransactionKindIDUsed" : "JanTuron 3/28/2016 15:29",
 		"testMoveTransactionDown" : "JanTuron 3/27/2016 17:55",
 		"testMoveTransactionUp" : "JanTuron 3/27/2016 17:53",
 		"testNextTransactionKindID" : "JanTuron 3/27/2016 17:37",
+		"testRelatedLinksWith" : "JanTuron 3/28/2016 15:25",
 		"testRemove" : "JanTuron 3/27/2016 18:00",
-		"testRemoveActorRoleConnections" : "JanTuron 3/27/2016 21:36",
-		"testRemoveCompositeActorRole" : "JanTuron 3/27/2016 17:56",
-		"testRemoveElementaryActorRole" : "JanTuron 3/27/2016 17:56" } }
+		"testRemoveActorRoleConnections" : "JanTuron 3/28/2016 15:03",
+		"testRemoveCompositeActorRole" : "JanTuron 3/28/2016 15:09",
+		"testRemoveElementaryActorRole" : "JanTuron 3/28/2016 15:12" } }

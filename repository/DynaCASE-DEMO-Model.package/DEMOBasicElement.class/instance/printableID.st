@@ -1,3 +1,3 @@
-as yet unclassified
+visualization
 printableID
 	self subclassResponsibility

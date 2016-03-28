@@ -1,10 +1,7 @@
 tests-accessing
 testName
 	| result aName |
-	
 	aName := 'testName'.
-	
-	namedObject name: aName .
+	namedObject name: aName.
 	result := namedObject name.
-	
-	self assert: aName equals: result 
+	self assert: aName equals: result

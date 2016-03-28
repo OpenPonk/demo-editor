@@ -1,10 +1,7 @@
 tests-accessing
 testId
 	| result anId |
-	
 	anId := 'testId'.
-	
-	namedObject id: anId .
+	namedObject id: anId.
 	result := namedObject id.
-	
-	self assert: anId equals: result 
+	self assert: anId equals: result

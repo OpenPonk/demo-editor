@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 remove: anElement
 	elements remove: anElement.
 	self announceRemoved: anElement.

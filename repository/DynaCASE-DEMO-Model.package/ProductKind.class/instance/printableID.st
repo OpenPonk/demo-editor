@@ -1,3 +1,3 @@
-as yet unclassified
+visualization
 printableID
 	^ 'P' , demoID asString

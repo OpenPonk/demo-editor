@@ -1,7 +1,7 @@
 accessing
 relatedLinksWith: anElementModel
 	| relatedLinks |
-	relatedLinks := OrderedCollection new.
+	relatedLinks := Set new.
 	relatedLinks
 		addAll:
 			(informationLinks

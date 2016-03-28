@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-Model-JanTuron.40' message 'OCD - Fixed removing of composite actor sub-elements' id '929beae5-7f83-48ba-aa32-da1dca6baac7' date '28 March 2016' time '2:21:03.435776 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.39' message 'Cleanup, tests and small fixes
-' id '212708f4-cae2-59ca-8974-11ad1f217689' date '27 March 2016' time '11:04:34 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-Model-JanTuron.41' message 'Some tests and OCD links fix' id 'e8a7d271-e579-4afb-8169-6f87ad7e1404' date '28 March 2016' time '10:02:52.692008 pm' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-Model-JanTuron.40' message 'OCD - Fixed removing of composite actor sub-elements
+' id '3bc8768a-3888-50f8-af0e-078fa9afa95e' date '28 March 2016' time '2:21:04 pm' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
