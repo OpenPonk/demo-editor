@@ -15,11 +15,14 @@ createControllersFromModel
 				@ (RTDraggableSnapToGrid new gridSize: DEMOConfig OCDGridSize) ].
 	self model compositeActorRoles
 		do:
-			[ :compActorRole | 
-			firstLevelControllers add: (self addModelElement: compActorRole).
+			[ :compActorRole |
+			| roleController |
+			roleController := self addModelElement: compActorRole.
+			firstLevelControllers add: roleController.
 			compActorRole elements
 				do:
-					[ :subRole | firstLevelControllers last subElements add: (self addModelElement: subRole) ].
+					[ :subRole | 
+					roleController subElements add: (self addModelElement: subRole) ].
 			firstLevelControllers last refreshFigure.
 			firstLevelControllers last figure
 				@

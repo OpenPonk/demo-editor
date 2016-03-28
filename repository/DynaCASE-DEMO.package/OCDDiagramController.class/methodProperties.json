@@ -4,11 +4,11 @@
 		"universalElementSize" : "JanTuron 3/24/2016 17:18:34" },
 	"instance" : {
 		"addAsTargetFor:" : "JanTuron 3/24/2016 17:18:34",
-		"addModelElement:" : "JanTuron 3/24/2016 17:18:34",
+		"addModelElement:" : "JanTuron 3/28/2016 00:18",
 		"addSoI" : "JanTuron 3/24/2016 17:18:34",
 		"canBeTargetFor:" : "JanTuron 3/26/2016 15:06",
 		"controllerForModelID:" : "JanTuron 3/26/2016 17:59",
-		"createControllersFromModel" : "JanTuron 3/27/2016 23:00",
+		"createControllersFromModel" : "JanTuron 3/28/2016 00:03",
 		"createInformationLink:" : "JanTuron 3/26/2016 17:59",
 		"createLinksForTransKind:" : "JanTuron 3/24/2016 17:18:34",
 		"figureAdded:" : "JanTuron 3/24/2016 17:18:34",
@@ -17,4 +17,5 @@
 		"modelClass" : "JanTuron 3/24/2016 17:18:34",
 		"modelToControllerMapping" : "JanTuron 3/26/2016 15:11",
 		"rebuild" : "JanTuron 3/24/2016 17:18:34",
+		"registerModelEvents:" : "JanTuron 3/28/2016 03:19",
 		"scopeOfInterest" : "JanTuron 3/24/2016 17:18:34" } }
