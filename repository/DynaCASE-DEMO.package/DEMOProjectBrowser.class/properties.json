@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DEMOProjectBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

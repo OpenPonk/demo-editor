@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"example" : "JanTuron 3/24/2016 17:18:34" },
+		"example" : "JanTuron 3/28/2016 22:03:03" },
 	"instance" : {
-		"connectWithView:" : "JanTuron 3/25/2016 18:39",
-		"getBlockProducingPath" : "JanTuron 3/24/2016 17:18:34",
-		"initialize" : "JanTuron 3/24/2016 17:18:34",
-		"initializeElement:" : "JanTuron 3/24/2016 17:18:34",
-		"lazyInitializeElement:" : "JanTuron 3/24/2016 17:18:34",
-		"middle" : "JanTuron 3/24/2016 17:18:34",
-		"middle:" : "JanTuron 3/24/2016 17:18:34",
-		"removeHandle" : "JanTuron 3/24/2016 17:18:34",
-		"setupView:" : "JanTuron 3/24/2016 17:18:34",
-		"showHandle" : "JanTuron 3/24/2016 17:18:34" } }
+		"connectWithView:" : "JanTuron 3/28/2016 22:03:03",
+		"getBlockProducingPath" : "JanTuron 3/28/2016 22:03:03",
+		"initialize" : "JanTuron 3/28/2016 22:03:03",
+		"initializeElement:" : "JanTuron 3/28/2016 22:03:03",
+		"lazyInitializeElement:" : "JanTuron 3/28/2016 22:03:03",
+		"middle" : "JanTuron 3/28/2016 22:03:03",
+		"middle:" : "JanTuron 3/28/2016 22:03:03",
+		"removeHandle" : "JanTuron 3/28/2016 22:03:03",
+		"setupView:" : "JanTuron 3/28/2016 22:03:03",
+		"showHandle" : "JanTuron 3/28/2016 22:03:03" } }
