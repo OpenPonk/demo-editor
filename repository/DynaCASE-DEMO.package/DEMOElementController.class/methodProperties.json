@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMovedCallback" : "JanTuron 3/28/2016 22:03:03",
-		"addResizedCallback" : "JanTuron 3/28/2016 22:03:03",
-		"buildEditorForm:" : "JanTuron 3/28/2016 22:03:03",
-		"createModel" : "JanTuron 3/28/2016 22:03:03",
-		"figureMoved:" : "JanTuron 3/28/2016 22:03:03",
-		"figureResized:" : "JanTuron 3/28/2016 22:03:03",
-		"idChanged:" : "JanTuron 3/28/2016 22:03:03",
-		"isIDUsed:" : "JanTuron 3/28/2016 22:03:03",
-		"layout" : "JanTuron 3/28/2016 22:03:03",
-		"layout:" : "JanTuron 3/28/2016 22:03:03",
-		"printableID" : "JanTuron 3/28/2016 22:03:03" } }
+		"addMovedCallback" : "PeterUhnak 4/16/2016 13:57:35",
+		"addResizedCallback" : "PeterUhnak 4/16/2016 13:57:35",
+		"buildEditorForm:" : "PeterUhnak 4/16/2016 13:57:35",
+		"createModel" : "PeterUhnak 4/16/2016 13:57:35",
+		"figureMoved:" : "PeterUhnak 4/16/2016 13:57:35",
+		"figureResized:" : "PeterUhnak 4/16/2016 13:57:35",
+		"idChanged:" : "PeterUhnak 4/16/2016 13:57:35",
+		"isIDUsed:" : "PeterUhnak 4/16/2016 13:57:35",
+		"layout" : "PeterUhnak 4/16/2016 13:57:35",
+		"layout:" : "PeterUhnak 4/16/2016 13:57:35",
+		"printableID" : "PeterUhnak 4/16/2016 13:57:35" } }

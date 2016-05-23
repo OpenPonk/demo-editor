@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createControllersFromModel" : "JanTuron 3/28/2016 22:03:03",
-		"figureAdded:" : "JanTuron 3/28/2016 22:03:03",
-		"layout" : "JanTuron 3/28/2016 22:03:03",
-		"layout:" : "JanTuron 3/28/2016 22:03:03",
-		"layoutElements" : "JanTuron 3/28/2016 22:03:03",
-		"rebuild" : "JanTuron 3/28/2016 22:03:03",
-		"remove" : "JanTuron 3/28/2016 22:03:03",
-		"removeControllerOf:" : "JanTuron 3/28/2016 22:03:03",
-		"removeFromModel:" : "JanTuron 3/28/2016 22:03:03",
-		"removeFromView:" : "JanTuron 3/28/2016 22:03:03" } }
+		"createControllersFromModel" : "PeterUhnak 4/16/2016 13:57:35",
+		"figureAdded:" : "PeterUhnak 4/16/2016 13:57:35",
+		"layout" : "PeterUhnak 4/16/2016 13:57:35",
+		"layout:" : "PeterUhnak 4/16/2016 13:57:35",
+		"layoutElements" : "PeterUhnak 4/16/2016 13:57:35",
+		"rebuild" : "PeterUhnak 4/16/2016 13:57:35",
+		"remove" : "PeterUhnak 4/16/2016 13:57:35",
+		"removeControllerOf:" : "PeterUhnak 4/16/2016 13:57:35",
+		"removeFromModel:" : "PeterUhnak 4/16/2016 13:57:35",
+		"removeFromView:" : "PeterUhnak 4/16/2016 13:57:35" } }

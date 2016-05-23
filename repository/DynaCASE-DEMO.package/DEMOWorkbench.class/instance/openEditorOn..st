@@ -9,7 +9,7 @@ openEditorOn: aDiagram
 	tab := self newTab.
 	widget := editor buildWithSpec asWidget.
 	editor owner: tab.
-	editor openDiagram: aDiagram.
+	editor openModel: aDiagram.
 	aDiagram whenChanged: [ tab label: aDiagram name ].
 	editor paletteModel rebuildWidget.
 	tab

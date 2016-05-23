@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMultiplicityToEdge:" : "JanTuron 3/28/2016 22:03:03",
-		"attachFigure" : "JanTuron 3/28/2016 22:03:03",
-		"buildEditorForm:" : "JanTuron 3/28/2016 22:03:03",
-		"createModel" : "JanTuron 3/28/2016 22:03:03",
-		"layout" : "JanTuron 3/28/2016 22:03:03",
-		"layout:" : "JanTuron 3/28/2016 22:03:03",
-		"modelClass" : "JanTuron 3/28/2016 22:03:03",
-		"refreshFigure" : "JanTuron 3/28/2016 22:03:03",
-		"registerModelEvents:" : "JanTuron 3/28/2016 22:03:03",
-		"removeFigure" : "JanTuron 3/28/2016 22:03:03" } }
+		"addMultiplicityToEdge:" : "PeterUhnak 4/16/2016 13:57:35",
+		"attachFigure" : "PeterUhnak 4/16/2016 13:57:35",
+		"buildEditorForm:" : "PeterUhnak 4/16/2016 13:57:35",
+		"createModel" : "PeterUhnak 4/16/2016 13:57:35",
+		"layout" : "PeterUhnak 4/16/2016 13:57:35",
+		"layout:" : "PeterUhnak 4/16/2016 13:57:35",
+		"modelClass" : "PeterUhnak 4/16/2016 13:57:35",
+		"refreshFigure" : "PeterUhnak 4/16/2016 13:57:35",
+		"registerModelEvents:" : "PeterUhnak 4/16/2016 13:57:35",
+		"removeFigure" : "PeterUhnak 4/16/2016 13:57:35" } }

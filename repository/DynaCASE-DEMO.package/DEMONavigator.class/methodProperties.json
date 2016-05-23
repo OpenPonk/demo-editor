@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addElementCommand:" : "JanTuron 3/28/2016 22:03:03",
-		"deleteDiagramCommand:" : "JanTuron 3/28/2016 22:03:03",
-		"deleteElementCommand:fromDiagram:" : "JanTuron 3/28/2016 22:03:03",
-		"deleteElementFromModelCommand:" : "JanTuron 3/28/2016 22:03:03",
-		"doubleClick" : "JanTuron 3/28/2016 22:03:03",
-		"initializeTree" : "JanTuron 3/28/2016 22:03:03",
-		"rightClickMenu:" : "JanTuron 3/28/2016 22:03:03" } }
+		"addElementCommand:" : "PeterUhnak 4/16/2016 13:57:35",
+		"deleteDiagramCommand:" : "PeterUhnak 4/16/2016 13:57:35",
+		"deleteElementCommand:fromDiagram:" : "PeterUhnak 4/16/2016 13:57:35",
+		"deleteElementFromModelCommand:" : "PeterUhnak 4/16/2016 13:57:35",
+		"doubleClick" : "PeterUhnak 4/16/2016 13:57:35",
+		"initializeTree" : "PeterUhnak 4/16/2016 13:57:35",
+		"rightClickMenu:" : "PeterUhnak 4/16/2016 13:57:35" } }
