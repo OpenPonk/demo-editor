@@ -8,7 +8,7 @@ example
 		elementsOn: #(1 2).
 	handle := DCRTOrthoMiddleHandle new.
 	e := DCRTStyledMultiLine new
-		withContinuousRectangleAttachPoint;
+		withBorderAttachPoint;
 		color: Color red;
 		head: RTFilledArrow;
 		block: handle getBlockProducingPath;

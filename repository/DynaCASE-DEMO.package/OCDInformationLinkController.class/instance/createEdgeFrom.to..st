@@ -1,7 +1,7 @@
 hooks
 createEdgeFrom: fromElement to: toElement
 	^ (DCRTStyledConnection new
-		withContinuousRectangleAttachPoint;
+		withBorderAttachPoint;
 		decorate: [ :deco |
 		deco dashedLine ];
 		color: Color black;

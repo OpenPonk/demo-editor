@@ -1,0 +1,15 @@
+{
+	"category" : "DynaCASE-DEMO-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"figuresFactory",
+		"typeColors" ],
+	"name" : "DemoFigure",
+	"pools" : [
+		 ],
+	"super" : "RTAbstractMultiElement",
+	"type" : "normal" }

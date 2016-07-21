@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoFiguresFactory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "DynaCASE-DEMO-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoElementaryActorRoleFigure",
+	"pools" : [
+		 ],
+	"super" : "DemoFigure",
+	"type" : "normal" }

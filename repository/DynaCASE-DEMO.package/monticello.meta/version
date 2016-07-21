@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-JanTuron.71' message 'Fixed diagram opening.' id '1fded3cc-a78c-4a1c-be5a-d94891bff3ac' date '23 May 2016' time '10:32:29.888767 am' author 'JanTuron' ancestors ((name 'DynaCASE-DEMO-PeterUhnak.70' message 'Renamed #diagramClass -> #modelClass.
-' id 'f47ba867-af50-54c8-8f50-8e49dcc3a5af' date '16 April 2016' time '1:57:35 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-PeterUhnak.72' message 'Redoing DEMO visuals.' id 'a577c4bf-fcf0-4e10-9853-b56d05bfe3c6' date '21 July 2016' time '6:54:46.391647 am' author 'PeterUhnak' ancestors ((name 'DynaCASE-DEMO-JanTuron.71' message 'Fixed diagram opening.
+' id 'ee154d86-422c-5849-94eb-ca763d9d1326' date '23 May 2016' time '10:33:07 am' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())

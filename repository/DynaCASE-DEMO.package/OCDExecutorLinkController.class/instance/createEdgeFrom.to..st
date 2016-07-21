@@ -2,7 +2,7 @@ as yet unclassified
 createEdgeFrom: fromElement to: toElement
 	| edge |
 	edge := (DCRTStyledConnection new
-		withContinuousRectangleAttachPoint;
+		withBorderAttachPoint;
 		color: Color black).
 	(source isKindOf: OCDTransactionKindController)
 		ifTrue: [ edge head: RTFilledDiamond  ]

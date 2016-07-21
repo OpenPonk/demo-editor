@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"basicCallbackFor:corner:" : "PeterUhnak 4/16/2016 13:57:35",
-		"basicCallbackForOLD:corner:" : "PeterUhnak 4/16/2016 13:57:35",
-		"cellSize" : "PeterUhnak 4/16/2016 13:57:35",
-		"cellSize:" : "PeterUhnak 4/16/2016 13:57:35",
-		"connectWithView:" : "PeterUhnak 4/16/2016 13:57:35",
-		"createHandle" : "PeterUhnak 4/16/2016 13:57:35",
-		"initialize" : "PeterUhnak 4/16/2016 13:57:35",
-		"minSize" : "PeterUhnak 4/16/2016 13:57:35",
-		"minSize:" : "PeterUhnak 4/16/2016 13:57:35" } }
+		"basicCallbackFor:corner:" : "JanTuron 5/23/2016 10:33:07",
+		"basicCallbackForOLD:corner:" : "JanTuron 5/23/2016 10:33:07",
+		"cellSize" : "JanTuron 5/23/2016 10:33:07",
+		"cellSize:" : "JanTuron 5/23/2016 10:33:07",
+		"connectWithView:" : "JanTuron 5/23/2016 10:33:07",
+		"createHandle" : "JanTuron 5/23/2016 10:33:07",
+		"initialize" : "JanTuron 5/23/2016 10:33:07",
+		"minSize" : "JanTuron 5/23/2016 10:33:07",
+		"minSize:" : "JanTuron 5/23/2016 10:33:07" } }
