@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-PeterUhnak.72' message 'Redoing DEMO visuals.' id 'a577c4bf-fcf0-4e10-9853-b56d05bfe3c6' date '21 July 2016' time '6:54:46.391647 am' author 'PeterUhnak' ancestors ((name 'DynaCASE-DEMO-JanTuron.71' message 'Fixed diagram opening.
-' id 'ee154d86-422c-5849-94eb-ca763d9d1326' date '23 May 2016' time '10:33:07 am' author 'JanTuron' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-PeterUhnak.73' message 'resizable shapes' id '2c8207d8-592e-4c94-aafe-0371248b7cea' date '21 July 2016' time '7:32:40.882537 am' author 'PeterUhnak' ancestors ((name 'DynaCASE-DEMO-PeterUhnak.72' message 'Redoing DEMO visuals.
+' id '38d83b07-2bbb-5a8f-8917-217f7faf8cfe' date '21 July 2016' time '6:55:01 am' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())

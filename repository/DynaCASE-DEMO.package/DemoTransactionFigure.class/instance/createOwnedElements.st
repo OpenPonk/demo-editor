@@ -12,7 +12,6 @@ createOwnedElements
 		add: diamond;
 		add: id;
 		add: label.
-	self @ self figuresFactory draggable.
 	(RTConstraint movable: self fix: diamond) stick.
 	(RTConstraint movable: self fix: id) stick.
 	(RTConstraint movable: self fix: label)
