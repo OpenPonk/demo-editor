@@ -1,5 +1,5 @@
 as yet unclassified
-exampleShapes1
+exampleOCDShapes
 	| v ear car tj atj |
 	v := RTView new.
 

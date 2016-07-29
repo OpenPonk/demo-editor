@@ -16,5 +16,7 @@ createOwnedElements
 	(RTConstraint movable: self fix: id) stick.
 	(RTConstraint movable: self fix: label)
 		outer;
-		bottom;
-		stick
+		top;
+		verticalPadding: 10;
+		stick.
+	self createPorts

@@ -1,11 +1,11 @@
 as yet unclassified
-exampleShapes2
+exampleOCDLinks
 | v ear tj car f |
 v := RTView new.
 
 ear := DemoElementaryActorRoleFigure new.
 v add: ear.
-tj := DemoTransactionFigure new.
+tj := DemoAggregateTransactionFigure new.
 v add: tj.
 car := DemoCompositeActorRoleFigure new.
 v add: car.

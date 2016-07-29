@@ -2,5 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"baseShape" : "PeterUhnak 7/21/2016 15:45",
-		"createOwnedElements" : "PeterUhnak 7/21/2016 15:46" } }
+		"addInteractions" : "PeterUhnak 7/29/2016 22:22",
+		"baseShape" : "PeterUhnak 7/29/2016 22:03",
+		"createOwnedElements" : "PeterUhnak 7/29/2016 22:08",
+		"createPorts" : "PeterUhnak 7/29/2016 22:09",
+		"createPortsFor:padding:" : "PeterUhnak 7/29/2016 22:02",
+		"createPortsFor:type:padding:" : "PeterUhnak 7/29/2016 21:58",
+		"ports" : "PeterUhnak 7/29/2016 22:11" } }

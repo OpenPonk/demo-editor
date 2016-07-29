@@ -1,11 +1,10 @@
 as yet unclassified
 createOwnedElements
-	| label labelSide|
+	| label |
 	super createOwnedElements.
-	label := self figuresFactory newLabel elementOn: #rq.
+	label := self figuresFactory newLabel elementOn: self model.
 	self add: label.
-	labelSide := #bottom.
 	(RTConstraint on: label background: self)
-		perform: labelSide;
+		perform: (labelSide ifNil: [ #bottom ]);
 		outer;
 		stick

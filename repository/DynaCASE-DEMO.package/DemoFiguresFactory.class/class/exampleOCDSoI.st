@@ -1,5 +1,5 @@
 as yet unclassified
-exampleShapes3
+exampleOCDSoI
 | v outer inner trans soi f |
 v := RTView new.
 

@@ -1,6 +1,6 @@
 as yet unclassified
 baseShape
 	^ self figuresFactory newRoundedBox
-		width: 200;
-		height: 50;
+		width: 300;
+		height: 60;
 		borderRadius: 25
