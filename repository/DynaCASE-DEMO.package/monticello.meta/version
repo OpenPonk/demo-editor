@@ -1,2 +1,2 @@
-(name 'DynaCASE-DEMO-PeterUhnak.73' message 'resizable shapes' id '2c8207d8-592e-4c94-aafe-0371248b7cea' date '21 July 2016' time '7:32:40.882537 am' author 'PeterUhnak' ancestors ((name 'DynaCASE-DEMO-PeterUhnak.72' message 'Redoing DEMO visuals.
-' id '38d83b07-2bbb-5a8f-8917-217f7faf8cfe' date '21 July 2016' time '6:55:01 am' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'DynaCASE-DEMO-PeterUhnak.74' message 'OCD Transaction visualization.' id '858e6a9f-4158-4b07-9479-4ea9ea077469' date '29 July 2016' time '1:15:38.894192 pm' author 'PeterUhnak' ancestors ((name 'DynaCASE-DEMO-PeterUhnak.73' message 'resizable shapes
+' id '248ec1b4-c9bc-5682-8847-be64810956dc' date '21 July 2016' time '7:32:44 am' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())

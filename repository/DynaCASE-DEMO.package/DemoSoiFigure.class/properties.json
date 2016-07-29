@@ -10,5 +10,5 @@
 	"name" : "DemoSoiFigure",
 	"pools" : [
 		 ],
-	"super" : "DemoFigure",
+	"super" : "DemoOCDFigure",
 	"type" : "normal" }

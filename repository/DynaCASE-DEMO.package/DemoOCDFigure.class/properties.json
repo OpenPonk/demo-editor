@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "DemoTransactionFigure",
+	"name" : "DemoOCDFigure",
 	"pools" : [
 		 ],
-	"super" : "DemoOCDFigure",
+	"super" : "DemoFigure",
 	"type" : "normal" }

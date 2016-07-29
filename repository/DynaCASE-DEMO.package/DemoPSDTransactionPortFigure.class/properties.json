@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "DemoTransactionFigure",
+		"isFact" ],
+	"name" : "DemoPSDTransactionPortFigure",
 	"pools" : [
 		 ],
-	"super" : "DemoOCDFigure",
+	"super" : "DemoPSDFigure",
 	"type" : "normal" }
