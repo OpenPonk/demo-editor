@@ -17,8 +17,8 @@ t2 translateBy: 0 @ 150.
 
 f := DemoFiguresFactory new.
 
-v add: (f flowLinkFrom: t1 ports eighth to: t2 ports first).
+v add: (f causalLinkFrom: t1 ports eighth to: t2 ports first).
 
-v add: (f conditionLinkFrom: t2 ports seventh to: (t1 ports at: 10)).
+v add: (f conditionalLinkFrom: t2 ports seventh to: (t1 ports at: 10)).
 
 v inspect
