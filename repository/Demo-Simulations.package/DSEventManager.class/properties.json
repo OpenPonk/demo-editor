@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DSEventManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

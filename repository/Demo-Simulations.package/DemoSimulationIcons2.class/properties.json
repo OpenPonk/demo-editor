@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Simulations-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"icons" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoSimulationIcons2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

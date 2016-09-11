@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"owner" ],
+	"name" : "DSFigure",
+	"pools" : [
+		 ],
+	"super" : "RTAbstractMultiElement",
+	"type" : "normal" }

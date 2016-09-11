@@ -1,0 +1,15 @@
+{
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [
+		"current" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"avatars",
+		"people" ],
+	"name" : "DSGravatar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

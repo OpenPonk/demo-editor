@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DSEnabled",
+	"pools" : [
+		 ],
+	"super" : "DSAnnouncement",
+	"type" : "normal" }

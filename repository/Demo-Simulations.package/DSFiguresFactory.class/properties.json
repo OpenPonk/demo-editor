@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"personCache" ],
+	"name" : "DSFiguresFactory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
