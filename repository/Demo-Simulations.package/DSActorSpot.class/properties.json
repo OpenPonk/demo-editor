@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"owner",
-		"rendered" ],
-	"name" : "DSFigure",
+		"actor" ],
+	"name" : "DSActorSpot",
 	"pools" : [
 		 ],
-	"super" : "RTAbstractMultiElement",
+	"super" : "DSFigure",
 	"type" : "normal" }

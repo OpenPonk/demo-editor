@@ -1,19 +1,19 @@
 as yet unclassified
-connectControlBox: aBox with: aCommunication
+connectControlBox: aBox with: aTransaction
 	aBox buttons
 		do: [ :each | 
 			each
 				when: DSHover
 				do: [ :evt | 
-					aCommunication icon: each icon.
-					aCommunication action ].
+					aTransaction core icon: each icon.
+					aTransaction action ].
 			each
 				when: DSCompleted
 				do: [ :evt | 
-					aCommunication icon: each icon.
-					aCommunication noAction ].
+					aTransaction core icon: each icon.
+					aTransaction noAction ].
 			each
 				when: DSEnabled
 				do: [ :evt | 
-					aCommunication icon: (each previousButton ifNil: [ aBox buttons first ]) icon.
-					aCommunication noAction ] ]
+					aTransaction core icon: (each previousButton ifNil: [ aBox buttons first ]) icon.
+					aTransaction noAction ] ]

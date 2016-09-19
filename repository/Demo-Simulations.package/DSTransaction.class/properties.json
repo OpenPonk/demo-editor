@@ -6,10 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"owner",
-		"rendered" ],
-	"name" : "DSFigure",
+		"initiatorSpot",
+		"core",
+		"connection",
+		"executorSpot",
+		"flipped" ],
+	"name" : "DSTransaction",
 	"pools" : [
 		 ],
-	"super" : "RTAbstractMultiElement",
+	"super" : "DSFigure",
 	"type" : "normal" }

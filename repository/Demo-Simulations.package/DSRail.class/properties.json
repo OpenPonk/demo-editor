@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"owner",
-		"rendered" ],
-	"name" : "DSFigure",
+		"label",
+		"labelModel",
+		"spots" ],
+	"name" : "DSRail",
 	"pools" : [
 		 ],
-	"super" : "RTAbstractMultiElement",
+	"super" : "DSFigure",
 	"type" : "normal" }

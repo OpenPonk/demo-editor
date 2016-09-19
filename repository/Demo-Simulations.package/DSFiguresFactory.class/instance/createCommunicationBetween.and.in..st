@@ -3,14 +3,14 @@ createCommunicationBetween: onePerson and: anotherPerson in: aView
 	| p1 p2 com c |
 	p1 := personCache
 		at: onePerson
-		ifAbsentPut: [ p1 := DSPerson new.
+		ifAbsentPut: [ p1 := DSActor new.
 			p1 label: onePerson.
 			p1 translateBy: 0 @ 0.
 			aView add: p1.
 			p1 ].
 	p2 := personCache
 		at: anotherPerson
-		ifAbsentPut: [ p2 := DSPerson new.
+		ifAbsentPut: [ p2 := DSActor new.
 			p2 label: anotherPerson.
 			p2 translateBy: 320 @ 0.
 			aView add: p2.
@@ -18,7 +18,7 @@ createCommunicationBetween: onePerson and: anotherPerson in: aView
 	com := self communicationLinkFrom: p1 to: p2.
 	aView add: com.
 	aView pushBackEdges.
-	c := DSCloud new.
+	c := DSTransactionCore new.
 	c communication: com.
 	aView add: c.
 	c translateBy: 160 @ 0.

@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"owner",
-		"rendered" ],
-	"name" : "DSFigure",
+		"text",
+		"isLeft" ],
+	"name" : "DSSpeechBubble",
 	"pools" : [
 		 ],
-	"super" : "RTAbstractMultiElement",
+	"super" : "DSFigure",
 	"type" : "normal" }

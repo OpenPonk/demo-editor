@@ -6,7 +6,7 @@ v := RTView new.
 container := DSContainer new.
 
 box1 := DSBox new.
-box1 label: 'Supply', String cr, 'management'.
+box1 model: 'Supply', String cr, 'management'.
 box1 @ DCRTResizableHorizontallySnapToGrid.
 box1 @ RTDraggable.
 box1 shape width: 560.
@@ -14,7 +14,7 @@ box1 shape width: 560.
 container addBox: box1.
 
 box2 := DSBox new.
-box2 label: 'Supply order', String cr, 'completion'.
+box2 model: 'Supply order', String cr, 'completion'.
 box2 @ DCRTResizableHorizontallySnapToGrid.
 box2 @ RTDraggable.
 

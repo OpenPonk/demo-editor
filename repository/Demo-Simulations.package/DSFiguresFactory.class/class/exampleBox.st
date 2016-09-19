@@ -4,6 +4,7 @@ exampleBox
 v := RTView new.
 
 box := DSBox new.
+box model: 'Order'.
 
 v add: box.
 box buttons first enabled.
