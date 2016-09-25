@@ -1,0 +1,3 @@
+hooks
+createFigure
+	^ DemoTransactionFigure new

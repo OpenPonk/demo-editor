@@ -1,0 +1,15 @@
+{
+	"category" : "DEMO-Editor-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceController",
+		"targetController" ],
+	"name" : "DemoConnectionController",
+	"pools" : [
+		 ],
+	"super" : "DCElementController",
+	"type" : "normal" }

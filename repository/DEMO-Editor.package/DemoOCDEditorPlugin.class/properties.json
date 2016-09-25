@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Editor-Plugin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoOCDEditorPlugin",
+	"pools" : [
+		 ],
+	"super" : "DCPlugin",
+	"type" : "normal" }
