@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "DemoNamedElement",
+	"pools" : [
+		 ],
+	"super" : "DemoElement",
+	"type" : "normal" }

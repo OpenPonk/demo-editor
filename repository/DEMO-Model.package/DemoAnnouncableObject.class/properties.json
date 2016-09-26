@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer" ],
+	"name" : "DemoAnnouncableObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

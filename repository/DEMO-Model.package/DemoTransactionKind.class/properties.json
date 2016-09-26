@@ -1,0 +1,15 @@
+{
+	"category" : "DEMO-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"initiators",
+		"executor" ],
+	"name" : "DemoTransactionKind",
+	"pools" : [
+		 ],
+	"super" : "DemoNamedElement",
+	"type" : "normal" }

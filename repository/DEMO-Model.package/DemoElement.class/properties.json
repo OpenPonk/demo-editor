@@ -1,0 +1,16 @@
+{
+	"category" : "DEMO-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uuid",
+		"demoId",
+		"owner" ],
+	"name" : "DemoElement",
+	"pools" : [
+		 ],
+	"super" : "DemoAnnouncableObject",
+	"type" : "normal" }

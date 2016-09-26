@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoActorRole",
+	"pools" : [
+		 ],
+	"super" : "DemoNamedElement",
+	"type" : "normal" }
