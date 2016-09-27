@@ -1,0 +1,3 @@
+adding
+addTransactionBank: aTransactionKind
+	transactionBanks add: aTransactionKind

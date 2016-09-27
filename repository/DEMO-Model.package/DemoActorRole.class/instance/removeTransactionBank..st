@@ -1,0 +1,3 @@
+removing
+removeTransactionBank: aTransactionKind
+	transactionBanks remove: aTransactionKind
