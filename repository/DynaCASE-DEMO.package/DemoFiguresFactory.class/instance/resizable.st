@@ -1,3 +1,0 @@
-interactions
-resizable
-	^ RTResizable
