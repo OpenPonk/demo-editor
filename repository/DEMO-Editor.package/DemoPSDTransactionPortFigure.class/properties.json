@@ -1,0 +1,15 @@
+{
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isFact",
+		"labelSide" ],
+	"name" : "DemoPSDTransactionPortFigure",
+	"pools" : [
+		 ],
+	"super" : "DemoPSDFigure",
+	"type" : "normal" }

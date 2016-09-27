@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Editor-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoExecutorLinkController",
+	"pools" : [
+		 ],
+	"super" : "DemoConnectionController",
+	"type" : "normal" }

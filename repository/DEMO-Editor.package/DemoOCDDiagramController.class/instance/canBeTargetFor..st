@@ -1,4 +1,5 @@
 testing
 canBeTargetFor: aController
 	^ (aController isKindOf: DemoActorRoleController)
-		| (aController isKindOf: DemoTransactionKindController)
+		| (aController isKindOf: DemoAbstractTransactionKindController)
+		| (aController isKindOf: DemoScopeOfInterestController)

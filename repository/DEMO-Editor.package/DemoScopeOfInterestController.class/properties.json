@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Editor-Controllers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoScopeOfInterestController",
+	"pools" : [
+		 ],
+	"super" : "DCElementController",
+	"type" : "normal" }

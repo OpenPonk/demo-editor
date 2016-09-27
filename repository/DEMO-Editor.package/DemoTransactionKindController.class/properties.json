@@ -10,5 +10,5 @@
 	"name" : "DemoTransactionKindController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "DemoAbstractTransactionKindController",
 	"type" : "normal" }

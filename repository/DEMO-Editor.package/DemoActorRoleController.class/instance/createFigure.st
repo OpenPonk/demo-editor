@@ -1,3 +1,0 @@
-hooks
-createFigure
-	^ DemoElementaryActorRoleFigure new

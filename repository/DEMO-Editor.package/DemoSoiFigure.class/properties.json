@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoSoiFigure",
+	"pools" : [
+		 ],
+	"super" : "DemoOCDFigure",
+	"type" : "normal" }

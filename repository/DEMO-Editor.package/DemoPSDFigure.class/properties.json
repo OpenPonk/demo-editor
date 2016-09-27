@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoPSDFigure",
+	"pools" : [
+		 ],
+	"super" : "DemoFigure",
+	"type" : "normal" }

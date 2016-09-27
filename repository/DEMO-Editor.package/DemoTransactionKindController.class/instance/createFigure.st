@@ -1,3 +1,3 @@
 hooks
 createFigure
-	^ DemoTransactionFigure new
+	^ DemoTransactionFigure on: self model
