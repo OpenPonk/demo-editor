@@ -1,0 +1,3 @@
+accessing
+demoIdPrefix
+	^ self subclassResponsibility
