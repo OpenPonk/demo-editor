@@ -1,3 +1,3 @@
 as yet unclassified
 createFigure
-	^ DemoSoiFigure new
+	^ (DemoSoiFigure on: #SoI) @ DemoSoiDroppable

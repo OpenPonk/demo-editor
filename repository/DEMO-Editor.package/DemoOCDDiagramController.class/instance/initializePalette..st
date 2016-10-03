@@ -8,9 +8,11 @@ initializePalette: aPalette
 		whenCompletedRename.
 	aPalette newSeparator.
 	(aPalette newCreationEntry: [ DemoTransactionKindController new ])
-		label: 'Transaction Kind'.
+		label: 'Transaction Kind';
+		whenCompletedRename.
 	(aPalette newCreationEntry: [ DemoAggregateTransactionKindController new ])
-		label: 'Aggregate Transaction Kind'.
+		label: 'Aggregate Transaction Kind';
+		whenCompletedRename.
 	aPalette newSeparator.
 	(aPalette newConnectionCreationTool: [ DemoInitiatorLinkController new ])
 		label: 'Initiator link'.

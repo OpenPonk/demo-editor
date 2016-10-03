@@ -3,7 +3,7 @@ createOwnedElements
 	| label |
 	label := self figuresFactory newLabel
 		height: 12;
-		elementOn: #SoI.
+		elementOn: (self model ifNil: #SoI).
 	self add: label.
 	(RTConstraint movable: self fix: label)
 		border;

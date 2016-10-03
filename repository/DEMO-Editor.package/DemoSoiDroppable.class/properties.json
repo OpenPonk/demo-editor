@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"containedElements" ],
-	"name" : "DemoSoiFigure",
+		 ],
+	"name" : "DemoSoiDroppable",
 	"pools" : [
 		 ],
-	"super" : "DemoOCDFigure",
+	"super" : "RTLazyInteraction",
 	"type" : "normal" }

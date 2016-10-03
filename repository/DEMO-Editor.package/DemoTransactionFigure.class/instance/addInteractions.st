@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 addInteractions
 	super addInteractions.
 	self @ self figuresFactory draggable
