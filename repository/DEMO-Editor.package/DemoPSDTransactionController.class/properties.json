@@ -1,14 +1,13 @@
 {
-	"category" : "DEMO-Editor-Controllers-OCD",
+	"category" : "DEMO-Editor-Controllers-PSD",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sourceController",
-		"targetController" ],
-	"name" : "DemoConnectionController",
+		 ],
+	"name" : "DemoPSDTransactionController",
 	"pools" : [
 		 ],
 	"super" : "DCElementController",
