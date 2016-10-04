@@ -1,14 +1,13 @@
 {
-	"category" : "DEMO-Model-OCD",
+	"category" : "DEMO-Model-PSD",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"transactionBanks",
-		"isComposite" ],
-	"name" : "DemoActorRole",
+		"elements" ],
+	"name" : "DemoPSDModel",
 	"pools" : [
 		 ],
 	"super" : "DemoNamedElement",

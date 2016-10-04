@@ -1,0 +1,18 @@
+{
+	"category" : "DEMO-Model-PSD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceTransaction",
+		"destinationTransaction",
+		"multiplicity",
+		"sourceTransactionFactType",
+		"destinationTransactionActType" ],
+	"name" : "DemoPSDLink",
+	"pools" : [
+		 ],
+	"super" : "DemoNamedElement",
+	"type" : "normal" }
