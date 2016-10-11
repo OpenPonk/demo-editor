@@ -1,5 +1,5 @@
 hooks
 createFigure
 	^ DemoFiguresFactory new
-		causalLinkFrom: self sourcePortController figure
+		conditionalLinkFrom: self sourcePortController figure
 		to: self targetPortController figure

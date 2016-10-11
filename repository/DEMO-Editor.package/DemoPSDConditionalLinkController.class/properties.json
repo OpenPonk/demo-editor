@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Editor-Controllers-PSD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DemoPSDConditionalLinkController",
+	"pools" : [
+		 ],
+	"super" : "DemoPSDLinkController",
+	"type" : "normal" }

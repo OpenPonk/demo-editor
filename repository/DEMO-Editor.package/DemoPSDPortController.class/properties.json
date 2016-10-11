@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Editor-Controllers-PSD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"transactionController" ],
+	"name" : "DemoPSDPortController",
+	"pools" : [
+		 ],
+	"super" : "DCElementController",
+	"type" : "normal" }
