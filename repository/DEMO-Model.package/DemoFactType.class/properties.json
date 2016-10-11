@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "DemoActType",
+	"name" : "DemoFactType",
 	"pools" : [
 		 ],
 	"super" : "Object",
