@@ -1,15 +1,13 @@
 {
-	"category" : "DEMO-Model-OCD",
+	"category" : "DEMO-Model-Common",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"transactionBanks",
-		"isComposite",
-		"isSelfGenerating" ],
-	"name" : "DemoActorRole",
+		"elements" ],
+	"name" : "DemoModel",
 	"pools" : [
 		 ],
 	"super" : "DemoNamedElement",

@@ -9,8 +9,8 @@
 		"sourceTransaction",
 		"destinationTransaction",
 		"multiplicity",
-		"sourceTransactionFactType",
-		"destinationTransactionActType" ],
+		"sourceFact",
+		"destinationAct" ],
 	"name" : "DemoPSDLink",
 	"pools" : [
 		 ],
