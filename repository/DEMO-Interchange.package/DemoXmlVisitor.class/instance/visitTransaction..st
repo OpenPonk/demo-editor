@@ -9,4 +9,5 @@ visitTransaction: anElement
 				demoId: (self demoIdFor: anElement).
 			model add: transaction.
 			unresolved
-				add: [ transaction executor: (self elementAt: (anElement uuidAt: #ExecActorRoleId)) ] ]
+				add: [ transaction executor: (self elementAt: (anElement uuidAt: #ExecActorRoleId)) ].
+			transaction ]
