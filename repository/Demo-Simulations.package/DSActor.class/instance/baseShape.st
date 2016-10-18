@@ -1,3 +1,3 @@
 as yet unclassified
 baseShape
-	^ RTBitmap new form: self personFrontIcon
+	^ RTBitmap new form: self icon

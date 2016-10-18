@@ -9,7 +9,7 @@ createOwnedElements
 		stick.
 	label := RTLabel new
 		color: Color black;
-		elementOn: self model.
+		elementOn: self model name.
 	self add: label.
 	(RTConstraint on: label background: self)
 		below;

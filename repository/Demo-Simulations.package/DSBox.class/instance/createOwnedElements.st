@@ -5,7 +5,7 @@ createOwnedElements
 	after := #(ex st ac).
 	label := RTText new
 		color: Color black;
-		elementOn: self model.
+		elementOn: self model model name.
 	self add: label.
 	(RTConstraint movable: self fix: label)
 		left;

@@ -8,7 +8,9 @@
 	"instvars" : [
 		"label",
 		"labelContainer",
-		"spot" ],
+		"spot",
+		"icon",
+		"glow" ],
 	"name" : "DSActor",
 	"pools" : [
 		 ],

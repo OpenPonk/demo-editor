@@ -1,3 +1,4 @@
-as yet unclassified
+action
 noAction
-	self action: self personFrontIcon
+	self action: self icon.
+	self noGlow

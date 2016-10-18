@@ -6,7 +6,7 @@ createOwnedElements
 	(core := DSTransactionCore new) model: self model.
 	connection := RTStyledMultiLine new
 		attachPoint: RTBorderAttachPoint new;
-		filledNarrowArrowHead;
+		filledCircleHead;
 		color: (Color fromHexString: 'd0d0d0');
 		width: 5;
 		edgeFrom: initiatorSpot to: executorSpot.

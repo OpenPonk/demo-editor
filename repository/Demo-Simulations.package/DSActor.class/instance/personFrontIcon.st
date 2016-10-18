@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - icons
 personFrontIcon
 	| selector |
 	selector := #personFrontIcon.

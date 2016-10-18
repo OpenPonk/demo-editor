@@ -1,0 +1,3 @@
+accessing
+leftFacingIcon
+	^ self icon

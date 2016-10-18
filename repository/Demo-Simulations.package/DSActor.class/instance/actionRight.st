@@ -1,3 +1,4 @@
-as yet unclassified
+action
 actionRight
-	self action: self personRightSideIcon
+	self action: self rightFacingIcon.
+	self glow

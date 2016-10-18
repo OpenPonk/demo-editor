@@ -4,7 +4,7 @@ createOwnedElements
 	super createOwnedElements.
 	label := RTLabel new
 		color: Color black;
-		elementOn: self model.
+		elementOn: self model name.
 	self add: label.
 	(RTConstraint on: label background: spots first)
 		top;
@@ -17,7 +17,7 @@ createOwnedElements
 				withCenteredAttachPoint;
 				dashedLine;
 				width: 10;
-				color: (Color fromHexString: 'd0d0d0');
+				color: self railColor;
 				dashes: #(50 20);
 				capRound;
 				yourself.

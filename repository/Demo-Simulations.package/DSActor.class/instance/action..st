@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 action: anIcon
 	self shape form: anIcon.
 	self

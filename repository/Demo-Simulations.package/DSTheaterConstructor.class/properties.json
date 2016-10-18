@@ -1,0 +1,20 @@
+{
+	"category" : "Demo-Simulations-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"transactions",
+		"view",
+		"rails",
+		"boxes",
+		"actors",
+		"actorsMapping" ],
+	"name" : "DSTheaterConstructor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
