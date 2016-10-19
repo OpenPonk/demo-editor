@@ -7,6 +7,7 @@ glow
 		borderColor: Color yellow;
 		borderWidth: 5;
 		element.
+	glow translateTo: self position.
 	self view add: glow.
 	glow pushBack.
 	self view signalUpdate

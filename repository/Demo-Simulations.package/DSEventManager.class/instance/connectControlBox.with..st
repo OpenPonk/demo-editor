@@ -1,12 +1,10 @@
 as yet unclassified
 connectControlBox: aBox with: aTransaction
-	1halt.
 	aBox buttons
 		do: [ :each | 
 			each
 				when: DSHover
 				do: [ :evt | 
-					1halt.
 					aTransaction core icon: each icon.
 					aTransaction action ].
 			each
@@ -17,6 +15,5 @@ connectControlBox: aBox with: aTransaction
 			each
 				when: DSEnabled
 				do: [ :evt | 
-					1halt.
 					aTransaction core icon: (each previousButton ifNil: [ aBox buttons first ]) icon.
 					aTransaction noAction ] ]

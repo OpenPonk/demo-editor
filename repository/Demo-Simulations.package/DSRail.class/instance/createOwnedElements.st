@@ -19,6 +19,6 @@ createOwnedElements
 				width: 10;
 				color: self railColor;
 				dashes: #(50 20);
-				capRound;
+"				capRound;"
 				yourself.
 			self add: (segment edgeFrom: from to: to) ]

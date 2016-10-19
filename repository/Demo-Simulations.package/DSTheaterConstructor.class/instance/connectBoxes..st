@@ -15,7 +15,11 @@ connectBoxes: aCollection
 						detect: [ :each | each model model = aLink destinationTransaction ].
 					fromF := types indexOf: aLink sourceFact type.
 					toA := types indexOf: aLink destinationAct type.
-					view add: (f causalLinkFrom: (from buttons at: fromF) to: (to buttons at: toA)) ] ].
+					view add: (f causalLinkFrom: (from buttons at: fromF) to: (to buttons at: toA)).
+					toA = 1
+						ifTrue: [ (from buttons at: fromF)
+								when: DSCompleted
+								do: [ :evt | self ensureTransactionHasActors: to ] ] ] ].
 	conditionalLinks
 		do: [ :aLink | 
 			| from to fromF toA |
