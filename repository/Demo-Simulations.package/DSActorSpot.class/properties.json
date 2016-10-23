@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actor" ],
+		"actor",
+		"rail" ],
 	"name" : "DSActorSpot",
 	"pools" : [
 		 ],
