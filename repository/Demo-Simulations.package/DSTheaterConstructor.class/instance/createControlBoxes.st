@@ -11,9 +11,12 @@ createControlBoxes
 			box @ DCRTResizableHorizontallySnapToGrid.
 			box @ RTDraggable.
 			view add: box.
+			box buttons do: [ :button | self moveActorsForButton: button ].
 			eventManager connectControlBox: box with: each.
 			box ].
-	RTVerticalLineLayout new gapSize: 40; on: boxes.
+	RTVerticalLineLayout new
+		gapSize: 40;
+		on: boxes.
 	boxes asGroup translateBy: 300 @ 0.
-	self connectBoxes: boxes.
-"	view pushBackEdges"
+	self connectBoxes: boxes
+	"	view pushBackEdges"
