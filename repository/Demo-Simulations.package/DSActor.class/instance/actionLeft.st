@@ -1,4 +1,5 @@
 action
 actionLeft
-	self action: self leftFacingIcon.
-	self glow
+	self spot glow
+"	self action: self leftFacingIcon.
+	self glow"

@@ -1,6 +1,6 @@
 as yet unclassified
 noAction
 	core noAction.
-	initiatorSpot actor ifNotNil: #noAction.
-	executorSpot actor ifNotNil: #noAction.
+	initiatorSpot ifNotNil: #noGlow.
+	executorSpot ifNotNil: #noGlow.
 	self view pushBackEdges

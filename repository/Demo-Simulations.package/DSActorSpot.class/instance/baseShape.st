@@ -1,7 +1,7 @@
 as yet unclassified
 baseShape
 	^ RTBox new
-		width: 100;
-		height: 150;
+		width: 50;
+		height: 75;
 		color: Color transparent;
 		yourself

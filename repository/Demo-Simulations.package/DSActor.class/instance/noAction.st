@@ -1,4 +1,5 @@
 action
 noAction
-	self action: self icon.
-	self noGlow
+	self spot noGlow
+"	self action: self icon.
+	self noGlow"
