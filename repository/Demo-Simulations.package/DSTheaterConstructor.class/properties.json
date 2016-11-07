@@ -12,7 +12,9 @@
 		"rails",
 		"boxes",
 		"actors",
-		"actorsMapping" ],
+		"actorsMapping",
+		"actorLines",
+		"figuresFactory" ],
 	"name" : "DSTheaterConstructor",
 	"pools" : [
 		 ],

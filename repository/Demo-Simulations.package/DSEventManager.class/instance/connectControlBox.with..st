@@ -11,7 +11,8 @@ connectControlBox: aBox with: aTransaction
 				when: DSCompleted
 				do: [ :evt | 
 					aTransaction core icon: each icon.
-					aTransaction noAction ].
+					aTransaction noAction.
+					aTransaction completedAction ].
 			each
 				when: DSEnabled
 				do: [ :evt | 

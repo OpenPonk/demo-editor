@@ -1,0 +1,16 @@
+{
+	"category" : "Demo-Simulations-Utils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"roleName",
+		"actorName",
+		"actorAvatar" ],
+	"name" : "DSRoleAssignment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

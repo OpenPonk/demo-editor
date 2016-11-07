@@ -1,0 +1,14 @@
+{
+	"category" : "Demo-Simulations-Utils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DSLinesStorage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

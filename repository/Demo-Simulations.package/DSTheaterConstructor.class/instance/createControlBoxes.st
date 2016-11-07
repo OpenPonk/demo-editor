@@ -12,6 +12,7 @@ createControlBoxes
 			box @ RTDraggable.
 			view add: box.
 			box buttons do: [ :button | self moveActorsForButton: button ].
+			box buttons do: [ :button | self showSpeechBubbleForButton: button ].
 			eventManager connectControlBox: box with: each.
 			box ].
 	RTVerticalLineLayout new

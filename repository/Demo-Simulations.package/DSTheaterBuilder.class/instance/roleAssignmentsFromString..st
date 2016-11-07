@@ -1,0 +1,3 @@
+reading
+roleAssignmentsFromString: aString
+	self roleAssignmentsFromStream: aString readStream

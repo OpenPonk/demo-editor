@@ -1,4 +1,6 @@
 as yet unclassified
 initialize
 	super initialize.
-	view := RTView new
+	view := RTView new.
+	figuresFactory := DSFiguresFactory new.
+	actorLines := Dictionary new
