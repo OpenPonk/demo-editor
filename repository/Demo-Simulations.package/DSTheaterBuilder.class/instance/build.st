@@ -3,7 +3,7 @@ build
 	| constructor |
 	(constructor := DSTheaterConstructor new)
 		model: model;
-		assignActors: roleAssignments;
+		assignActors: self roleAssignments;
 		actorLines: lines.
 	constructor
 		createViewElements;

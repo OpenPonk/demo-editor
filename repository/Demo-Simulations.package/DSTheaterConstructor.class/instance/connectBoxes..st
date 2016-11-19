@@ -2,9 +2,9 @@ as yet unclassified
 connectBoxes: aCollection
 	| causalLinks conditionalLinks types f |
 	f := DSFiguresFactory new.
-	causalLinks := model elements select: [ :each | each isKindOf: DemoCausalLink ].
-	conditionalLinks := model elements
-		select: [ :each | each isKindOf: DemoConditionalLink ].
+	causalLinks := model elements
+		select: [ :each | each isCausalLink and: [ each maxMultiplicity > 0 ] ].
+	conditionalLinks := model elements select: #isConditionalLink.
 	types := #(request promise execute state accept).
 	causalLinks
 		do: [ :aLink | 

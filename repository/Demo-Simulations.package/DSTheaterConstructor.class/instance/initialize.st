@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	view := RTView new.
 	figuresFactory := DSFiguresFactory new.
-	actorLines := Dictionary new
+	actorLines := Dictionary new.
+	modelManager := DSModelManager new
