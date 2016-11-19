@@ -1,0 +1,3 @@
+testing
+isActorRole
+	^ true

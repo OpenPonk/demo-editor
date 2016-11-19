@@ -9,6 +9,8 @@
 		"sourceTransaction",
 		"destinationTransaction",
 		"multiplicity",
+		"minMultiplicity",
+		"maxMultiplicity",
 		"sourceFact",
 		"destinationAct" ],
 	"name" : "DemoPSDLink",
