@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Interchange-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oauth" ],
+	"name" : "DemoFormetisOAuthTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

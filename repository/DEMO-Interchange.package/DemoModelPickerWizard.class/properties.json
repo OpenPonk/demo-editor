@@ -1,0 +1,16 @@
+{
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"models",
+		"versionsBlock",
+		"completeBlock" ],
+	"name" : "DemoModelPickerWizard",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

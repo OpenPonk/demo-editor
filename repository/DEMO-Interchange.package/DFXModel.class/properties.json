@@ -1,0 +1,19 @@
+{
+	"category" : "DEMO-Interchange-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"creatorId",
+		"creationDate",
+		"enterpriseId",
+		"externalId",
+		"label",
+		"id" ],
+	"name" : "DFXModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

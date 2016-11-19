@@ -1,0 +1,14 @@
+{
+	"category" : "DEMO-Interchange",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"token" ],
+	"name" : "DemoFormetisAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

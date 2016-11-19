@@ -1,0 +1,29 @@
+{
+	"category" : "DEMO-Interchange-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"model",
+		"conditionalLinks",
+		"published",
+		"transactions",
+		"version",
+		"id",
+		"disabled",
+		"actorRoles",
+		"causalRules",
+		"conditionalRules",
+		"publishedDate",
+		"changedDate",
+		"creationDate",
+		"facts",
+		"causalLinks" ],
+	"name" : "DFXVersion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

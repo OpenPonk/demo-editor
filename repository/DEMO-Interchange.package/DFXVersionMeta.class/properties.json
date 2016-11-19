@@ -1,0 +1,22 @@
+{
+	"category" : "DEMO-Interchange-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"publishedDate",
+		"creationDate",
+		"version",
+		"disabled",
+		"changedDate",
+		"modelId",
+		"id",
+		"published",
+		"label" ],
+	"name" : "DFXVersionMeta",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
