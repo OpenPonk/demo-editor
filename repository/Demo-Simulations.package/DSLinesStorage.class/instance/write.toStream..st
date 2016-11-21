@@ -1,5 +1,5 @@
 as yet unclassified
-write: anAssignment to: aStream
+write: anAssignment toStream: aStream
 	| writer |
 	writer := NeoCSVWriter on: aStream.
 	writer writeHeader: #(roleName transactionName actName line).

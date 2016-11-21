@@ -15,9 +15,17 @@ createControlBoxes
 			box buttons do: [ :button | self showSpeechBubbleForButton: button ].
 			eventManager connectControlBox: box with: each.
 			box ].
+
+	self connectBoxes: boxes.
+"		1halt.
+	view open.
+	view @ RTDraggableView."
 	RTVerticalLineLayout new
 		gapSize: 40;
 		on: boxes.
 	boxes asGroup translateBy: 300 @ 0.
-	self connectBoxes: boxes
+"	edges := ((boxes flatCollect: #buttons) flatCollect: #connectedEdges) asSet asOrderedCollection.
+	edges select: [ :each | each model key = #conditional] thenDo: [ :each | each notUseInLayout ].
+	RTHorizontalTreeLayout new on: boxes edges:	edges.
+	view signalUpdate."
 	"	view pushBackEdges"
