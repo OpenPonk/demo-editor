@@ -2,7 +2,7 @@ api - calls
 retrieveModels
 	| json |
 	json := self jsonResponseFor: '/api/SimulationApi/Models'.
-	^ json @ #models
+	^ cachedModels := json @ #models
 		collect: [ :each | 
 			DFXModel new
 				creatorId: (UUID fromString: each @ #creatorId);

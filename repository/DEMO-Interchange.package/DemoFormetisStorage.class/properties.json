@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"token",
-		"cachedModels",
-		"cachedVersions" ],
-	"name" : "DemoFormetisAPI",
+		 ],
+	"name" : "DemoFormetisStorage",
 	"pools" : [
 		 ],
 	"super" : "Object",

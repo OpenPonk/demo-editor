@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "PeterUhnak 11/20/2016 17:06",
 	"instvars" : [
-		"models",
-		"versionsBlock",
-		"completeBlock" ],
-	"name" : "DemoModelPickerWizard",
+		"completedBlock" ],
+	"name" : "DemoLoginWizard",
 	"pools" : [
 		 ],
 	"super" : "Object",

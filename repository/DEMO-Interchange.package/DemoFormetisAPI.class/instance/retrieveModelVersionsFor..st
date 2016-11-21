@@ -1,9 +1,10 @@
 api - calls
 retrieveModelVersionsFor: aModel
-	| json |
+	| json versions |
 	json := self
 		jsonResponseFor: ('/api/SimulationApi/Models/{1}/Versions' format: {aModel id}).
-	^ json @ #modelVersions
+	cachedVersions at: aModel ifPresent: [ :v | ^ v ].
+	versions := json @ #modelVersions
 		collect: [ :each | 
 			DFXVersionMeta new
 				publishedDate: (DateAndTime fromString: each @ #publishedDate);
@@ -14,4 +15,6 @@ retrieveModelVersionsFor: aModel
 				modelId: (UUID fromString: each @ #modelId);
 				id: (UUID fromString: each @ #id);
 				published: each @ #published = 'true';
-				label: each @ #label ]
+				label: each @ #label ].
+	cachedVersions at: aModel put: versions.
+	^ versions

@@ -1,3 +1,4 @@
 initialization
 authenticateUser: aUser password: aPassword
-	token := self tokenForUser: aUser password: aPassword
+	token := self retrieveTokenForUser: aUser password: aPassword.
+	^ token

@@ -1,3 +1,3 @@
 unsupported visiting
-visitAbstractionLevel: anElement
+visitIsUndefinedAllowing: anElement 
 	"not supported"

@@ -1,4 +1,4 @@
 unsupported visiting
-visitTransactionState: anElement 
-	anElement parent localName = 'CausalRuleDTO'
+visitTransactionState: anElement
+	(#('CausalRuleDTO' 'ConditionalRuleDTO') includes: anElement parent localName)
 		ifFalse: [ self shouldBeImplemented ]

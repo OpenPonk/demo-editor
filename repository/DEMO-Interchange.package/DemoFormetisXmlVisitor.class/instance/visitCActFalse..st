@@ -1,4 +1,4 @@
 unsupported visiting
 visitCActFalse: anElement 
-	anElement parent localName = 'CausalRuleDTO'
+	(#('CausalRuleDTO' 'ConditionalRuleDTO') includes: anElement parent localName)
 		ifFalse: [ self shouldBeImplemented ]
