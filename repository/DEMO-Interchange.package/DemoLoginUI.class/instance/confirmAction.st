@@ -11,4 +11,5 @@ confirmAction
 	token := api authenticateUser: loginText password: passwordText.
 	token isError
 		ifTrue: [ UIManager default abort: token errorDescription title: 'Authentication failure' ]
-		ifFalse: [ self delete ]
+		ifFalse: [ self delete.
+			whenAuthenticated value ]

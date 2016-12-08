@@ -10,7 +10,8 @@
 		"login",
 		"passwordLabel",
 		"password",
-		"confirmButton" ],
+		"confirmButton",
+		"whenAuthenticated" ],
 	"name" : "DemoLoginUI",
 	"pools" : [
 		 ],
