@@ -1,0 +1,3 @@
+testing
+isTransactionKind
+	^ false

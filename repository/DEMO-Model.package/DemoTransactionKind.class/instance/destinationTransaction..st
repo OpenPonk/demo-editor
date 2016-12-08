@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 destinationTransaction: aDemoTransactionKind 
 	self shouldBeImplemented.
