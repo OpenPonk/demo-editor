@@ -7,6 +7,6 @@ SmalltalkCISpec {
 		}
 	],
 	#testing : {
-		#packages : [ 'Demo.*', 'DynaCASE-DEMO.*' ]
+		#packages : [ 'Demo.*', 'DynaCASE-DEMO.*', 'DEMO.*' ]
 	}
 }
