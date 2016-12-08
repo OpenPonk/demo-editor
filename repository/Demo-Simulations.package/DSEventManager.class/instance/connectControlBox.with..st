@@ -2,17 +2,19 @@ as yet unclassified
 connectControlBox: aBox with: aTransaction
 	aBox buttons
 		do: [ :each | 
-			each
+			"each
 				when: DSHover
 				do: [ :evt | 
 					aTransaction core icon: each icon.
-					aTransaction action ].
+					aTransaction action ]."
 			each
 				when: DSCompleted
 				do: [ :evt | 
 					aTransaction core icon: each icon.
 					aTransaction noAction.
-					aTransaction completedAction ].
+					each model = #ac
+						ifTrue: [ aTransaction fullCompletedAction ]
+						ifFalse: [ aTransaction completedAction ] ].
 			each
 				when: DSEnabled
 				do: [ :evt | 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 icon: anIcon
 	icon := anIcon.
 	iconElement shape form: self currentIcon.

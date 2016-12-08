@@ -15,7 +15,10 @@
 		"actorsMapping",
 		"actorLines",
 		"figuresFactory",
-		"modelManager" ],
+		"modelManager",
+		"oldInitPosition",
+		"oldExecPosition",
+		"bubble" ],
 	"name" : "DSTheaterConstructor",
 	"pools" : [
 		 ],

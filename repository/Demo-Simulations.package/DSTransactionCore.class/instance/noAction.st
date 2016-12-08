@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 noAction
 	self shape color: Color white.
 	iconElement shape form: self currentIcon.

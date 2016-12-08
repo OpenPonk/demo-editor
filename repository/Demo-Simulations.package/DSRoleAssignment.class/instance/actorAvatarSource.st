@@ -1,0 +1,3 @@
+accessing
+actorAvatarSource
+	^ actorAvatar

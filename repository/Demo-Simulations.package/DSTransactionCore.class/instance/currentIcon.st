@@ -1,3 +1,3 @@
-as yet unclassified
+icons
 currentIcon
 	^ icon scaledIntoFormOfSize: 35 @ 35

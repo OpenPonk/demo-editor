@@ -4,4 +4,4 @@ hover
 	self
 		update;
 		signalUpdate.
-	self announce: DSHover new
+	self announce: (DSHover button: self)

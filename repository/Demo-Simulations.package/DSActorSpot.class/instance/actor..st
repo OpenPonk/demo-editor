@@ -4,6 +4,8 @@ actor: anActor
 		ifNotNil: [ ownedElements remove: actor.
 			actor spot: nil ].
 	actor := anActor.
-	actor spot: self.
-	actor translateTo: self position.
-	self add: actor
+	actor
+		ifNotNil: [ actor spot ifNotNil: [ actor spot actor: nil ].
+			actor spot: self.
+			actor translateTo: self position.
+			self add: actor ]

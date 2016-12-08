@@ -1,6 +1,3 @@
-as yet unclassified
+icons
 currentCompletionIcon
-	| c |
-	c := (Form extent: 35 @ 35 depth: 32) fillColor: Color green muchDarker.
-	self currentIcon displayOn: c at: 0 @ 0 rule: Form blend.
-	^ c
+	^ self iconColored: (Color fromHexString: 'b8b8ff')

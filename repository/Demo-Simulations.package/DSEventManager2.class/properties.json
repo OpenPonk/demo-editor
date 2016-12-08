@@ -1,16 +1,13 @@
 {
-	"category" : "Demo-Simulations-Utils",
+	"category" : "Demo-Simulations-Events",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"roleName",
-		"actorName",
-		"actorAvatar",
-		"avatar" ],
-	"name" : "DSRoleAssignment",
+		 ],
+	"name" : "DSEventManager2",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -1,5 +1,6 @@
 action
 glow
+	glow ifNotNil: #remove.
 	glow := RTBox new
 		width: self width;
 		height: self height;
