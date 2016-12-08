@@ -1,15 +1,16 @@
 {
-	"category" : "DEMO-Interchange",
+	"category" : "DEMO-Interchange-UI",
 	"classinstvars" : [
-		"default" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"token",
-		"cachedModels",
-		"cachedVersions" ],
-	"name" : "DemoFormetisAPI",
+		"lines",
+		"actors",
+		"script",
+		"layout" ],
+	"name" : "DemoSimulationDataStorage",
 	"pools" : [
 		 ],
 	"super" : "Object",

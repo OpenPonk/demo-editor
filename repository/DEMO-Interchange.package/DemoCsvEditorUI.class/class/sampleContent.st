@@ -1,0 +1,23 @@
+as yet unclassified
+sampleContent
+	^ '"roleName","transactionName","actName","line"
+"Deliverer","Delivery","execute",""
+"Deliverer","Delivery","promise","Will do."
+"Deliverer","Delivery","state","Pizza delivered."
+"Baker","Preparation","execute",""
+"Baker","Preparation","promise","Sure thing."
+"Baker","Preparation","state","One mushroom pizza done!"
+"Customer","Completion","request","Hi, I''d like one mushroom pizza please."
+"Customer","Completion","accept","Thanks!"
+"Completer","Delivery","request","Please give this pizza to the customer."
+"Completer","Delivery","accept","Thanks."
+"Completer","Completion","execute",""
+"Completer","Completion","promise","Ok! Please wait a moment."
+"Completer","Completion","state","Here''s your pizza."
+"Completer","Payment","request","That will be $15."
+"Completer","Payment","accept","Thanks."
+"Completer","Preparation","request","One mushroom pizza!"
+"Completer","Preparation","accept","Thanks!"
+"Pizza Payer","Payment","execute",""
+"Pizza Payer","Payment","promise","Let me get my wallet."
+"Pizza Payer","Payment","state","Here''s your money."'

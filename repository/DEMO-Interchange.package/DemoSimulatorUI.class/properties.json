@@ -1,0 +1,26 @@
+{
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"linesButton",
+		"lines",
+		"actors",
+		"actorsButton",
+		"modelsList",
+		"models",
+		"versions",
+		"versionsList",
+		"simulationButton",
+		"xmls",
+		"model",
+		"scriptButton",
+		"script" ],
+	"name" : "DemoSimulatorUI",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
