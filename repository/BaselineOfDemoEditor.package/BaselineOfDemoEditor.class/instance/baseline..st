@@ -16,7 +16,7 @@ baseline: spec
 						className: #ConfigurationOfXMLParser;
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/PharoExtras/XMLParser/main/' ].
-			Metacello new spec
+			spec
 				baseline: 'XMLDOMVisitor'
 				with: [ spec repository: 'github://peteruhnak/xml-dom-visitor/repository' ].
 			spec
