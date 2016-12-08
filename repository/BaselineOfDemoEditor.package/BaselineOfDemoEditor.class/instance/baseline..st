@@ -25,5 +25,5 @@ baseline: spec
 				package: 'DEMO-Model' with: [  ];
 				package: 'DEMO-Editor' with: [ spec requires: #('DynaCASE' 'DEMO-Model') ];
 				package: 'DEMO-Interchange' with: [ spec requires: #('DEMO-Model' 'XMLDOMVisitor' 'XMLParser') ];
-				package: 'DEMO-Simulations' with: [ spec requires: #('DEMO-Model' 'DEMO-Interchange' 'NeoCSV') ].
-			spec group: 'default' with: #('DynaCASE-DEMO' 'DEMO-Editor' 'DEMO-Simulations') ]
+				package: 'Demo-Simulations' with: [ spec requires: #('DEMO-Model' 'DEMO-Interchange' 'NeoCSV') ].
+			spec group: 'default' with: #('DynaCASE-DEMO' 'DEMO-Editor' 'Demo-Simulations') ]
