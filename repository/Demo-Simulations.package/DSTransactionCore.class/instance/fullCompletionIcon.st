@@ -1,3 +1,3 @@
 icons
 fullCompletionIcon
-	^ self iconColored: Color green muchDarker
+	^ self iconColored: DSActionColors fullyCompletedColor

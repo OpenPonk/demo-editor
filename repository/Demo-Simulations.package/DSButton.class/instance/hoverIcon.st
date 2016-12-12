@@ -1,6 +1,3 @@
-as yet unclassified
+accessing
 hoverIcon
-	| c |
-	c := (Form extent: 40 @ 40 depth: 32) fillColor: (Color fromHexString: 'f5f502').
-	self icon displayOn: c at: 0 @ 0 rule: Form blend.
-	^ c
+	^ self iconColored: DSActionColors hoverColor

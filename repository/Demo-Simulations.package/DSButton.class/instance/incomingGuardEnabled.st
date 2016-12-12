@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 incomingGuardEnabled
 	self isEnabled | self isCompleted
 		ifTrue: [ ^ self ].

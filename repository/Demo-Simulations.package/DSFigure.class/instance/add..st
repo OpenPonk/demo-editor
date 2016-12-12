@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 add: anElement
 	ownedElements add: anElement.
 	(anElement isKindOf: DSFigure)

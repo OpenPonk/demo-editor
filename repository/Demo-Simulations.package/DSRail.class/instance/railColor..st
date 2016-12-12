@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 railColor: aColor
 	railColor := aColor

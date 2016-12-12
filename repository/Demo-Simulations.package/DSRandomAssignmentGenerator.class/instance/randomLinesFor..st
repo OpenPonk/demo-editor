@@ -13,7 +13,7 @@ randomLinesFor: aModel
 			(lines at: init name) at: each name ifAbsentPut: Dictionary new.
 			(lines at: exec name) at: each name ifAbsentPut: Dictionary new.
 			#(request accept)
-				do: [ :act | ((lines at: init name) at: each name) at: act put: nil ].
+				do: [ :act | ((lines at: init name) at: each name) at: act put: act ].
 			#(promise execute state)
-				do: [ :act | ((lines at: exec name) at: each name) at: act put: nil ] ].
+				do: [ :act | ((lines at: exec name) at: each name) at: act put: act ] ].
 	^ lines

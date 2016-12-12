@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 baseShape
 	^ RTBox new
 		width: 50;

@@ -1,3 +1,3 @@
-as yet unclassified
+actions
 baseShape
 	^ RTBitmap new form: self inactiveIcon

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 moveToSpot: aSpot
 	RTSmoothLayoutTranslator new
 		nbCycles: 0.5;

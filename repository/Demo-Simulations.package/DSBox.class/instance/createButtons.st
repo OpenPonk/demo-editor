@@ -1,4 +1,4 @@
-as yet unclassified
+creating - subelements
 createButtons
 	#(rq pm)
 		withIndexDo: [ :each :i | self createButtonFor: each side: #left padding: (i - 1) * 40 + 1 ].

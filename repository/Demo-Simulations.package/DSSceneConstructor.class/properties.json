@@ -19,7 +19,7 @@
 		"oldInitPosition",
 		"oldExecPosition",
 		"bubble" ],
-	"name" : "DSTheaterConstructor",
+	"name" : "DSSceneConstructor",
 	"pools" : [
 		 ],
 	"super" : "Object",

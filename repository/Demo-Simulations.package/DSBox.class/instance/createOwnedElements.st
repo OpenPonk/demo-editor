@@ -1,9 +1,10 @@
-as yet unclassified
+creating - subelements
 createOwnedElements
 	| before after |
 	before := #(rq pr).
 	after := #(ex st ac).
-	label := RTText new
+	label := RTStyledLabel new
+		bold;
 		color: Color black;
 		elementOn: self model model name.
 	self add: label.

@@ -1,4 +1,4 @@
-as yet unclassified
+creating - subelements
 createOwnedElements
 	label := RTLabel new
 		color: Color black;

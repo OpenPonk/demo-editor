@@ -1,8 +1,8 @@
-as yet unclassified
+accessing
 baseShape
 	^ RTBox new
-		width: 300;
+		width: 400;
 		height: 42;
 		borderWidth: 2;
 		borderColor: Color black;
-		color: Color white
+		color: DSActionColors disabledColor

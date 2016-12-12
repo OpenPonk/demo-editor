@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 hover
 	self shape form: self hoverIcon.
 	self

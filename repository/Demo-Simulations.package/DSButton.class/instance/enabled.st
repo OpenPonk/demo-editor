@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 enabled
 	self shape form: self enabledIcon.
 	self

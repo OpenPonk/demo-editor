@@ -1,6 +1,6 @@
-as yet unclassified
+actions
 labelCompleted
-	self shape color: (Color fromHexString: 'b8b8ff').
+	self shape color: DSActionColors completedColor.
 	self
 		update;
 		signalUpdate

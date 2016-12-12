@@ -1,4 +1,4 @@
-as yet unclassified
+creating - subelements
 createButtonFor: aSymbol side: aSide padding: aPadding
 	| button |
 	button := DSButton basicNew

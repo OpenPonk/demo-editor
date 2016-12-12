@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 glow
 	glow := RTBox new
 		width: self width;

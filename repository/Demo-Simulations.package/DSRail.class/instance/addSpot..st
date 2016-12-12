@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addSpot: aSpot
 	spots add: aSpot.
 	aSpot rail: self

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 previousButton
 	| selfIndex |
 	selfIndex := owner buttons indexOf: self.

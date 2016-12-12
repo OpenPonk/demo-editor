@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 completed
 	self removeAttributeAt: #hover ifAbsent: [  ].
 	self shape form: self completedIcon.

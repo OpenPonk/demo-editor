@@ -6,12 +6,6 @@ createViewElements
 		select: [ :each | each isKindOf: DemoTransactionKind ].
 	transactions := transactionKinds collect: [ :each | DSTransaction new model: each ].
 	view addAll: transactions.
-	RTVerticalLineLayout new
-		gapSize: 100;
-		on: transactions.
-	"RTGridLayout new
-		gapSize: 400;
-		on: transactions."
 	normalizer := RTMultiLinearColorForIdentity new objects: actorRoles.
 	rails := OrderedCollection new.
 	actorRoles

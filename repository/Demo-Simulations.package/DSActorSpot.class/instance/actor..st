@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 actor: anActor
 	actor
 		ifNotNil: [ ownedElements remove: actor.

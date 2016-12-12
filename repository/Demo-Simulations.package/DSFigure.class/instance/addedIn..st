@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addedIn: aView
 	rendered
 		ifFalse: [ self createOwnedElements.

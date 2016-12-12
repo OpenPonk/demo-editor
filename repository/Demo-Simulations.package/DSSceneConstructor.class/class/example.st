@@ -1,7 +1,7 @@
 as yet unclassified
 example
 | constructor |
-constructor := DSTheaterConstructor new.
+constructor := DSSceneConstructor new.
 constructor model: (DemoXmlInterchange readFile: 'D:\OpenPonk\demo-xml\Pizzeria.xml' asFileReference).
 constructor createViewElements.
 constructor createControlBoxes.

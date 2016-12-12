@@ -1,6 +1,6 @@
 actions
 action
-	self shape color: (Color fromHexString: 'f5f502').
+	self shape color: DSActionColors hoverColor.
 	iconElement shape form: self currentActionIcon.
 	self
 		update;

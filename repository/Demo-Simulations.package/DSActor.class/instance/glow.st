@@ -1,4 +1,4 @@
-action
+actions
 glow
 	glow ifNotNil: #remove.
 	glow := RTBox new
