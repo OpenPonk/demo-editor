@@ -6,4 +6,8 @@ initializeWidgets
 	(password := self newTextInput)
 		autoAccept: true;
 		encrypted: true.
-	(confirmButton := self newButton) label: 'Login'
+	(confirmButton := self newButton) label: 'Login'.
+	self focusOrder
+		add: login;
+		add: password;
+		add: confirmButton
