@@ -2,7 +2,7 @@ shapes - demo
 executorLinkFrom: aSource to: aTarget
 	| edge markerStyler |
 	markerStyler := [ :marker | marker size: 7 ].
-	edge := DCRTStyledConnection new
+	edge := OPRTStyledConnection new
 		withBorderAttachPoint;
 		color: Color black.
 	edge decorations
@@ -12,4 +12,4 @@ executorLinkFrom: aSource to: aTarget
 	(aTarget isKindOf: DemoElementaryActorRoleFigure)
 		ifTrue: [ edge head: (markerStyler value: RTFilledDiamond asHead) ]
 		ifFalse: [ edge tail: (markerStyler value: RTFilledDiamond asTail) ].
-	^ (edge edgeFrom: aSource to: aTarget) @ DCRTConnectionHandles
+	^ (edge edgeFrom: aSource to: aTarget) @ OPRTConnectionHandles

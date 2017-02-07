@@ -1,9 +1,9 @@
 initialization
 initializeWidgets
-	topToolbar := self instantiate: DCWorkbenchToolbar.
+	topToolbar := self instantiate: OPWorkbenchToolbar.
 	navigatorModel := self instantiate: DEMONavigator.
 	tabManager := self newTabManager.
-	formModel := self instantiate: DCDynamicForm.
+	formModel := self instantiate: OPDynamicForm.
 
 	self focusOrder
 		add: navigatorModel;

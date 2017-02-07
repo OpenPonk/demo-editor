@@ -11,5 +11,5 @@
 	"name" : "OCDScopeOfInterest",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "OPElementController",
 	"type" : "normal" }

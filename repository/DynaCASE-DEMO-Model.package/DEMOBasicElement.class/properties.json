@@ -10,5 +10,5 @@
 	"name" : "DEMOBasicElement",
 	"pools" : [
 		 ],
-	"super" : "DCModelObject",
+	"super" : "OPModelObject",
 	"type" : "normal" }

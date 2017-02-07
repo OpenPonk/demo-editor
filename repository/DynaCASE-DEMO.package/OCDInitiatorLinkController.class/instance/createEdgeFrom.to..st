@@ -1,6 +1,6 @@
 as yet unclassified
 createEdgeFrom: fromElement to: toElement
-	^ (DCRTStyledConnection new
+	^ (OPRTStyledConnection new
 		withBorderAttachPoint;
 		color: Color black;
-		edgeFrom: fromElement to: toElement) @ DCRTConnectionHandles 
+		edgeFrom: fromElement to: toElement) @ OPRTConnectionHandles 

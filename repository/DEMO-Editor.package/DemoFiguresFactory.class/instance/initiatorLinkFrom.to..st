@@ -1,6 +1,6 @@
 shapes - demo
 initiatorLinkFrom: aSource to: aTarget
-	^ (DCRTStyledConnection new
+	^ (OPRTStyledConnection new
 		withBorderAttachPoint;
 		color: Color black;
-		edgeFrom: aSource to: aTarget) @ DCRTConnectionHandles
+		edgeFrom: aSource to: aTarget) @ OPRTConnectionHandles

@@ -10,5 +10,5 @@
 	"name" : "OCDActorLinkController",
 	"pools" : [
 		 ],
-	"super" : "DCRelationshipController",
+	"super" : "OPRelationshipController",
 	"type" : "normal" }

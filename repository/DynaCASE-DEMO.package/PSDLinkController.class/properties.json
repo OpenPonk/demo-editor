@@ -12,5 +12,5 @@
 	"name" : "PSDLinkController",
 	"pools" : [
 		 ],
-	"super" : "DCRelationshipController",
+	"super" : "OPRelationshipController",
 	"type" : "normal" }

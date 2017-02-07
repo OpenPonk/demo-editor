@@ -10,5 +10,5 @@
 	"name" : "DEMOLink",
 	"pools" : [
 		 ],
-	"super" : "DCEdge",
+	"super" : "OPEdge",
 	"type" : "normal" }

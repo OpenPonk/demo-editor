@@ -10,5 +10,5 @@
 	"name" : "DemoScopeOfInterestController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "OPElementController",
 	"type" : "normal" }

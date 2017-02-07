@@ -7,7 +7,7 @@ example
 		size: 20;
 		elementsOn: #(1 2).
 	handle := DCRTOrthoMiddleHandle new.
-	e := DCRTStyledMultiLine new
+	e := OPRTStyledMultiLine new
 		withBorderAttachPoint;
 		color: Color red;
 		head: RTFilledArrow;

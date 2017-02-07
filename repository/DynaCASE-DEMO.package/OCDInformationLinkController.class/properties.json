@@ -10,5 +10,5 @@
 	"name" : "OCDInformationLinkController",
 	"pools" : [
 		 ],
-	"super" : "DCRelationshipController",
+	"super" : "OPRelationshipController",
 	"type" : "normal" }

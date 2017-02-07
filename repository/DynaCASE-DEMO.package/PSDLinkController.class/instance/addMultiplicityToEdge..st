@@ -4,7 +4,7 @@ addMultiplicityToEdge: anEdge
 	diagramController view add: multiplicityLabel.
 	multiplicityLabel @ RTDraggable.
 	
-	multiplicityLabelConstraint := DCRTRailConstraint new.
+	multiplicityLabelConstraint := OPRTRailConstraint new.
 	multiplicityLabelConstraint gripLine color: Color lightGray.
 	"const gripShape size: 10."
 	multiplicityLabelConstraint

@@ -1,5 +1,5 @@
 as yet unclassified
 registerModelEvents: aModel
 	aModel announcer
-		when: DCElementRemoved
+		when: OPElementRemoved
 		do: [ :event | self diagramController removeControllerOf: event element ]

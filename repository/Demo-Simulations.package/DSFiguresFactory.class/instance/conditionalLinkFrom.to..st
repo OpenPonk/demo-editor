@@ -1,6 +1,6 @@
 as yet unclassified
 conditionalLinkFrom: aSource to: aTarget
-	^ (DCRTStyledMultiLine new
+	^ (OPRTStyledMultiLine new
 		withBorderAttachPoint;
 		head: (RTFilledNarrowArrow asHead size: 7);
 		dashedLine;

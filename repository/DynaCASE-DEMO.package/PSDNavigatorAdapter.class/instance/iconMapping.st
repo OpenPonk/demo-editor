@@ -1,7 +1,7 @@
 as yet unclassified
 iconMapping
 	^ {
-	(PSDViewModel -> DCIcons current dcFsmDiagramIcon).
-	(TransactionKind -> DCIcons current dcFsmInitialStateIcon).
-	(ProcessLink -> DCIcons current dcFsmTransitionIcon)
+	(PSDViewModel -> OPIcons current dcFsmDiagramIcon).
+	(TransactionKind -> OPIcons current dcFsmInitialStateIcon).
+	(ProcessLink -> OPIcons current dcFsmTransitionIcon)
 	}

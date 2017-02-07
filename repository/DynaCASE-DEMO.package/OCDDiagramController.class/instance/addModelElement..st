@@ -4,7 +4,7 @@ addModelElement: aModelElement
 	controller := self createController: aModelElement.
 	controller diagramController: self.
 	self controllers add: controller.
-	(controller isKindOf: DCRelationshipController)
+	(controller isKindOf: OPRelationshipController)
 		ifTrue: [ | fromModel toModel fromCtrl toCtrl |
 			fromModel := aModelElement source.
 			toModel := aModelElement target.

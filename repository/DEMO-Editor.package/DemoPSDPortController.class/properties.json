@@ -10,5 +10,5 @@
 	"name" : "DemoPSDPortController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "OPElementController",
 	"type" : "normal" }

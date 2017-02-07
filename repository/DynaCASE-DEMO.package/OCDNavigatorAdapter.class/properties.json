@@ -10,5 +10,5 @@
 	"name" : "OCDNavigatorAdapter",
 	"pools" : [
 		 ],
-	"super" : "DCNavigatorAdapter",
+	"super" : "OPNavigatorAdapter",
 	"type" : "normal" }

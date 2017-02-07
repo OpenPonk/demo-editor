@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "JanTuron 3/27/2016 17:01",
-		"testAddElement" : "JanTuron 3/27/2016 17:01",
-		"testAddModel" : "JanTuron 3/27/2016 17:01",
-		"testDeleteElement" : "JanTuron 3/27/2016 17:02",
-		"testProjectContent" : "JanTuron 3/27/2016 17:02" } }

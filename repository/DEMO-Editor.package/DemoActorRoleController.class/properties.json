@@ -10,5 +10,5 @@
 	"name" : "DemoActorRoleController",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "OPElementController",
 	"type" : "normal" }

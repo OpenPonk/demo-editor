@@ -17,5 +17,5 @@
 	"name" : "DEMOModel",
 	"pools" : [
 		 ],
-	"super" : "DCDiagram",
+	"super" : "OPDiagram",
 	"type" : "normal" }

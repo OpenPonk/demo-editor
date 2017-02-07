@@ -10,5 +10,5 @@
 	"name" : "TPTNavigatorAdapter",
 	"pools" : [
 		 ],
-	"super" : "DCNavigatorAdapter",
+	"super" : "OPNavigatorAdapter",
 	"type" : "normal" }

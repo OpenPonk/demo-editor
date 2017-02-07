@@ -10,5 +10,5 @@
 	"name" : "PSDDCPlugin",
 	"pools" : [
 		 ],
-	"super" : "DCPlugin",
+	"super" : "OPPlugin",
 	"type" : "normal" }
