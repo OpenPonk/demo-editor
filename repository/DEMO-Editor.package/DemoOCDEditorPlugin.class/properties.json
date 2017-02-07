@@ -10,5 +10,5 @@
 	"name" : "DemoOCDEditorPlugin",
 	"pools" : [
 		 ],
-	"super" : "DCPlugin",
+	"super" : "OPPlugin",
 	"type" : "normal" }

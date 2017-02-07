@@ -1,6 +1,6 @@
 hooks
 connectionFeedback
-	^ DCInteractiveLine new
+	^ OPInteractiveLine new
 		lineBuilder: [ :fromFigure :toFigure | 
 			RTLine new
 				color: Color black;

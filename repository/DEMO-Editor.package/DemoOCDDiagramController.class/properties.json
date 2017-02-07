@@ -10,5 +10,5 @@
 	"name" : "DemoOCDDiagramController",
 	"pools" : [
 		 ],
-	"super" : "DCDiagramController",
+	"super" : "OPDiagramController",
 	"type" : "normal" }
