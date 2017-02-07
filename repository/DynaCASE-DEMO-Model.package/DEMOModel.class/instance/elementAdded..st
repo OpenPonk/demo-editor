@@ -1,6 +1,6 @@
 private
 elementAdded: anElement
 	anElement addedTo: self.
-	anElement when: DCElementChanged do: [ self changed ].
-	self announce: (DCElementAdded element: anElement).
+	anElement when: OPElementChanged do: [ self changed ].
+	self announce: (OPElementAdded element: anElement).
 	self changed

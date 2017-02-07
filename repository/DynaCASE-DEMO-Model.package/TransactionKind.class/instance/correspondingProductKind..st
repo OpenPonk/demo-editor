@@ -4,6 +4,6 @@ correspondingProductKind: aProductKind
 	correspondingProductKind := aProductKind.
 	
 	aProductKind addedTo: self.
-	aProductKind when: DCElementChanged do: [ self changed ].
-	self announce: (DCElementAdded element: aProductKind).
+	aProductKind when: OPElementChanged do: [ self changed ].
+	self announce: (OPElementAdded element: aProductKind).
 	self changed

@@ -1,5 +1,5 @@
 adding
 add: anElementModel
 	anElementModel addSelfToModel: self.
-	(anElementModel isKindOf: DCEdge)
+	(anElementModel isKindOf: OPEdge)
 		ifFalse: [ projectModel add: anElementModel ]

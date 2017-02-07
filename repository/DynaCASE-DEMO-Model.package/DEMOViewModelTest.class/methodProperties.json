@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "JanTuron 3/28/2016 18:22",
-		"testGetPositionFor" : "JanTuron 3/28/2016 18:29",
-		"testGetSizeFor" : "JanTuron 3/28/2016 18:29",
-		"testSavePositionFor" : "JanTuron 3/28/2016 18:27",
-		"testSaveSizeFor" : "JanTuron 3/28/2016 18:30" } }

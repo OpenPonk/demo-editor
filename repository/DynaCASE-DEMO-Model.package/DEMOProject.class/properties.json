@@ -10,5 +10,5 @@
 	"name" : "DEMOProject",
 	"pools" : [
 		 ],
-	"super" : "DCProject",
+	"super" : "OPProject",
 	"type" : "normal" }
