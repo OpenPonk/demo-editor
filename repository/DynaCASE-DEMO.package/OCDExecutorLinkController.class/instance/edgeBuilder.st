@@ -1,7 +1,7 @@
 as yet unclassified
 edgeBuilder
 	| edge |
-	edge := DCRTEdgeBuilder new.
+	edge := OPRTEdgeBuilder new.
 	(source isKindOf: OCDTransactionKindController)
 		ifTrue: [ edge filledDiamondHead ]
 		ifFalse: [ edge filledDiamondTail ].

@@ -1,10 +1,10 @@
 accessing
 iconMapping
 	^ {
-	(OCDViewModel -> DCIcons current dcFsmDiagramIcon).
-	(TransactionKind -> DCIcons current dcFsmInitialStateIcon).
-	(ElementaryActorRole -> DCIcons current dcFsmInitialStateIcon).
-	(CompositeActorRole -> DCIcons current dcFsmInitialStateIcon).
-	(AggregateTransactionKind -> DCIcons current dcFsmInitialStateIcon).
-	(InformationLink -> DCIcons current dcFsmTransitionIcon)
+	(OCDViewModel -> OPIcons current dcFsmDiagramIcon).
+	(TransactionKind -> OPIcons current dcFsmInitialStateIcon).
+	(ElementaryActorRole -> OPIcons current dcFsmInitialStateIcon).
+	(CompositeActorRole -> OPIcons current dcFsmInitialStateIcon).
+	(AggregateTransactionKind -> OPIcons current dcFsmInitialStateIcon).
+	(InformationLink -> OPIcons current dcFsmTransitionIcon)
 	}

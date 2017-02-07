@@ -1,6 +1,6 @@
 accessing
 iconMapping
 	^ {
-	(TPTViewModel -> DCIcons current dcFsmDiagramIcon).
-	(TransactionKind -> DCIcons current dcFsmInitialStateIcon)
+	(TPTViewModel -> OPIcons current dcFsmDiagramIcon).
+	(TransactionKind -> OPIcons current dcFsmInitialStateIcon)
 	}

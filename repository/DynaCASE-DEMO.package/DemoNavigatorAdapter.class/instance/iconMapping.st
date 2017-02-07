@@ -1,5 +1,5 @@
 accessing
 iconMapping
 	^ {
-		DEMOModel -> DCIcons current dcFsmDiagramIcon.
+		DEMOModel -> OPIcons current dcFsmDiagramIcon.
 	 }

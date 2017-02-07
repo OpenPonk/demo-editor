@@ -3,7 +3,7 @@ openEditorOn: aDiagram
 	| editor tab plugin widget |
 	(self projectController hasDiagram: aDiagram)
 		ifTrue: [ ^ self ].
-	(editor := DCEditor new) workbench: self.
+	(editor := OPEditor new) workbench: self.
 	plugin := pluginRegistry pluginFor: aDiagram.
 	editor plugin: plugin.
 	tab := self newTab.

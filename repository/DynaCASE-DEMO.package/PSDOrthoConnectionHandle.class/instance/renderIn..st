@@ -13,4 +13,4 @@ renderIn: aView
 				block:
 					[ :shape :step | 
 					handler middle: element position y.
-					edge announcer announce: DCRTHandleMoved new ])
+					edge announcer announce: OPRTHandleMoved new ])

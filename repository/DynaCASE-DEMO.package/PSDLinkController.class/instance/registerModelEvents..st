@@ -2,5 +2,5 @@ as yet unclassified
 registerModelEvents: aModel
 	super registerModelEvents: aModel.
 	aModel
-		when: DCElementChanged
+		when: OPElementChanged
 		do: [ :event | 	self refreshFigure ]

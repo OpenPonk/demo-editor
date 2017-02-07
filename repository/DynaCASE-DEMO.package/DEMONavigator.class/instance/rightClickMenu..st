@@ -3,10 +3,10 @@ rightClickMenu: menu
 	| el menuBuilder parentNode |
 	tree hasSelectedItem
 		ifFalse: [ ^ self ].
-	menuBuilder := DCMenuBuilder new menu: menu.
+	menuBuilder := OPMenuBuilder new menu: menu.
 	parentNode := tree selectedItem parentNode.
 	el := tree selectedItem content.
-	(el isKindOf: DCDiagram)
+	(el isKindOf: OPDiagram)
 		ifTrue:
 			[ menuBuilder addItem: 'Rename' action: [ self renameCommand: el ].
 			menuBuilder addItem: 'Inspect' action: [ self inspectCommand: el ].

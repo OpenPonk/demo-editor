@@ -10,5 +10,5 @@
 	"name" : "DemoNavigatorAdapter",
 	"pools" : [
 		 ],
-	"super" : "DCNavigatorAdapter",
+	"super" : "OPNavigatorAdapter",
 	"type" : "normal" }

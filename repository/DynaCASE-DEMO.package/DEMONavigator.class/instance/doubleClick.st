@@ -4,8 +4,8 @@ doubleClick
 	tree hasSelectedItem
 		ifFalse: [ ^ self ].
 	selectedItem := tree selectedItem content.
-	(selectedItem isKindOf: DCModelObject)
+	(selectedItem isKindOf: OPModelObject)
 		ifTrue:
-			[ (selectedItem isKindOf: DCDiagram)
+			[ (selectedItem isKindOf: OPDiagram)
 				ifTrue: [ self openCommand: selectedItem ]
 				ifFalse: [ self addElementCommand: selectedItem ] ]

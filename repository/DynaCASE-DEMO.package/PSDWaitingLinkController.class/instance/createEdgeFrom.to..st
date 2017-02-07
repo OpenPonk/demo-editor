@@ -2,7 +2,7 @@ as yet unclassified
 createEdgeFrom: fromElement to: toElement
 	| edge |
 	orthoHandler := DCRTOrthoMiddleHandle new.
-	edge := (DCRTStyledMultiLine new
+	edge := (OPRTStyledMultiLine new
 		attachPoint: RTVerticalReverseAttachPoint new;
 		head: RTFilledNarrowArrow;
 		dashedLine;

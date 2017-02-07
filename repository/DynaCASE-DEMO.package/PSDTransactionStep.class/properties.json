@@ -15,5 +15,5 @@
 	"name" : "PSDTransactionStep",
 	"pools" : [
 		 ],
-	"super" : "DCElementController",
+	"super" : "OPElementController",
 	"type" : "normal" }

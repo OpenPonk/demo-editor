@@ -1,6 +1,6 @@
 hooks
 createFigure
-	^ DCRTCallbackBuilder
+	^ OPRTCallbackBuilder
 		block:
 			[ :view | 
 			| element |

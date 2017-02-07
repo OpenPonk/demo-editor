@@ -10,5 +10,5 @@
 	"name" : "DCRTOrthoEdgeBuilder",
 	"pools" : [
 		 ],
-	"super" : "DCRTEdgeBuilder",
+	"super" : "OPRTEdgeBuilder",
 	"type" : "normal" }
