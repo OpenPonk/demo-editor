@@ -2,7 +2,7 @@ world menu
 menuCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: #'DEMO Simulation')
-		icon: DCIcons current dynacaseIcon;
+		icon: OPIcons current dynacaseIcon;
 		parent: #MostUsedTools;
 		withSeparatorAfter;
 		action: [ self open ]
