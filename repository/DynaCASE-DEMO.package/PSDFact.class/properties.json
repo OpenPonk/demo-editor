@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-PSD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PSDFact",
-	"pools" : [
-		 ],
 	"super" : "PSDTransactionStep",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-PSD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PSDFact",
+	"type" : "normal"
+}

@@ -1,16 +1,15 @@
 {
-	"category" : "DynaCASE-DEMO-UI-Mods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"edge",
 		"element",
-		"handler" ],
+		"handler"
+	],
 	"name" : "PSDOrthoConnectionHandle",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

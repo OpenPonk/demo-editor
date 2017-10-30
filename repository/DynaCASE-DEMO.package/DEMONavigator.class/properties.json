@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-GUI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
+	"super" : "OPModelNavigator",
+	"category" : "DynaCASE-DEMO-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "DEMONavigator",
-	"pools" : [
-		 ],
-	"super" : "OPNavigator",
-	"type" : "normal" }
+	"type" : "normal"
+}

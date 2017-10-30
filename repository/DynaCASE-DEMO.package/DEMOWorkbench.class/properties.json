@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-GUI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"selectedDiagramController" ],
-	"name" : "DEMOWorkbench",
-	"pools" : [
-		 ],
 	"super" : "OPWorkbench",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectedDiagramController"
+	],
+	"name" : "DEMOWorkbench",
+	"type" : "normal"
+}

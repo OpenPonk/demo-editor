@@ -1,18 +1,17 @@
 {
-	"category" : "DynaCASE-DEMO-TPT-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 10/25/2015 17:48",
+	"super" : "DEMODiagramController",
+	"category" : "DynaCASE-DEMO-TPT-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"transCol",
 		"prodsCol",
 		"tableBox",
 		"trans",
-		"prods" ],
+		"prods"
+	],
 	"name" : "TPTDiagramController",
-	"pools" : [
-		 ],
-	"super" : "DEMODiagramController",
-	"type" : "normal" }
+	"type" : "normal"
+}

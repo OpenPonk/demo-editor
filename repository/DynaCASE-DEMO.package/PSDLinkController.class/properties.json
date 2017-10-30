@@ -1,16 +1,15 @@
 {
-	"category" : "DynaCASE-DEMO-PSD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "OPRelationshipController",
+	"category" : "DynaCASE-DEMO-PSD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"multiplicityLabel",
 		"multiplicityLabelConstraint",
-		"orthoHandler" ],
+		"orthoHandler"
+	],
 	"name" : "PSDLinkController",
-	"pools" : [
-		 ],
-	"super" : "OPRelationshipController",
-	"type" : "normal" }
+	"type" : "normal"
+}

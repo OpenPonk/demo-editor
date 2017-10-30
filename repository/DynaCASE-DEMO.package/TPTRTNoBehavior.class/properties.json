@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-UI-Mods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"Instance" ],
 	"commentStamp" : "JanTuron 11/18/2015 22:33",
-	"instvars" : [
-		 ],
-	"name" : "TPTRTNoBehavior",
-	"pools" : [
-		 ],
 	"super" : "RTNestingBehavior",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Instance"
+	],
+	"instvars" : [ ],
+	"name" : "TPTRTNoBehavior",
+	"type" : "normal"
+}

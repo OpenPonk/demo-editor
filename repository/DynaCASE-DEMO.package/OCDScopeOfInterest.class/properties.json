@@ -1,15 +1,14 @@
 {
-	"category" : "DynaCASE-DEMO-OCD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "OPElementController",
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"soiLabel",
-		"soiLabelConstraint" ],
+		"soiLabelConstraint"
+	],
 	"name" : "OCDScopeOfInterest",
-	"pools" : [
-		 ],
-	"super" : "OPElementController",
-	"type" : "normal" }
+	"type" : "normal"
+}

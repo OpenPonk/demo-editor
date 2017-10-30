@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-OCD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"firstLevelControllers" ],
-	"name" : "OCDDiagramController",
-	"pools" : [
-		 ],
 	"super" : "DEMODiagramController",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstLevelControllers"
+	],
+	"name" : "OCDDiagramController",
+	"type" : "normal"
+}

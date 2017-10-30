@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/14/2016 16:20",
-	"instvars" : [
-		 ],
-	"name" : "DEMODiagramController",
-	"pools" : [
-		 ],
 	"super" : "OPDiagramController",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DEMODiagramController",
+	"type" : "normal"
+}

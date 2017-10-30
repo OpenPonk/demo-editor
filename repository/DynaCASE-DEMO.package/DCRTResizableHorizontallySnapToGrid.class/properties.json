@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-UI-Mods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 3/9/2016 16:34",
-	"instvars" : [
-		 ],
-	"name" : "DCRTResizableHorizontallySnapToGrid",
-	"pools" : [
-		 ],
 	"super" : "DCRTResizableSnapToGrid",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DCRTResizableHorizontallySnapToGrid",
+	"type" : "normal"
+}

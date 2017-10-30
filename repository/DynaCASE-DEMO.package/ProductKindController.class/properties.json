@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/14/2016 14:59",
-	"instvars" : [
-		 ],
-	"name" : "ProductKindController",
-	"pools" : [
-		 ],
 	"super" : "DEMOElementController",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ProductKindController",
+	"type" : "normal"
+}

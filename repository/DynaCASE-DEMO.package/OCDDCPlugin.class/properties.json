@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Adapters",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 12/3/2015 19:54",
-	"instvars" : [
-		 ],
-	"name" : "OCDDCPlugin",
-	"pools" : [
-		 ],
 	"super" : "OPPlugin",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Adapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OCDDCPlugin",
+	"type" : "normal"
+}

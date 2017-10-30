@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-UI-Mods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 12/18/2015 19:52",
-	"instvars" : [
-		"shift" ],
-	"name" : "DCRTDraggableSnapToGrid",
-	"pools" : [
-		 ],
 	"super" : "RTDraggableSnapToGrid",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"shift"
+	],
+	"name" : "DCRTDraggableSnapToGrid",
+	"type" : "normal"
+}

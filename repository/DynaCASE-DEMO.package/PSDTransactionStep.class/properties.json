@@ -1,19 +1,18 @@
 {
-	"category" : "DynaCASE-DEMO-PSD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "OPElementController",
+	"category" : "DynaCASE-DEMO-PSD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"name",
 		"isUpper",
 		"isProductionAct",
 		"label",
 		"transactionController",
-		"numberOfConnections" ],
+		"numberOfConnections"
+	],
 	"name" : "PSDTransactionStep",
-	"pools" : [
-		 ],
-	"super" : "OPElementController",
-	"type" : "normal" }
+	"type" : "normal"
+}

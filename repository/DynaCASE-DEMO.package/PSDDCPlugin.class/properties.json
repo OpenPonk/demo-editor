@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Adapters",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 12/28/2015 11:49",
-	"instvars" : [
-		 ],
-	"name" : "PSDDCPlugin",
-	"pools" : [
-		 ],
 	"super" : "OPPlugin",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Adapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PSDDCPlugin",
+	"type" : "normal"
+}

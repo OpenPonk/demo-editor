@@ -1,16 +1,15 @@
 {
-	"category" : "DynaCASE-DEMO-OCD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "OCDActorRoleController",
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"subElements",
 		"subElFigures",
-		"subElConstraint" ],
+		"subElConstraint"
+	],
 	"name" : "OCDCompositeActorRoleController",
-	"pools" : [
-		 ],
-	"super" : "OCDActorRoleController",
-	"type" : "normal" }
+	"type" : "normal"
+}

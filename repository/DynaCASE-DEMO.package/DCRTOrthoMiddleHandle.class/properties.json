@@ -1,17 +1,16 @@
 {
-	"category" : "DynaCASE-DEMO-UI-Mods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "RTInteraction",
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"edge",
 		"isActive",
 		"middle",
-		"handle" ],
+		"handle"
+	],
 	"name" : "DCRTOrthoMiddleHandle",
-	"pools" : [
-		 ],
-	"super" : "RTInteraction",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-OCD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "OCDTransactionKindController",
-	"pools" : [
-		 ],
 	"super" : "TransactionKindController",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OCDTransactionKindController",
+	"type" : "normal"
+}

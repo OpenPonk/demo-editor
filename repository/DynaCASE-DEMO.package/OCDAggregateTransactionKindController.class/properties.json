@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-OCD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "OCDAggregateTransactionKindController",
-	"pools" : [
-		 ],
 	"super" : "DEMOElementController",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OCDAggregateTransactionKindController",
+	"type" : "normal"
+}

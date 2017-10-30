@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-UI-Mods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DCRTOrthoEdgeBuilder",
-	"pools" : [
-		 ],
 	"super" : "OPRTEdgeBuilder",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-UI-Mods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DCRTOrthoEdgeBuilder",
+	"type" : "normal"
+}

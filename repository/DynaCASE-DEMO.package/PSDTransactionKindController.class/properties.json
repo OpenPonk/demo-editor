@@ -1,10 +1,10 @@
 {
-	"category" : "DynaCASE-DEMO-PSD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TransactionKindController",
+	"category" : "DynaCASE-DEMO-PSD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"processSteps",
 		"upperProcSteps",
@@ -19,9 +19,8 @@
 		"initiatorLabel",
 		"executorLabel",
 		"labelConstraints",
-		"transactionFrontLayer" ],
+		"transactionFrontLayer"
+	],
 	"name" : "PSDTransactionKindController",
-	"pools" : [
-		 ],
-	"super" : "TransactionKindController",
-	"type" : "normal" }
+	"type" : "normal"
+}

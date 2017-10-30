@@ -1,17 +1,16 @@
 {
-	"category" : "DynaCASE-DEMO-OCD-Controllers",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DEMOElementController",
+	"category" : "DynaCASE-DEMO-OCD-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"idLabel",
 		"idLabelConstraint",
 		"nameLabel",
-		"nameLabelConstraint" ],
+		"nameLabelConstraint"
+	],
 	"name" : "OCDActorRoleController",
-	"pools" : [
-		 ],
-	"super" : "DEMOElementController",
-	"type" : "normal" }
+	"type" : "normal"
+}
