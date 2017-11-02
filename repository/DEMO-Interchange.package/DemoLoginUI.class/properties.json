@@ -1,19 +1,18 @@
 {
-	"category" : "DEMO-Interchange-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"loginLabel",
 		"login",
 		"passwordLabel",
 		"password",
 		"confirmButton",
-		"whenAuthenticated" ],
+		"whenAuthenticated"
+	],
 	"name" : "DemoLoginUI",
-	"pools" : [
-		 ],
-	"super" : "ComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

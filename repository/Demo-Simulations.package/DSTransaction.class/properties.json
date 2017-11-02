@@ -1,18 +1,17 @@
 {
-	"category" : "Demo-Simulations-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DSFigure",
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"initiatorSpot",
 		"core",
 		"connection",
 		"executorSpot",
-		"flipped" ],
+		"flipped"
+	],
 	"name" : "DSTransaction",
-	"pools" : [
-		 ],
-	"super" : "DSFigure",
-	"type" : "normal" }
+	"type" : "normal"
+}

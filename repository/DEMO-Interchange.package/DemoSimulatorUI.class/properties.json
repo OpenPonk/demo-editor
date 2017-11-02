@@ -1,10 +1,10 @@
 {
-	"category" : "DEMO-Interchange-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"linesButton",
 		"lines",
@@ -18,9 +18,8 @@
 		"xmls",
 		"model",
 		"scriptButton",
-		"script" ],
+		"script"
+	],
 	"name" : "DemoSimulatorUI",
-	"pools" : [
-		 ],
-	"super" : "ComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

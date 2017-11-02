@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"enterprises",
+		"fullModels",
+		"models"
+	],
+	"instvars" : [
+		"browser",
+		"api"
+	],
+	"name" : "DemoSimulationBrowser",
+	"type" : "normal"
+}

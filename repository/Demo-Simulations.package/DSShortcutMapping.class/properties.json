@@ -1,14 +1,13 @@
 {
-	"category" : "Demo-Simulations-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"icons" ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DSShortcutMapping",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Demo-Simulations-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"icons"
+	],
+	"instvars" : [ ],
+	"name" : "DSShortcutMapping",
+	"type" : "normal"
+}

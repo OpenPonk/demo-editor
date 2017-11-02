@@ -1,5 +1,8 @@
-as yet unclassified
+initialization
 initializeView: aView
+	aView canvas theme: TRWhiteTheme new.
+	aView canvas camera scale: 0.7.
+	aView @ RTEmptyViewContextInteraction @ RTDraggableView @ RTZoomableView
 	"| b |
 	b := RTMenuBuilder new view: aView.
 	b

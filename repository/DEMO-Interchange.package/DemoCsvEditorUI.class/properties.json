@@ -1,18 +1,17 @@
 {
-	"category" : "DEMO-Interchange-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"saveBlock",
 		"loadBlock",
 		"saveButton",
 		"discardButton",
-		"textEditor" ],
+		"textEditor"
+	],
 	"name" : "DemoCsvEditorUI",
-	"pools" : [
-		 ],
-	"super" : "ComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

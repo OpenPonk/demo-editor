@@ -1,14 +1,13 @@
 {
-	"category" : "DEMO-Model-PSD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"elements" ],
-	"name" : "DemoPSDModel",
-	"pools" : [
-		 ],
 	"super" : "DemoNamedElement",
-	"type" : "normal" }
+	"category" : "DEMO-Model-PSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elements"
+	],
+	"name" : "DemoPSDModel",
+	"type" : "normal"
+}

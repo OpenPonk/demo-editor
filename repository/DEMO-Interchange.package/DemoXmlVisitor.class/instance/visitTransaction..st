@@ -5,7 +5,7 @@ visitTransaction: anElement
 		put: [ | transaction |
 			transaction := DemoTransactionKind new
 				uuid: (self uuidFor: anElement);
-				name: (anElement stringAt: #Label);
+				name: (anElement stringAt: #Name);
 				demoId: (self demoIdFor: anElement).
 			model add: transaction.
 			unresolved

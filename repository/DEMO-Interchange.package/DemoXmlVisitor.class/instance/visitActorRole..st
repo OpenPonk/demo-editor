@@ -4,7 +4,7 @@ visitActorRole: anElement
 	role := DemoActorRole new
 		uuid: (self uuidFor: anElement);
 		demoId: (self demoIdFor: anElement);
-		name: (anElement stringAt: 'Label');
+		name: (anElement stringAt: 'Name');
 		isComposite: (anElement booleanAt: 'IsComposite');
 		isSelfGenerating: (anElement booleanAt: 'IsSelfGenerating').
 	model add: role.

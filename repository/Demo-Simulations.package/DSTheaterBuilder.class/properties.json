@@ -1,16 +1,15 @@
 {
-	"category" : "Demo-Simulations-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Demo-Simulations-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"model",
 		"roleAssignments",
-		"lines" ],
+		"lines"
+	],
 	"name" : "DSTheaterBuilder",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

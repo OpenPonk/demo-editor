@@ -1,5 +1,6 @@
 api
 xmlResponseFor: anEndpoint
+	self logCr: anEndpoint.
 	^ XMLDOMParser
 		parse:
 			(self apiClient

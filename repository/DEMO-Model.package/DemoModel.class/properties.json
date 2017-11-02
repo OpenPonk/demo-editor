@@ -1,14 +1,13 @@
 {
-	"category" : "DEMO-Model-Common",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"elements" ],
-	"name" : "DemoModel",
-	"pools" : [
-		 ],
 	"super" : "DemoNamedElement",
-	"type" : "normal" }
+	"category" : "DEMO-Model-Common",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elements"
+	],
+	"name" : "DemoModel",
+	"type" : "normal"
+}

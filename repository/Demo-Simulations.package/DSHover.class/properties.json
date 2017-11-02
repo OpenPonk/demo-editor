@@ -1,14 +1,11 @@
 {
-	"category" : "Demo-Simulations-Events",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DSHover",
-	"pools" : [
-		 ],
 	"super" : "DSAnnouncement",
-	"type" : "normal" }
+	"category" : "Demo-Simulations-Events",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DSHover",
+	"type" : "normal"
+}

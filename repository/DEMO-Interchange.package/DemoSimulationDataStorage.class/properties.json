@@ -1,17 +1,18 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "DEMO-Interchange-UI",
 	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"lines",
 		"actors",
 		"script",
-		"layout" ],
+		"layout"
+	],
 	"name" : "DemoSimulationDataStorage",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

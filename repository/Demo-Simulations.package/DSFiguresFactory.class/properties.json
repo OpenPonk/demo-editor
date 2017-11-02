@@ -1,14 +1,13 @@
 {
-	"category" : "Demo-Simulations-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"personCache" ],
-	"name" : "DSFiguresFactory",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"personCache"
+	],
+	"name" : "DSFiguresFactory",
+	"type" : "normal"
+}

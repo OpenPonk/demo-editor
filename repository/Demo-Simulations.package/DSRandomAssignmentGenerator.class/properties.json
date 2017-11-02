@@ -1,14 +1,11 @@
 {
-	"category" : "Demo-Simulations-Utils",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DSRandomAssignmentGenerator",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Demo-Simulations-Utils",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DSRandomAssignmentGenerator",
+	"type" : "normal"
+}

@@ -1,16 +1,15 @@
 {
-	"category" : "Demo-Simulations-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DSFigure",
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"label",
 		"iconElement",
-		"icon" ],
+		"icon"
+	],
 	"name" : "DSTransactionCore",
-	"pools" : [
-		 ],
-	"super" : "DSFigure",
-	"type" : "normal" }
+	"type" : "normal"
+}

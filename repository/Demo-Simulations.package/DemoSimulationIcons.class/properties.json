@@ -1,14 +1,13 @@
 {
-	"category" : "Demo-Simulations-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"icons" ],
 	"commentStamp" : "PeterUhnak 8/28/2016 22:06",
-	"instvars" : [
-		 ],
-	"name" : "DemoSimulationIcons",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Demo-Simulations-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"icons"
+	],
+	"instvars" : [ ],
+	"name" : "DemoSimulationIcons",
+	"type" : "normal"
+}

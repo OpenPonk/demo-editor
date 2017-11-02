@@ -1,14 +1,11 @@
 {
-	"category" : "Demo-Simulations-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DSContainerPort",
-	"pools" : [
-		 ],
 	"super" : "DSButton",
-	"type" : "normal" }
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DSContainerPort",
+	"type" : "normal"
+}

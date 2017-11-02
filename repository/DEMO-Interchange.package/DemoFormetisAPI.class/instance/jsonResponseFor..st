@@ -1,5 +1,6 @@
 api
 jsonResponseFor: anEndpoint
+	self logCr: anEndpoint.
 	^ STON
 		fromString:
 			(self apiClient

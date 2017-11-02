@@ -1,10 +1,10 @@
 {
-	"category" : "Demo-Simulations-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Demo-Simulations-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"model",
 		"transactions",
@@ -18,9 +18,8 @@
 		"modelManager",
 		"oldInitPosition",
 		"oldExecPosition",
-		"bubble" ],
+		"bubble"
+	],
 	"name" : "DSSceneConstructor",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

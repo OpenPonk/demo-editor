@@ -1,10 +1,10 @@
 {
-	"category" : "Demo-Simulations-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Demo-Simulations-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"f",
 		"v",
@@ -20,9 +20,8 @@
 		"box1",
 		"m",
 		"box2",
-		"box3" ],
+		"box3"
+	],
 	"name" : "DSAutomaticPizzaPlay",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

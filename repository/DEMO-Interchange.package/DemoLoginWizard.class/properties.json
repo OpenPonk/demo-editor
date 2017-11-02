@@ -1,14 +1,13 @@
 {
-	"category" : "DEMO-Interchange-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PeterUhnak 11/20/2016 17:06",
-	"instvars" : [
-		"completedBlock" ],
-	"name" : "DemoLoginWizard",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"completedBlock"
+	],
+	"name" : "DemoLoginWizard",
+	"type" : "normal"
+}

@@ -1,15 +1,13 @@
 reading
 readStream: aStream
-	| dom modelDom visitor |
-	dom := (XMLDOMParser on: aStream)
+	| outerDom dom modelDom dataElement visitor |
+	outerDom := XMLDOMParser parse: aStream usingNamespaces: false.
+	dataElement := (outerDom // 'DesignerData' // 'd2p1:Data') first.
+	dom := (XMLDOMParser on: dataElement stringValue)
 		nodeFactory: (XMLPluggableElementFactory new elementClass: XMLDOMTypedElement);
 		parseDocument.
-	modelDom := (dom // 'ModelVersion') first.
+	modelDom := (dom // 'DemoModel') first.
 	visitor := DemoFormetisXmlVisitor new.
-	modelDom
-		ifNil: [ modelDom := (dom // 'DemoModelVersion') first.
-			modelDom ifNil: [ modelDom := (dom // 'DemoModel') first ].
-			visitor := DemoXmlVisitor new ].
 	XMLDOMElementVisitor new
 		elementVisitor: visitor;
 		visit: modelDom.

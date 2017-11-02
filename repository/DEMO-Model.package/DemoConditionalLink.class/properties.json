@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Model-PSD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoConditionalLink",
-	"pools" : [
-		 ],
 	"super" : "DemoPSDLink",
-	"type" : "normal" }
+	"category" : "DEMO-Model-PSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoConditionalLink",
+	"type" : "normal"
+}

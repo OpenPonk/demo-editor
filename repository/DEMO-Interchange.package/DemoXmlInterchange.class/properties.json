@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Interchange",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoXmlInterchange",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "DEMO-Interchange",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoXmlInterchange",
+	"type" : "normal"
+}

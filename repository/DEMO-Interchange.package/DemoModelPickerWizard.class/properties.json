@@ -1,16 +1,15 @@
 {
-	"category" : "DEMO-Interchange-UI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PeterUhnak 11/20/2016 17:06",
+	"super" : "Object",
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"models",
 		"versionsBlock",
-		"completeBlock" ],
+		"completeBlock"
+	],
 	"name" : "DemoModelPickerWizard",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

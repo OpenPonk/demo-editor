@@ -1,10 +1,10 @@
 {
-	"category" : "DEMO-Model-PSD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DemoNamedElement",
+	"category" : "DEMO-Model-PSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"sourceTransaction",
 		"destinationTransaction",
@@ -12,9 +12,8 @@
 		"minMultiplicity",
 		"maxMultiplicity",
 		"sourceFact",
-		"destinationAct" ],
+		"destinationAct"
+	],
 	"name" : "DemoPSDLink",
-	"pools" : [
-		 ],
-	"super" : "DemoNamedElement",
-	"type" : "normal" }
+	"type" : "normal"
+}

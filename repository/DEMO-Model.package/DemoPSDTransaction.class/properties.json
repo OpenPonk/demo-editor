@@ -1,15 +1,14 @@
 {
-	"category" : "DEMO-Model-PSD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DemoNamedElement",
+	"category" : "DEMO-Model-PSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"transaction",
-		"links" ],
+		"links"
+	],
 	"name" : "DemoPSDTransaction",
-	"pools" : [
-		 ],
-	"super" : "DemoNamedElement",
-	"type" : "normal" }
+	"type" : "normal"
+}

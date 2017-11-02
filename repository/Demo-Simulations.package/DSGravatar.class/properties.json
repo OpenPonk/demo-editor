@@ -1,15 +1,16 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "Demo-Simulations-Utils",
 	"classinstvars" : [
-		"current" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"avatars",
-		"people" ],
+		"people"
+	],
 	"name" : "DSGravatar",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

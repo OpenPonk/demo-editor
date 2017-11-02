@@ -1,14 +1,13 @@
 {
-	"category" : "DEMO-Model-OCD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"type" ],
-	"name" : "DemoAct",
-	"pools" : [
-		 ],
 	"super" : "DemoNamedElement",
-	"type" : "normal" }
+	"category" : "DEMO-Model-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type"
+	],
+	"name" : "DemoAct",
+	"type" : "normal"
+}

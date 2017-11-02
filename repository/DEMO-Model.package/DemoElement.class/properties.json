@@ -1,16 +1,15 @@
 {
-	"category" : "DEMO-Model-Common",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DemoAnnouncableObject",
+	"category" : "DEMO-Model-Common",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"uuid",
 		"demoId",
-		"owner" ],
+		"owner"
+	],
 	"name" : "DemoElement",
-	"pools" : [
-		 ],
-	"super" : "DemoAnnouncableObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

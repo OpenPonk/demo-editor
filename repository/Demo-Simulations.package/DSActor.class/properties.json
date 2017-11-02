@@ -1,18 +1,17 @@
 {
-	"category" : "Demo-Simulations-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DSFigure",
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"label",
 		"labelContainer",
 		"spot",
 		"icon",
-		"glow" ],
+		"glow"
+	],
 	"name" : "DSActor",
-	"pools" : [
-		 ],
-	"super" : "DSFigure",
-	"type" : "normal" }
+	"type" : "normal"
+}

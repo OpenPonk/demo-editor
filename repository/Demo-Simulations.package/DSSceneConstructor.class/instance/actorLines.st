@@ -1,3 +1,4 @@
 accessing
 actorLines
-	^ DemoSimulationDataStorage default linesFor: model uuid
+	^ actorLines
+"	^ DemoSimulationDataStorage default linesFor: model uuid"

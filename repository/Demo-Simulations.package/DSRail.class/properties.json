@@ -1,17 +1,16 @@
 {
-	"category" : "Demo-Simulations-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DSFigure",
+	"category" : "Demo-Simulations-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"label",
 		"labelModel",
 		"spots",
-		"railColor" ],
+		"railColor"
+	],
 	"name" : "DSRail",
-	"pools" : [
-		 ],
-	"super" : "DSFigure",
-	"type" : "normal" }
+	"type" : "normal"
+}

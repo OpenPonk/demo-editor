@@ -1,9 +1,9 @@
-as yet unclassified
+instance creation
 readFromStream: aStream
 	| assignment flat |
 	assignment := Dictionary new.
 	flat := (NeoCSVReader on: aStream)
-		separator: $;;
+		separator: $,;
 		skipHeader;
 		addField;
 		addField;

@@ -1,16 +1,17 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "DEMO-Interchange",
 	"classinstvars" : [
-		"default" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"token",
 		"cachedModels",
-		"cachedVersions" ],
+		"cachedVersions"
+	],
 	"name" : "DemoFormetisAPI",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

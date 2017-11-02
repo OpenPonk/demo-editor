@@ -1,3 +1,3 @@
 unsupported visiting
 visitName: anElement
-	"not supported"
+"	modelObject name: anElement stringValue"
