@@ -2,23 +2,23 @@ as yet unclassified
 linesCsv
 	"D:\OpenPonk\d4b\pizza-play\lines.csv"
 	^ '"roleName","transactionName","actName","line"
-"Deliverer","Delivery","execute",""
-"Deliverer","Delivery","promise","Will do."
-"Deliverer","Delivery","state","Pizza delivered."
-"Baker","Preparation","execute",""
-"Baker","Preparation","promise","Sure thing."
-"Baker","Preparation","state","One mushroom pizza done!"
-"Orderer","Completion","request","Hi, I''d like one mushroom pizza please."
-"Orderer","Completion","accept","Thanks!"
-"Completer","Delivery","request","Please give this pizza to the customer."
-"Completer","Delivery","accept","Thanks."
-"Completer","Completion","execute",""
-"Completer","Completion","promise","Ok! Please wait a moment."
-"Completer","Completion","state","Here''s your pizza."
-"Completer","Payment","request","That will be $15."
-"Completer","Payment","accept","Thanks."
-"Completer","Preparation","request","One mushroom pizza!"
-"Completer","Preparation","accept","Thanks!"
-"Payer","Payment","execute",""
-"Payer","Payment","promise","Let me get my wallet."
-"Payer","Payment","state","Here''s your money."'
+Payer,Payment,execute,*searching for cash
+Payer,Payment,promise,Let me get my wallet.
+Payer,Payment,state,Here''s your money.
+Deliverer,Delivery,execute,*delivering*
+Deliverer,Delivery,promise,Will do.
+Deliverer,Delivery,state,Pizza delivered.
+Baker,Preparation,execute,*baking*
+Baker,Preparation,promise,Sure thing.
+Baker,Preparation,state,One mushroom pizza done!
+Completer,Delivery,request,Please give this pizza to the customer.
+Completer,Delivery,accept,Thanks.
+Completer,Completion,execute,*tasking*
+Completer,Completion,promise,Ok! Please wait a moment.
+Completer,Completion,state,Here''s your pizza.
+Completer,Payment,request,That will be $15.
+Completer,Payment,accept,Thanks.
+Completer,Preparation,request,One mushroom pizza!
+Completer,Preparation,accept,Thanks!
+Orderer,Completion,request,"Hi, I''d like one mushroom pizza please."
+Orderer,Completion,accept,Thanks!'
