@@ -8,8 +8,8 @@ linesCsv
 "Baker","Preparation","execute",""
 "Baker","Preparation","promise","Sure thing."
 "Baker","Preparation","state","One mushroom pizza done!"
-"Customer","Completion","request","Hi, I''d like one mushroom pizza please."
-"Customer","Completion","accept","Thanks!"
+"Orderer","Completion","request","Hi, I''d like one mushroom pizza please."
+"Orderer","Completion","accept","Thanks!"
 "Completer","Delivery","request","Please give this pizza to the customer."
 "Completer","Delivery","accept","Thanks."
 "Completer","Completion","execute",""
@@ -19,6 +19,6 @@ linesCsv
 "Completer","Payment","accept","Thanks."
 "Completer","Preparation","request","One mushroom pizza!"
 "Completer","Preparation","accept","Thanks!"
-"Pizza Payer","Payment","execute",""
-"Pizza Payer","Payment","promise","Let me get my wallet."
-"Pizza Payer","Payment","state","Here''s your money."'
+"Payer","Payment","execute",""
+"Payer","Payment","promise","Let me get my wallet."
+"Payer","Payment","state","Here''s your money."'

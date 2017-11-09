@@ -8,7 +8,7 @@ baseline: spec
 				project: 'NeoCSV'
 				with: [ spec
 						className: #ConfigurationOfNeoCSV;
-						versionString: #stable;
+						versionString: #bleedingEdge;
 						repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/Neo/main/' ].
 			spec
 				project: 'XMLParser'
