@@ -1,4 +1,5 @@
-# DEMO Editor [![Build Status](https://travis-ci.org/openponk/demo-editor.svg?branch=master)](https://travis-ci.org/openponk/demo-editor)
+# DEMO Editor
+[![Build Status](https://travis-ci.org/OpenPonk/demo-editor.svg?branch=master)](https://travis-ci.org/OpenPonk/demo-editor)
 
 Editor for DEMO (http://ccmi.fit.cvut.cz/methodologies/demo/)
 
