@@ -8,7 +8,7 @@ createOwnedElements
 		color: Color black;
 		elementOn: self model model name.
 	self add: label.
-	(RTConstraint movable: self fix: label)
+	(RTConstraint on: label background: self)
 		left;
 		padding: 40 * 2 + 10;
 		stick.
