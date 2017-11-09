@@ -1,6 +1,6 @@
 world menu
 menuCommandOn: aBuilder
-"	<worldMenu>"
+	<worldMenu>
 	(aBuilder item: #'DEMO Simulation')
 		icon: OPIcons current dynacaseIcon;
 		parent: #MostUsedTools;
