@@ -1,3 +1,3 @@
 accessing
 apiBase
-	^ 'https://demoengine.azurewebsites.net' asUrl
+	^ 'https://demoacademy.azurewebsites.net' asUrl

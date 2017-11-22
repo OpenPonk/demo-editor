@@ -2,8 +2,16 @@ as yet unclassified
 randomRoleAssignmentsFor: aModel
 	| dict avatarFor numbers |
 	dict := Dictionary
-		with: #man -> #(Carl Radek Duncan Vincent Jason Bill) asOrderedCollection shuffle
-		with: #woman -> #(Julie Maryanne Sarah Ida Rachel) asOrderedCollection shuffle.
+		with:
+			#man
+				->
+					#(Carl Radek Duncan Vincent Jason Bill Joe Liam James Jacob Ethan Henry Luke Joshua Chris)
+						asOrderedCollection shuffle
+		with:
+			#woman
+				->
+					#(Julie Maryanne Sarah Ida Rachel Jane Emma Zoey Sofia Natalie Aubrey Lucy)
+						asOrderedCollection shuffle.
 	numbers := Dictionary with: #man -> #() with: #woman -> #().
 	avatarFor := [ :key | 
 	(numbers at: key) ifEmpty: [ numbers at: key put: #(1 2 3) asOrderedCollection shuffle ].
