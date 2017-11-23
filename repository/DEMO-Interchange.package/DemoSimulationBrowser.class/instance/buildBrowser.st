@@ -37,7 +37,10 @@ buildBrowser
 		to: #actions;
 		andShow: [ :a | 
 			a actionList
-				act: [ :actionList :version | self openLines: version ] entitled: 'Lines';
-				act: [ :actionList :version | self openActors: version ] entitled: 'Actors';
-				act: [ :actionList :version | self play: version ] entitled: 'Play' ].
+				act: [ :actionList :version | self openLines: (self modelForVersion: version) ]
+					entitled: 'Lines';
+				act: [ :actionList :version | self openActors: (self modelForVersion: version) ]
+					entitled: 'Actors';
+				act: [ :actionList :version | self play: (self modelForVersion: version) ]
+					entitled: 'Play' ].
 	^ browser

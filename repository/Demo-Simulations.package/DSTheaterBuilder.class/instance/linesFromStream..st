@@ -1,3 +1,3 @@
 reading
 linesFromStream: aStream
-	lines := DSLinesStorage new readFromStream: aStream
+	lines := DSLinesCsvConverter new readFromStream: aStream

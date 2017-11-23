@@ -1,13 +1,10 @@
 actions
 openActors: aModel
 	| actors |
-	actors := self storage actorsFor: aModel id.
-	actors
-		ifNil: [ ^ UIManager default
-				message: 'No actors have been assigned yet, open the simulation first.' ].
+	actors := self actorsFor: aModel.
 	DemoCsvEditorUI
 		open: 'Actors editor'
-		loadBlock: [ actors ]
+		loadBlock: [ DSRoleAssignmentsReader new toString: actors ]
 		saveBlock: [ :text | 
-			actors := text.
-			DemoSimulationDataStorage default actorsAt: aModel id put: text ]
+			actors := DSRoleAssignmentsReader readStream: text readStream.
+			self storage actorsAt: aModel uuid put: actors ]

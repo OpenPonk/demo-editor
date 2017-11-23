@@ -1,11 +1,9 @@
 actions
-play: aVersion
-	| theater w builder model |
-	model := self modelForVersion: aVersion.
-	(builder := DSTheaterBuilder new) model: model.
-	(self storage linesFor: aVersion id) ifNotNil: [ :lines | builder lines: lines ].
-	(self storage actorsFor: aVersion id)
-		ifNotNil: [ :actors | builder roleAssignmentsFromString: actors ].
+play: aModel
+	| theater w builder |
+	(builder := DSTheaterBuilder new) model: aModel.
+	builder lines: (self linesFor: aModel).
+	builder roleAssignments: (self actorsFor: aModel).
 	theater := builder build.
 	theater enableControl.
 	w := theater play.
