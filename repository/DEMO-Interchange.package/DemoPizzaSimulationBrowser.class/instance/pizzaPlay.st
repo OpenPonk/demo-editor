@@ -1,0 +1,3 @@
+accessing
+pizzaPlay
+	^ DSPizzaPlay new

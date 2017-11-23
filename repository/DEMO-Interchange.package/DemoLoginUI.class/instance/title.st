@@ -1,3 +1,3 @@
-as yet unclassified
+api
 title
-	^ 'Login to Formetis API'
+	^ 'Login to Demo Academy'

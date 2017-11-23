@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 initializePresenter
 	confirmButton action: [ self confirmAction ]

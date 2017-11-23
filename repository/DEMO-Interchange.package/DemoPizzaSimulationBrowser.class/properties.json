@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DemoSimulationBrowser",
+	"category" : "DEMO-Interchange-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoPizzaSimulationBrowser",
+	"type" : "normal"
+}

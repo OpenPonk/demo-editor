@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposableModel",
+	"super" : "Object",
 	"category" : "DEMO-Interchange-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],

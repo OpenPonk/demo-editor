@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWidgets
 	(loginLabel := self newLabel) label: 'Login'.
 	(login := self newTextInput) autoAccept: true.

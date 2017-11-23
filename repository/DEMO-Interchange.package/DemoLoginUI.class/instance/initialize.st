@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	whenAuthenticated := [  ].
 	super initialize
