@@ -6,5 +6,6 @@ openActors: aModel
 		open: 'Actors editor'
 		loadBlock: [ DSRoleAssignmentsReader new toString: actors ]
 		saveBlock: [ :text | 
-			actors := DSRoleAssignmentsReader readStream: text readStream.
-			self storage actorsAt: aModel uuid put: actors ]
+			self storage
+				actorsAt: aModel uuid
+				put: (DSRoleAssignmentsReader readStream: text readStream) ]

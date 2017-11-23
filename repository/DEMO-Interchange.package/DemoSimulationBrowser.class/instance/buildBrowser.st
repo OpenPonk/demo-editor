@@ -15,7 +15,12 @@ buildBrowser
 			a fastList
 				title: 'Enterprises';
 				display: [ self enterprises ];
-				format: [ :each | each at: 'name' ] ].
+				format: [ :each | each at: 'name' ];
+				act: [ :presentation | 
+					self class clearCache.
+					presentation update ]
+					icon: Smalltalk ui icons glamorousRefresh
+					entitled: 'Refresh' ].
 	browser transmit
 		from: #enterprises;
 		to: #models;
@@ -23,7 +28,12 @@ buildBrowser
 			a fastList
 				title: 'Models';
 				display: [ :enterprise | self modelsForEnterprise: enterprise ];
-				format: [ :versions | versions anyOne label ] ].
+				format: [ :versions | versions anyOne label ];
+				act: [ :presentation :enterprise | 
+					models removeKey: enterprise ifAbsent: [  ].
+					presentation update ]
+					icon: Smalltalk ui icons glamorousRefresh
+					entitled: 'Refresh' ].
 	browser transmit
 		from: #models;
 		to: #versions;

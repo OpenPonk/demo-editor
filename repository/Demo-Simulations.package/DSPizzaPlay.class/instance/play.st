@@ -1,14 +1,20 @@
-as yet unclassified
+playing
 play
 	<script: 'self new play'>
-	| pizzaPlay theater |
+	| pizzaPlay model theater w actors lines |
+	model := DemoXmlInterchange readStream: self modelXml readStream.
+	actors := DemoSimulationDataStorage default
+		actorsAt: model uuid
+		put: (DSRoleAssignmentsReader readStream: self roleAssignmentsCsv readStream).
+	lines := DemoSimulationDataStorage default
+		linesAt: model uuid
+		put: (DSLinesCsvConverter new fromString: self linesCsv).
 	pizzaPlay := DSPizzaPlay new.
 	theater := DSTheaterBuilder new
-		modelFromString: pizzaPlay modelXml;
-		roleAssignmentsFromString: pizzaPlay roleAssignmentsCsv;
-		linesFromString: pizzaPlay linesCsv;
+		model: model;
+		roleAssignments: actors;
+		lines: lines;
 		build.
 	theater enableControl.
-	theater view canvas camera scale: 0.7.
-	theater view @ RTDraggableView @ RTZoomableView.
-	theater play
+	w := theater play.
+	w extent: 800 @ 800

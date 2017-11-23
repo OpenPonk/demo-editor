@@ -8,9 +8,9 @@ Payer,Payment,state,Here''s your money.
 Deliverer,Delivery,execute,*delivering*
 Deliverer,Delivery,promise,Will do.
 Deliverer,Delivery,state,Pizza delivered.
-Baker,Preparation,execute,*baking*
-Baker,Preparation,promise,Sure thing.
-Baker,Preparation,state,One mushroom pizza done!
+Baker,Baking,execute,*baking*
+Baker,Baking,promise,Sure thing.
+Baker,Baking,state,One mushroom pizza done!
 Completer,Delivery,request,Please give this pizza to the customer.
 Completer,Delivery,accept,Thanks.
 Completer,Completion,execute,*tasking*
@@ -18,7 +18,7 @@ Completer,Completion,promise,Ok! Please wait a moment.
 Completer,Completion,state,Here''s your pizza.
 Completer,Payment,request,That will be $15.
 Completer,Payment,accept,Thanks.
-Completer,Preparation,request,One mushroom pizza!
-Completer,Preparation,accept,Thanks!
+Completer,Baking,request,One mushroom pizza!
+Completer,Baking,accept,Thanks!
 Orderer,Completion,request,"Hi, I''d like one mushroom pizza please."
 Orderer,Completion,accept,Thanks!'
