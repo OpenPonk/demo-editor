@@ -1,16 +1,35 @@
 language: smalltalk
 sudo: false
 
-# Select operating system(s)
 os:
   - linux
-#  - osx
 
 addons:
-  apt:
-    packages:
-      - libcairo2:i386 # install cairo for Roassal
+  ssh_known_hosts: ccmi.fit.cvut.cz
 
-# Select compatible Smalltalk image(s)
+env:
+  global:
+    - ARTIFACT_DIR=openponk-demo-image-$TRAVIS_BUILD_NUMBER
+    - KEY=.ssh/id_demo_travis
+
 smalltalk:
-  - Pharo-5.0
+  - Pharo-6.1
+
+cache:
+  directories:
+    - $SMALLTALK_CI_BUILD_BASE/pharo-local/package-cache
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_a971fe9984ce_key -iv $encrypted_a971fe9984ce_iv -in $KEY.enc -out $KEY -d
+  - chmod 0400 $KEY
+  - eval $(ssh-agent -s)
+  - ssh-add $KEY
+
+after_success:
+  - ./scripts/copy-image.sh $SMALLTALK_CI_IMAGE $ARTIFACT_DIR/openponk
+  - ./scripts/mark-image.sh $ARTIFACT_DIR/openponk
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: scripts/deploy.sh
