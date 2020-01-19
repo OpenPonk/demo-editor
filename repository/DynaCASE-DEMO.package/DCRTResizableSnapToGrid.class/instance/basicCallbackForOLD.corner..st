@@ -11,7 +11,7 @@ basicCallbackForOLD: aHandle corner: aCorner
 	((distance x abs >= cellSize x) or: (distance y abs >= cellSize y)) ifFalse: [ ^ nil ].
 	distance := (distance x roundTo: cellSize x) @ (distance y roundTo: cellSize y).
 	
-	newExtent := element extent + distance max: self minSize.
+	newExtent := element extent + distance max: (self minSizeFor: element).
 	oppositeCorner := RTResizableRectangle oppositeCornerFor: aCorner.
 	oppositeCornerPosition := element encompassingRectangle perform: oppositeCorner.
 	element trachelShape

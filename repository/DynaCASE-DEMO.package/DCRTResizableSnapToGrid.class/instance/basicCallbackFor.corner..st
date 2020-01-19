@@ -7,7 +7,7 @@ basicCallbackFor: aHandle corner: aCorner
 		- ((RTResizableRectangle cornerDirectionFor: aCorner) abs * (element encompassingRectangle perform: aCorner)).
 	"Resizing with RTElement>>extent: changes the element in all directions, so we have to move it back in the opposite direction of the movement. (So when resizing by topRight corner, then bottomLeft should be fixed in place."
 	distance := self negate: distance forCorner: aCorner.
-	newExtent := element extent + distance max: self minSize.
+	newExtent := element extent + distance max: (self minSizeFor: element).
 	oppositeCorner := RTResizableRectangle oppositeCornerFor: aCorner.
 	oppositeCornerPosition := element encompassingRectangle perform: oppositeCorner.
 	element trachelShape

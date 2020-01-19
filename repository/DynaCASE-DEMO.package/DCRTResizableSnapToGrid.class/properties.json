@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cellSize",
-		"minSize"
+		"cellSize"
 	],
 	"name" : "DCRTResizableSnapToGrid",
 	"type" : "normal"
