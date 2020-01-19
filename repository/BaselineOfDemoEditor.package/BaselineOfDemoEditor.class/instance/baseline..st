@@ -3,27 +3,31 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ spec baseline: 'OpenPonk' with: [ spec repository: 'github://openponk/openponk/repository' ].
+		do: [ spec
+				baseline: 'OpenPonk'
+				with: [ spec repository: 'github://openponk/openponk/repository' ].
 			spec
-				project: 'NeoCSV'
-				with: [ spec
-						className: #ConfigurationOfNeoCSV;
-						versionString: #bleedingEdge;
-						repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/Neo/main/' ].
+				baseline: 'NeoCSV'
+				with: [ spec repository: 'github://svenvc/NeoCSV:v15/repository' ].
 			spec
-				project: 'XMLParser'
+				baseline: 'XMLParser'
 				with: [ spec
-						className: #ConfigurationOfXMLParser;
-						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/PharoExtras/XMLParser/main/' ].
+						repository: 'github://pharo-contributions/XML-XMLParser:3.5.x/src' ].
 			spec
 				baseline: 'XMLDOMVisitor'
-				with: [ spec repository: 'github://peteruhnak/xml-dom-visitor/repository' ].
+				with: [ spec repository: 'github://OpenPonk/xml-dom-visitor/repository' ].
 			spec
-				package: 'DynaCASE-DEMO-Model' with: [ spec requires: #('OpenPonk') ];
-				package: 'DynaCASE-DEMO' with: [ spec requires: #('DynaCASE-DEMO-Model') ];
+				package: 'DynaCASE-DEMO-Model'
+					with: [ spec requires: #('OpenPonk') ];
+				package: 'DynaCASE-DEMO'
+					with: [ spec requires: #('DynaCASE-DEMO-Model') ];
 				package: 'DEMO-Model' with: [  ];
-				package: 'DEMO-Editor' with: [ spec requires: #('OpenPonk' 'DEMO-Model') ];
-				package: 'DEMO-Interchange' with: [ spec requires: #('DEMO-Model' 'XMLDOMVisitor' 'XMLParser') ];
-				package: 'Demo-Simulations' with: [ spec requires: #('DEMO-Model' 'DEMO-Interchange' 'NeoCSV') ].
-			spec group: 'default' with: #('DynaCASE-DEMO' 'DEMO-Editor' 'Demo-Simulations') ]
+				package: 'DEMO-Editor'
+					with: [ spec requires: #('OpenPonk' 'DEMO-Model') ];
+				package: 'DEMO-Interchange'
+					with: [ spec requires: #('DEMO-Model' 'XMLDOMVisitor' 'XMLParser') ];
+				package: 'Demo-Simulations'
+					with: [ spec requires: #('DEMO-Model' 'DEMO-Interchange' 'NeoCSV') ].
+			spec
+				group: 'default'
+				with: #('DynaCASE-DEMO' 'DEMO-Editor' 'Demo-Simulations') ]
