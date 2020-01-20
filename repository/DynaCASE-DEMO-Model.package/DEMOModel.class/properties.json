@@ -1,10 +1,10 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 11/3/2015 22:09",
+	"super" : "OPDiagram",
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"transactionKinds",
 		"aggregateTransactionKinds",
@@ -13,9 +13,8 @@
 		"productKinds",
 		"informationLinks",
 		"processLinks",
-		"project" ],
+		"project"
+	],
 	"name" : "DEMOModel",
-	"pools" : [
-		 ],
-	"super" : "OPDiagram",
-	"type" : "normal" }
+	"type" : "normal"
+}

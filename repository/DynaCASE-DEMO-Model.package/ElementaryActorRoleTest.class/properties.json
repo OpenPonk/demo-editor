@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "ElementaryActorRoleTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ElementaryActorRoleTest",
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 10/24/2015 21:33",
-	"instvars" : [
-		"isInSoI" ],
-	"name" : "ElementaryActorRole",
-	"pools" : [
-		 ],
 	"super" : "ActorRole",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isInSoI"
+	],
+	"name" : "ElementaryActorRole",
+	"type" : "normal"
+}

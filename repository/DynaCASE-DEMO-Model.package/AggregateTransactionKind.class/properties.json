@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 3/26/2016 23:10",
-	"instvars" : [
-		 ],
-	"name" : "AggregateTransactionKind",
-	"pools" : [
-		 ],
 	"super" : "DEMOBasicElement",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AggregateTransactionKind",
+	"type" : "normal"
+}

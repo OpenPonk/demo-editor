@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"model" ],
-	"name" : "DEMOModelTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model"
+	],
+	"name" : "DEMOModelTest",
+	"type" : "normal"
+}

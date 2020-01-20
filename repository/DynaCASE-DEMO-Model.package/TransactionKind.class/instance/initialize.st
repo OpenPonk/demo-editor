@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	dcName := 'New trans kind'.
+	name := 'New trans kind'.

@@ -1,16 +1,15 @@
 {
-	"category" : "DynaCASE-DEMO-Model-View models",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/12/2016 16:53",
+	"super" : "DEMOModel",
+	"category" : "DynaCASE-DEMO-Model-View models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"projectModel",
 		"elementPositions",
-		"elementSizes" ],
+		"elementSizes"
+	],
 	"name" : "DEMOViewModel",
-	"pools" : [
-		 ],
-	"super" : "DEMOModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

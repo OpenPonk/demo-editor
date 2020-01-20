@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/14/2016 14:03",
-	"instvars" : [
-		"demoID" ],
-	"name" : "DEMOBasicElement",
-	"pools" : [
-		 ],
 	"super" : "OPModelObject",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"demoID"
+	],
+	"name" : "DEMOBasicElement",
+	"type" : "normal"
+}

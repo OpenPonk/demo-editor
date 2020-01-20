@@ -1,18 +1,17 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/3/2016 16:13",
+	"super" : "DEMOLink",
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"sourceStep",
 		"targetStep",
 		"multiplicity",
 		"isInitiation",
-		"isSelfInitiating" ],
+		"isSelfInitiating"
+	],
 	"name" : "ProcessLink",
-	"pools" : [
-		 ],
-	"super" : "DEMOLink",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Model-View models",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/12/2016 16:41",
-	"instvars" : [
-		 ],
-	"name" : "TPTViewModel",
-	"pools" : [
-		 ],
 	"super" : "DEMOViewModel",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-View models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TPTViewModel",
+	"type" : "normal"
+}

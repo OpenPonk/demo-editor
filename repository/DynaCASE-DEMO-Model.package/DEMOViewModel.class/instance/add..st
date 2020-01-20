@@ -1,5 +1,5 @@
 adding
 add: anElementModel
 	anElementModel addSelfToModel: self.
-	(anElementModel isKindOf: OPEdge)
+	(anElementModel isKindOf: OPDirectedAssociation)
 		ifFalse: [ projectModel add: anElementModel ]

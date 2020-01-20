@@ -1,3 +1,3 @@
 initialization
 initialize
-	dcName := 'New aggregat trans kind'.
+	name := 'New aggregat trans kind'.

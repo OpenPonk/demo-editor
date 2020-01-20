@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"transactionKind" ],
-	"name" : "TransactionKindTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"transactionKind"
+	],
+	"name" : "TransactionKindTest",
+	"type" : "normal"
+}

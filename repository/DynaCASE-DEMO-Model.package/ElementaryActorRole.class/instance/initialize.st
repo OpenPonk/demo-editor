@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	dcName := 'New elem role'.
+	name := 'New elem role'.

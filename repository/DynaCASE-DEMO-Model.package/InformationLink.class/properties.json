@@ -1,14 +1,11 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/17/2016 16:24",
-	"instvars" : [
-		 ],
-	"name" : "InformationLink",
-	"pools" : [
-		 ],
 	"super" : "DEMOLink",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "InformationLink",
+	"type" : "normal"
+}

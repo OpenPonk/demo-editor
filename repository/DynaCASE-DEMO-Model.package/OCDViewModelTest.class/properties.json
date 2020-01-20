@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"viewModel" ],
-	"name" : "OCDViewModelTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"viewModel"
+	],
+	"name" : "OCDViewModelTest",
+	"type" : "normal"
+}

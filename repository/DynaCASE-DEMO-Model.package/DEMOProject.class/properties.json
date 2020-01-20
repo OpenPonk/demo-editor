@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 1/12/2016 16:59",
-	"instvars" : [
-		"model" ],
-	"name" : "DEMOProject",
-	"pools" : [
-		 ],
 	"super" : "OPProject",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model"
+	],
+	"name" : "DEMOProject",
+	"type" : "normal"
+}

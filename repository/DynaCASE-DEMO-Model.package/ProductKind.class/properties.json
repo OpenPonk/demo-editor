@@ -1,14 +1,13 @@
 {
-	"category" : "DynaCASE-DEMO-Model-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanTuron 10/24/2015 22:21",
-	"instvars" : [
-		"formulation" ],
-	"name" : "ProductKind",
-	"pools" : [
-		 ],
 	"super" : "DEMOBasicElement",
-	"type" : "normal" }
+	"category" : "DynaCASE-DEMO-Model-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"formulation"
+	],
+	"name" : "ProductKind",
+	"type" : "normal"
+}
