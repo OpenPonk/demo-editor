@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JanTuron 11/3/2015 22:09",
-	"super" : "OPDiagram",
+	"super" : "OPModelObject",
 	"category" : "DynaCASE-DEMO-Model-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
