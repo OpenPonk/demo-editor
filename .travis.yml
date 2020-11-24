@@ -8,8 +8,6 @@ env:
     - ARTIFACT_DIR=openponk-demo-image-$TRAVIS_BUILD_NUMBER
 
 smalltalk:
-  - Pharo64-7.0
-  - Pharo32-8.0
   - Pharo64-8.0
   - Pharo64-9.0
 
