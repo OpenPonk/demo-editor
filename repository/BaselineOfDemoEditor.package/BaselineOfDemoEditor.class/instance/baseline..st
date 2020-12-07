@@ -4,9 +4,6 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'OpenPonk'
-				with: [ spec repository: 'github://openponk/openponk/repository' ].
-			spec
 				baseline: 'NeoCSV'
 				with: [ spec repository: 'github://svenvc/NeoCSV:v15/repository' ].
 			spec
@@ -16,6 +13,12 @@ baseline: spec
 			spec
 				baseline: 'XMLDOMVisitor'
 				with: [ spec repository: 'github://OpenPonk/xml-dom-visitor/repository' ].
+			spec
+				baseline: 'OpenPonk'
+				with: [ spec repository: 'github://openponk/openponk/repository' ].
+			spec
+				baseline: 'OpenPonkModel'
+				with: [ spec repository: 'github://OpenPonk/openponk-model/repository' ].
 			spec
 				package: 'DynaCASE-DEMO-Model'
 					with: [ spec requires: #('OpenPonk') ];
