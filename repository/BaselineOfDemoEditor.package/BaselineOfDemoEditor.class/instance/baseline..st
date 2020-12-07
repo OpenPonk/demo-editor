@@ -21,9 +21,9 @@ baseline: spec
 				with: [ spec repository: 'github://OpenPonk/openponk-model/repository' ].
 			spec
 				package: 'DynaCASE-DEMO-Model'
-					with: [ spec requires: #('OpenPonk') ];
+					with: [ spec requires: #('OpenPonkModel') ];
 				package: 'DynaCASE-DEMO'
-					with: [ spec requires: #('DynaCASE-DEMO-Model') ];
+					with: [ spec requires: #('OpenPonk' 'DynaCASE-DEMO-Model') ];
 				package: 'DEMO-Model' with: [  ];
 				package: 'DEMO-Editor'
 					with: [ spec requires: #('OpenPonk' 'DEMO-Model') ];
