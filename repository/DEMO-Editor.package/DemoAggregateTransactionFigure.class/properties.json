@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoAggregateTransactionFigure",
-	"pools" : [
-		 ],
 	"super" : "DemoTransactionFigure",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoAggregateTransactionFigure",
+	"type" : "normal"
+}

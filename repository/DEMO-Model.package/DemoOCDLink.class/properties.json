@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "DemoNamedElement",
+	"category" : "DEMO-Model-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isExecutorLink",
+		"source"
+	],
+	"name" : "DemoOCDLink",
+	"type" : "normal"
+}

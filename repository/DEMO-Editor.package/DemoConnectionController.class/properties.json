@@ -1,15 +1,14 @@
 {
-	"category" : "DEMO-Editor-Controllers-OCD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "OPElementController",
+	"category" : "DEMO-Editor-Controllers-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"sourceController",
-		"targetController" ],
+		"targetController"
+	],
 	"name" : "DemoConnectionController",
-	"pools" : [
-		 ],
-	"super" : "OPElementController",
-	"type" : "normal" }
+	"type" : "normal"
+}

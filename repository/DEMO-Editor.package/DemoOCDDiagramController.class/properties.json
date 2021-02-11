@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Controllers-OCD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoOCDDiagramController",
-	"pools" : [
-		 ],
 	"super" : "OPDiagramController",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Controllers-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoOCDDiagramController",
+	"type" : "normal"
+}

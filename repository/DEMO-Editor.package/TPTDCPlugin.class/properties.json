@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "JanTuron 10/25/2015 17:27",
 	"super" : "OPPlugin",
-	"category" : "DynaCASE-DEMO-Adapters",
+	"category" : "DEMO-Editor-Plugin",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

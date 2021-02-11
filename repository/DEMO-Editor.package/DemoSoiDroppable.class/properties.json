@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoSoiDroppable",
-	"pools" : [
-		 ],
 	"super" : "RTLazyInteraction",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoSoiDroppable",
+	"type" : "normal"
+}

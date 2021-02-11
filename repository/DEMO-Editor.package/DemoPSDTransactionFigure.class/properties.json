@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoPSDTransactionFigure",
-	"pools" : [
-		 ],
 	"super" : "DemoPSDFigure",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoPSDTransactionFigure",
+	"type" : "normal"
+}

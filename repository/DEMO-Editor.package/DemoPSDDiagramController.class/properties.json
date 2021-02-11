@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Controllers-PSD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoPSDDiagramController",
-	"pools" : [
-		 ],
 	"super" : "OPDiagramController",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Controllers-PSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoPSDDiagramController",
+	"type" : "normal"
+}

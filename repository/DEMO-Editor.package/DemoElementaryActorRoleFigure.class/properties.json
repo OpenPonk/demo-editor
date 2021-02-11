@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoElementaryActorRoleFigure",
-	"pools" : [
-		 ],
 	"super" : "DemoOCDFigure",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoElementaryActorRoleFigure",
+	"type" : "normal"
+}

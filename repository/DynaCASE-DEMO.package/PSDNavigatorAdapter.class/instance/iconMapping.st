@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 iconMapping
 	^ {
 	(PSDViewModel -> OPIcons current dcFsmDiagramIcon).

@@ -1,14 +1,16 @@
 {
-	"category" : "DEMO-Editor-Controllers-OCD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoActorRoleController",
-	"pools" : [
-		 ],
 	"super" : "OPElementController",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Controllers-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"idLabel",
+		"nameLabel",
+		"idLabelConstraint",
+		"nameLabelConstraint"
+	],
+	"name" : "DemoActorRoleController",
+	"type" : "normal"
+}

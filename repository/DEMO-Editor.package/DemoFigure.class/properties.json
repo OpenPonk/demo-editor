@@ -1,15 +1,14 @@
 {
-	"category" : "DEMO-Editor-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "RTAbstractMultiElement",
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"figuresFactory",
-		"typeColors" ],
+		"typeColors"
+	],
 	"name" : "DemoFigure",
-	"pools" : [
-		 ],
-	"super" : "RTAbstractMultiElement",
-	"type" : "normal" }
+	"type" : "normal"
+}

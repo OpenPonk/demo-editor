@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Controllers-OCD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoInitiatorLinkController",
-	"pools" : [
-		 ],
 	"super" : "DemoConnectionController",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Controllers-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoInitiatorLinkController",
+	"type" : "normal"
+}

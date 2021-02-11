@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	initiators := OrderedCollection new
+	initiators := OrderedCollection new.
+	name :=  ''

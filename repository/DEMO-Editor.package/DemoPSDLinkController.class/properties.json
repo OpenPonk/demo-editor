@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Controllers-PSD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoPSDLinkController",
-	"pools" : [
-		 ],
 	"super" : "DemoConnectionController",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Controllers-PSD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoPSDLinkController",
+	"type" : "normal"
+}

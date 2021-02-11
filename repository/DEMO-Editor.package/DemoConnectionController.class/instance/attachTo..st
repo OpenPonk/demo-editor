@@ -5,4 +5,4 @@ attachTo: aDiagramController
 
 	self loadModel.
 	self registerModelEvents: model.
-	self attachFigure
+	self createModelIn: model andShowInDiagram: aDiagramController

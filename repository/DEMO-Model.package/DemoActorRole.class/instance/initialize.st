@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	transactionBanks := OrderedCollection new
+	transactionBanks := OrderedCollection new.
+	name:=''.

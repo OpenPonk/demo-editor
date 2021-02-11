@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Controllers-OCD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoAggregateTransactionKindController",
-	"pools" : [
-		 ],
 	"super" : "DemoAbstractTransactionKindController",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Controllers-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoAggregateTransactionKindController",
+	"type" : "normal"
+}

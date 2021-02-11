@@ -1,14 +1,11 @@
 {
-	"category" : "DEMO-Editor-Controllers-OCD",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DemoCompositeActorRoleController",
-	"pools" : [
-		 ],
 	"super" : "DemoActorRoleController",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Controllers-OCD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DemoCompositeActorRoleController",
+	"type" : "normal"
+}

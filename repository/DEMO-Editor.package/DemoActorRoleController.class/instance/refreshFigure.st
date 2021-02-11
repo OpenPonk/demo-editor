@@ -1,4 +1,7 @@
 as yet unclassified
 refreshFigure
-	self figure updateFrom: self model.
+	nameLabel trachelShape text: model name.
+	nameLabelConstraint move.
+	nameLabel pushFront.
+	
 	super refreshFigure

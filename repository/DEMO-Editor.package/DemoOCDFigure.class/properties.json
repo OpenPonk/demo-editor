@@ -1,14 +1,13 @@
 {
-	"category" : "DEMO-Editor-Visuals",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"container" ],
-	"name" : "DemoOCDFigure",
-	"pools" : [
-		 ],
 	"super" : "DemoFigure",
-	"type" : "normal" }
+	"category" : "DEMO-Editor-Visuals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"container"
+	],
+	"name" : "DemoOCDFigure",
+	"type" : "normal"
+}

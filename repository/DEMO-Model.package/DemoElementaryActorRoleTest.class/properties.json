@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "DEMO-Model-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"demoElementaryActorRole"
+	],
+	"name" : "DemoElementaryActorRoleTest",
+	"type" : "normal"
+}
